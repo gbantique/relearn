@@ -1,0 +1,4 @@
+baseURL = 'http://techtotinker.com/'
+languageCode = 'en-us'
+title = 'TechToTinker'
+themes = 'hugo-theme-relearn'
