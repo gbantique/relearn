@@ -21,23 +21,26 @@ url: /2021/02/10/011-micropython-technotes-1-3-oled-display/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/011-technotes-1.3-oled-micropython.png)
+![](/images/011-technotes-1.3-oled-micropython.png)
 
 Previously, we learned on how to use the 0.96 inch OLED display with MicroPython language and we use an external driver library named ssd1306.py. Now in this tutorial, we will look at the identical but a little bigger display which is the 1.3 inch OLED display and it uses an SH1106 driver chip. It has a monochrome display resolution which is 128×64 pixels.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 4-pin female-female Dupont jumper wires.
 4. 1.3 OLED display.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the i2c serial data pin.
 4. **SCL** – for the i2c serial clock pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board at the top of Gorillacell ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wire to the 1.3 OLED display by following the color coding which is black for the ground, red for the VCC, yellow for the SDA, and white for the SCL pin.
 3. Next, attach the other side of the dupont wire to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, yellow and the following colors to yellow pin headers. For this experiment, I choose GPIO 21 for the SDA pin and GPIO 22 for the SCL pin.
@@ -45,6 +48,7 @@ Previously, we learned on how to use the 0.96 inch OLED display with MicroPython
 5. Next, connect the ESP32 to the computer by attaching a micro USB cable. The demo circuit should be ready by now.
 
 ## **Software Instruction**
+
 1. Now to make our life easier, we will use an ready-made driver library for the 1.3 OLED display which is the SH106 by Robert Hammelrath and originally developed by Radomir Dopieralski:   
     <https://github.com/robert-hh/SH1106/blob/master/sh1106.py>. *You may also copy it below under the SOURCE CODE SECTION for your convenience.*
 2. Now copy and save the sh1106.py to Thonny Python IDE and save it to MicroPython’s root directory by clicking the File menu and select Save As.
@@ -55,9 +59,11 @@ Previously, we learned on how to use the 0.96 inch OLED display with MicroPython
 7. Also, try to modify the example according to your liking and most of all, enjoy learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="YogBioKLrh4" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -890,9 +896,13 @@ def get_ch(ch):
 ```
 
 ## **References And Credits**
-**1. SH106 by Robert Hammelrath and Radomir Dopieralski:** </div><div><https://github.com/robert-hh/SH1106/blob/master/sh1106.py>
 
-**2. Custom font library by Peter Hinch:**</div><div> <https://github.com/peterhinch/micropython-font-to-py>
+1. SH106 by Robert Hammelrath and Radomir Dopieralski:
+<https://github.com/robert-hh/SH1106/blob/master/sh1106.py>
 
-**3. Purchase a copy of the Gorillacell ESP32 kit:**</div><div>[gorillacell.kr](http://gorillacell.kr/)
+2. Custom font library by Peter Hinch:
+<https://github.com/peterhinch/micropython-font-to-py>
+
+3. Purchase a copy of the Gorillacell ESP32 kit:
+[gorillacell.kr](http://gorillacell.kr/)
 

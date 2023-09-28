@@ -13,22 +13,25 @@ url: /2021/03/28/023-micropython-technotes-continuous-rotation-potentiometer/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/023-technotes-continuous-rotation-potentiometer.png)
+![](/images/023-technotes-continuous-rotation-potentiometer.png)
 
 In this article, we will tackle on how to use CONTINUOUS ROTATION POTENTIOMETER with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **GND** – for the ground.
 2. **VCC** – for the supply voltage.
 3. **SIG** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 3-pin female-female dupont wires.
 4. Continuous Rotation Potentiometer module.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 dev board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the Continuous Rotation Potentiometer module by following the color coding which is black for the ground, red for the VCC, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, and yellow to yellow.
@@ -36,6 +39,7 @@ In this article, we will tackle on how to use CONTINUOUS ROTATION POTENTIOMETER 
 5. Lastly, connect ESP32 to the computer with a micro USB cable. Our demo circuit should now be ready.
 
 ## **Software Instruction**
+
 I prepared 2 example source code for this demonstration.
 
 Copy and paste it to Thonny IDE.
@@ -43,9 +47,11 @@ Copy and paste it to Thonny IDE.
 Modify and adapt it according to your needs, and most of all enjoy learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="LRHXe90JJtQ" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -110,6 +116,6 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit:**
-[**gorillacell.kr**](http://gorillacell.kr/)
+1. Purchase your Gorillacell ESP32 development kit:
+[gorillacell.kr](http://gorillacell.kr/)
 

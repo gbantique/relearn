@@ -14,23 +14,26 @@ url: /2021/04/04/025-micropython-technotes-joystick/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/025-joystick-micropython.png)
+![](/images/025-joystick-micropython.png)
 
 In this article, we will tackle how to use JOYSTICK with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **G** – for the ground pin.
 2. **V** – for the supply voltage.
 3. **x** – for the horizontal potentiometer pin.
 4. **y** – for the vertical potentiometer pin.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** to serve as the brain for the experiment.
 2. **ESP32 shield** from Gorillacell ESP32 development kit to extend the ESP32 pins to pin headers for easy circuit connection.
 3. **4-pin female-female dupont jumper wires** to connect the joystick module to the ESP32 shield.
 4. **Joystick module** itself.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of the ESP32 shield and make sure that both USB ports are on the same side.
 2. Next, attach the dupont wires to the joystick module by following the color coding which is black for the ground, red for the VCC, yellow for the x pin, and white for the y pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, yellow and the following colors to the yellow pin headers.
@@ -38,6 +41,7 @@ In this article, we will tackle how to use JOYSTICK with ESP32 using MicroPython
 5. Lastly, connect the ESP32 to the computer through a micro-USB cable. Our demo circuit should be now ready.
 
 ## **Software Instruction**
+
 I prepared 3 example source code for this demo.
 
 Copy and paste it to your Thonny IDE.
@@ -47,9 +51,11 @@ Play with it, modify and adapt according to your needs.
 Enjoy and happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="Wr3ztVSeuts" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -200,5 +206,5 @@ while True:
 ## **References And Credits**
 
 1. Purchase your Gorillacell ESP32 development kit at:
-**[gorillacell.kr](http://gorillacell.kr/)**
+[gorillacell.kr](http://gorillacell.kr/)
 

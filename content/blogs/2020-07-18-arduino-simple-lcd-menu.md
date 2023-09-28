@@ -13,6 +13,7 @@ url: /2020/07/18/arduino-simple-lcd-menu/
 ---
 
 ## **Introduction**
+
 In this article, I will show you a simple LCD Menu implementation I am working on.
 
 In here, we use an Arduino Uno board, a 16×2 LCD for the display, and some tactile buttons for controlling the menu.
@@ -23,11 +24,11 @@ So here it, feel free to modify it to your liking.
 
 ## **Circuit Diagram**
 
-[![](https://1.bp.blogspot.com/-JyK0Ff_cRbM/XxKH7HKamMI/AAAAAAAAB-g/iqU-Ubv-rewfSCOyWkRDVLr9s0rR4FRYACLcBGAsYHQ/s1600/Arduino-Simple-Menu.png)](https://1.bp.blogspot.com/-JyK0Ff_cRbM/XxKH7HKamMI/AAAAAAAAB-g/iqU-Ubv-rewfSCOyWkRDVLr9s0rR4FRYACLcBGAsYHQ/s1600/Arduino-Simple-Menu.png)
+![](/images/Arduino-Simple-Menu.png)
 
 ## **Video Demonstration**
-{{< youtube id="-IOssX11wWg" >}}
 
+{{< youtube id="-IOssX11wWg" >}}
 
 ## **Source Code**
 

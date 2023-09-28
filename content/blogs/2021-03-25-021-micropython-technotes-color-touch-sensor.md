@@ -14,22 +14,25 @@ url: /2021/03/25/021-micropython-technotes-color-touch-sensor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/021-technotes-color-touch-sensor.png)
+![](/images/021-technotes-color-touch-sensor.png)
 
 In this article, we will learn how to use a color touch sensor module with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **G** – for the ground.
 2. **V** – for the supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. An **ESP32 development board** that will serve as the brain for this experiment.
 2. An **ESP32 shield from Gorillacell ESP32 development kit** to extend the pins to pin headers for easy circuit connection.
 3. A **3-pin female-female dupont jumper wires** to attach the color touch sensor module to the ESP32 shield pin headers.
 4. And of course the **color touch sensor modules** itself.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the color touch sensor by following the color coding which is black for the ground, red for the VCC, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, and yellow to yellow. For this experiment I choose GPIO 32, GPIO 33, GPIO 34, and GPIO 35 for the red, green, blue, and rainbow color touch sensor respectively.
@@ -37,6 +40,7 @@ In this article, we will learn how to use a color touch sensor module with ESP32
 5. Lastly, connect the ESP32 to the computer through the micro USB cable. Our demo circuit should now be ready.
 
 ## **Software Instruction**
+
 I prepared 5 examples below which you can copy and paste to your Thonny IDE.
 
 Play with it and modify it to adapt according to your needs.
@@ -47,6 +51,7 @@ Hope you enjoy it by learning. Happy tinkering!
 {{< youtube id="zzdSyYwfuP4" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -240,6 +245,6 @@ This code works still the same as Example # 3 and Example # 4.
 
 ## **References And Credits**
 
-Purchase your Gorillacell ESP32 development kit at:
+1. Purchase your Gorillacell ESP32 development kit at:
 [gorillacell.kr](http://gorillacell.kr/)
 

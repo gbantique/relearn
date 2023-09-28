@@ -17,16 +17,20 @@ url: /2020/11/20/019-esp32-micropython-openweather-restful-apis/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/019-esp32-openweather-techtotinker.png)
+
+![](/images/019-esp32-openweather-techtotinker.png)
+
 In the previous tutorial, I demonstrate using the RESTful APIs to communicate with Thingspeak server sending DHT sensor data. Now in this aticle, I will demonstrate the opposite which is requesting data from a server. This time, communicating with another server which is the OpenWeather. The receive data will be displayed on the OLED display.
 
 We will use urequests MicroPython library to simplify our code for every HTTP request.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board or any microcontroller with MicroPython firmware.
 2. 0.96 OLED display.
 
 ## **Hardware Instruction**
+
 1. Connect the OLED VCC pin to ESP32 3.3V pin.
 2. Connect the OLED GND pin to ESP32 GND pin.
 3. Connect the OLED SCL pin to ESP32 pin 22.
@@ -36,9 +40,11 @@ We will use urequests MicroPython library to simplify our code for every HTTP re
 7. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="Tr70dILTjgo" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

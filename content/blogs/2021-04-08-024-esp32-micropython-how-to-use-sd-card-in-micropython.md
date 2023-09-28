@@ -14,17 +14,19 @@ url: /2021/04/08/024-esp32-micropython-how-to-use-sd-card-in-micropython/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/024-ESP32_SD_blog.png)
+![](/images/024-ESP32_SD_blog.png)
 
 In this video, we will learn how to interface and use SD Card with ESP32 using MicroPython programming language.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** with MicroPython firmware installed.
 2. **Micro/SD Card breakout board / module** with Micro/SD Card inserted.
 3. **Breadboard**.
 4. Some **dupont wires**.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **MISO** – for the SPI Master Input Slave Output pin.
@@ -33,6 +35,7 @@ In this video, we will learn how to interface and use SD Card with ESP32 using M
 6. **CS** – for the SPI Chip Select pin.
 
 ## **Hardware Instruction**
+
 1. First, connect the SD module GND pin to ESP32 GND pin.
 2. Next, connect the SD module VCC pin to ESP32 VIN pin.
 3. Next, connect the SD module **MISO** pin to ESP32 **GPIO 13**.
@@ -41,15 +44,18 @@ In this video, we will learn how to interface and use SD Card with ESP32 using M
 6. Lastly, connect the SD module **CS** pin to ESP32 **GPIO 27**.
 
 ## **Software Instruction**
+
 1. Copy the sdcard.py and save it to ESP32 MicroPython root directory by clicking the File menu then select Save As.
 2. Click MicroPython Device and save it as “sdcard.py” and click “OK”.
 3. Copy and paste the example source code.
 4. Play with it, adapt according to your needs and most of all is enjoy what you are learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="qL2g5YIVick" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -368,7 +374,7 @@ print('SD Card contains:{}'.format(os.listdir()))
 ```
 
 ## **References And Credits**
-### 1. sdcard.py:
 
+1. sdcard.py:
 <https://github.com/micropython/micropython/blob/master/drivers/sdcard/sdcard.py>
 

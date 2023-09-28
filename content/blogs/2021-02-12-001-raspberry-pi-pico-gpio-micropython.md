@@ -18,11 +18,12 @@ url: /2021/02/12/001-raspberry-pi-pico-gpio-micropython/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/001-pico-binary-coded-decimal-micropython.png)
+![](/images/001-pico-binary-coded-decimal-micropython.png)
 
 In this article, I would like to share to you the results of my exploration with the basic GPIO of the Raspberry Pi Pico using the MicroPython language.
 
 ## **Bill Of Materials**
+
 1. Raspberry Pi Pico dev board.
 2. Breadboard.
 3. 5 pieces of LEDs with its appropriate limiting resistor.
@@ -30,6 +31,7 @@ In this article, I would like to share to you the results of my exploration with
 5. and some jumper wires.
 
 ## **Hardware Instruction**
+
 1. First, attach the Raspberry Pi Pico development board to the breadboard and make sure to refer to the circuit diagram below.
 2. Next, setup all the LEDs so that its anode pin(long leg) is connected to the limiting resistor in order to prevent damaging the LEDs from over current while its cathode pin to the ground.
 3. Next, connect the first LED (red LED in my case) to GPIO 2 (pin 4) of the RPi Pico.
@@ -43,12 +45,14 @@ In this article, I would like to share to you the results of my exploration with
 11. Next, connect the third button to GPIO 13 (pin 17) of the RPi Pico.
 12. Lastly, make sure to connect the ground pin of RPi Pico to the ground rail. Our demo circuit should now be ready.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/001-pico-binary-coded-decimal-micropython-diagram.png)
+![](/images/001-pico-binary-coded-decimal-micropython-diagram.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="QmoB_7ihUgo" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -209,4 +213,5 @@ while True:
 ```
 
 ## **References And Credits**
+
 None so far.

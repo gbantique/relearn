@@ -12,37 +12,41 @@ url: /2020/09/05/000-esp32-micropython-how-to-get-started-with-micropython/
 ---
 
 ## **Introduction**
+
 In this article you will learn how to get started with MicroPython explorations. We will begin to learn to install first a Thonny Python IDE for developing MicroPython codes for development board of your choice. I will be using an ESP32 development board.
 
 ## **Instruction**
-1\. Download the Thonny Python IDE at:  
+
+1. Download the Thonny Python IDE at:  
 [Download Thonny Python](https://thonny.org/)   
 This is one of the best, beautiful, and beginner-friendly IDE available. We will also use Thonny Python to erase and flash new firmware to ESP32 with the help of esptool pluggins.
 
-2\. Download the MicroPython firmware from:  
+2. Download the MicroPython firmware from:  
 [Download Firmware at MicroPython.org](http://micropython.org/)  
 Go to download section and look for your development board. Choose the stable bin file for your board.
 
-3\. Download the ESP32 USB driver at:  
+3. Download the ESP32 USB driver at:  
 [Download ESP32 USB driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
-4\. Download some references files for your development board like pinouts and schematic diagram.
+4. Download some references files for your development board like pinouts and schematic diagram.
 
-5\. Install Thonny Python
+5. Install Thonny Python
 
-6\. Install the ESP32 USB driver
+6. Install the ESP32 USB driver
 
-7\. Flash a new firmware to ESP32 using the Thonny Python.
+7. Flash a new firmware to ESP32 using the Thonny Python.
 
 ## **Video Demonstration**
+
 {{< youtube id="elBtWZ_fOZU" >}}
 
 ## **Call To Action**
+
 If you find this tutorial as helpful, please take time to share it so that it can reach more people who might benefited from this.
 
 Please kindly support me by Subscribing to my Youtube channel: [Click this to SUBSCRIBE to TechToTinker](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
-[  ](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)[](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)  
+[](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)[](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)  
 
 ## **Source Code**
 

@@ -16,11 +16,12 @@ url: /2021/04/13/027-micropython-technotes-rotary-encoder/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/04/027-RotaryEncoder-blogs.png)
+![](/images/027-RotaryEncoder-blogs.png)
 
 In this article, we will learn how to use ROTARY ENCODER module with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SA** – for the signal pin A.
@@ -28,12 +29,14 @@ In this article, we will learn how to use ROTARY ENCODER module with ESP32 using
 5. **SW** – for the signal pin from the push button switch.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** that will serve as the brain for the experiment.
 2. **Gorillacell ESP32 shield** to extend ESP32 board to pin headers for easy circuit connection.
 3. **5-pin female-female dupont wires** to attach the Rotary Encoder module to ESP32 shield.
 4. **Rotary Encoder module** from Gorillacell ESP32 development kit.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the Gorillacell ESP32 shield and make sure that both USB ports are on the same side.
 2. Next, attach dupont wires to the Rotary Encoder by following a color coding which is black for the ground, red for the VCC, yellow and the following colors for the signal pins.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers. I choose GPIO 32, GPIO 33, and GPIO 34 for the pin SA, pin SB, and pin SW respectively.
@@ -41,13 +44,16 @@ In this article, we will learn how to use ROTARY ENCODER module with ESP32 using
 5. Lastly, connect the ESP32 to the computer through a micro USB cable.
 
 ## **Software Instruction**
+
 1. Copy the rotary.py and rotary\_irq\_esp.py which I renamed as rotary\_irq.py and save it to the ESP32 MicroPython Device root directory. The rotary library came from the Github of Mike Teachman: https://github.com/miketeachman/micropython-rotary
 2. Try the provided example source code, play with it, and adapt it according to your needs. Most of all, enjoy learning. Happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="hAU23t7IkLM" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -577,7 +583,10 @@ And if the isRotaryEncoder is set to True, then display the rotary encoder value
 ```
 
 ## **References And Credits**
-**1. Purchase your Gorillacell ESP32 development kit at:**  
- [https://gorillacell.kr](https://gorillacell.kr/)**2. Rotary Encoder library:**  
- <https://github.com/miketeachman/micropython-rotary>
+
+1. Purchase your Gorillacell ESP32 development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
+
+2. Rotary Encoder library:
+<https://github.com/miketeachman/micropython-rotary>
 

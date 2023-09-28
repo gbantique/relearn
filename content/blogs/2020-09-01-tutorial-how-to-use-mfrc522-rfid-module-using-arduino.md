@@ -15,6 +15,7 @@ url: /2020/09/01/tutorial-how-to-use-mfrc522-rfid-module-using-arduino/
 ---
 
 ## **Introduction**
+
 I am sharing this tutorial so someone might benefited from it somehow.
 
 I am fascinated with RFIDs capability, though this technology has been around many years before me. Now that I have this module, I tried to play with it.
@@ -22,12 +23,15 @@ I am fascinated with RFIDs capability, though this technology has been around ma
 The RFID tags can contain 1 kilo bytes of data, amazing right?
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-pL0dJmnzNtQ/X04MJSH_f-I/AAAAAAAACBQ/Y7Z88cLamjUYHqZ7Iy55ThObYu_uzuxhACLcBGAsYHQ/w512-h305/rc522.png)](https://1.bp.blogspot.com/-pL0dJmnzNtQ/X04MJSH_f-I/AAAAAAAACBQ/Y7Z88cLamjUYHqZ7Iy55ThObYu_uzuxhACLcBGAsYHQ/s1470/rc522.png)  
+
+![](/images/rc522.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="VgvADubQwtw" >}}
 
 ## **Call To Action**
+
 If you have any question or suggestion, please write it in the comment box provided below.
 
 If you find this article as helpful, please kindly consider supporting my journey in tinkering Electronics by Subscribing [CLICK THIS LINK TO SUBSCRIBE.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

@@ -15,22 +15,25 @@ url: /2021/03/27/022-micropython-technotes-potentiometer-reading-an-analog-input
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/022-technotes-potentiometer.png)
+![](/images/022-technotes-potentiometer.png)
 
 In this article, we will learn how to use potentiometer with ESP32 using MicroPython programming langauge.
 
 ## **Pinout**
+
 1. **G** – for the ground.
 2. **V** – for the supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** that will serve as the brain of this experiment.
 2. **ESP32 shield** from Gorillacell ESP32 development kit to extend ESP32 pins to pin headers for easy circuit connection.
 3. **3-pin female-female dupont wires** to attach the potentiometer module to ESP32 shield.
 4. **Potentiometer module**.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield making sure that all pins are properly aligned and both USB port are on the same side.
 2. Next, attach the dupont wires to potentiometer module by following the color coding which is black for the ground, red for the VCC, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, and yellow to yellow. For this, I choose GPIO 32 to serve as the analog input pin from the potentiometer.
@@ -38,14 +41,17 @@ In this article, we will learn how to use potentiometer with ESP32 using MicroPy
 5. Next, connect the ESP32 shield to the computer through a micro-USB cable. The demo circuit should now be ready.
 
 ## **Software Instruction**
+
 I prepared 2 example source code for this experiment. Copy each one-by-one.
 
 Modify it according to what you want.
 
 ## **Video Demonstration**
+
 {{< youtube id="-gHXofJfegs" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -107,7 +113,9 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit from:** [gorillacell.kr](http://gorillacell.kr/)
+1. Purchase your Gorillacell ESP32 development kit from:
+[gorillacell.kr](http://gorillacell.kr/)
 
-**2. ESP32 Quick Reference:** <https://docs.micropython.org/en/latest/esp32/quickref.html>
+2. ESP32 Quick Reference:
+<https://docs.micropython.org/en/latest/esp32/quickref.html>
 

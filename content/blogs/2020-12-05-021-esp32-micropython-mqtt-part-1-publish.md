@@ -23,7 +23,8 @@ url: /2020/12/05/021-esp32-micropython-mqtt-part-1-publish/
 ---
 
 ## **Instruction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/021-esp32-mqtt-part-1-techtotinker.png)
+
+![](/images/021-esp32-mqtt-part-1-techtotinker.png)
 
 Are you interested in Internet of Things? Have you heard of MQTT? If yes, please stay and watch this video. Because in this video, we will learn to create a basic setup of MQTT system using the ThingSpeak server and an ESP32 using MicroPython language.
 
@@ -34,18 +35,22 @@ Now in this video, we will achieve the same by using the esp32 to send dht senso
 MQTT stands for MQ Telemetry Transport. MQ refers to the MQ series, a product develop by IBM to support the MQTT protocol.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board or any microcontroller with MicroPython firmware installed.
 2. DHT22 or any sensor with similar capability.
 
 ## **Hardware Instruction**
+
 1. Connect the DHT22 VCC pin to ESP32 3.3V pin.
 2. Connect the DHT22 Data pin to ESP32 D23 pin.
 3. Connect the DHT22 GND pin to ESP32 GND pin.
 
 ## **Video Demonstration**
+
 {{< youtube id="ugEnE7XSR5I" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -138,5 +143,10 @@ password = "your wifi password"
 ```
 
 ## **References And Credits**
-1. **Thingspeak**: [thingspeak.com](http://thingspeak.com/)
-2. **Mathworks registration page**: <https://www.mathworks.com/mwaccount/register>
+
+1. Thingspeak:
+[thingspeak.com](http://thingspeak.com/)
+
+2. Mathworks registration page:
+<https://www.mathworks.com/mwaccount/register>
+

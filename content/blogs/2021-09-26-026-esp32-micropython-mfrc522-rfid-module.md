@@ -18,11 +18,12 @@ url: /2021/09/26/026-esp32-micropython-mfrc522-rfid-module/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/MFRC522-2BRFID.png)
+![](/images/MFRC522-2BRFID.png)
 
 In this article, I will demonstrate how to use an RFID module such as the MFRC522 with ESP32 using MicroPython programming language.
 
 ## **Bill Of Materials**
+
 For this lesson, you will need:
 1. An ESP32 development board.
 2. An MFRC522 RFID module kit (RFID reader/write, RFID plastic card, RFID key fobs).
@@ -33,9 +34,11 @@ For this lesson, you will need:
 7. And some jumper wires.
 
 ## **Circuit Diagram**
-![](https://techtotinker.com/wp-content/uploads/2021/09/026_ESP32_MicroPython_RFID_Circuit_Diagram.png)
+
+![](/images/026_ESP32_MicroPython_RFID_Circuit_Diagram.png)
 
 ## **Hardware Instruction**
+
 1. I connected the RC522 VCC pin or pin # 1 to ESP32 3.3V pin using the red wire.
 2. Its RST pin or pin # 2 to ESP32 GPIO4 pin using the white wire.
 3. Its GND pin or pin # 3 to ESP32 GND pin using the brown wire.
@@ -51,9 +54,11 @@ For this lesson, you will need:
 13. I connected the green LED to GPIO 13 and the red LED to GPIO 14.
 
 ## **Video Demonstration**
+
 {{< youtube id="KufRt3p9tCI?" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this article, write your message in the comment box.
 
 You might also like to support my journey on Youtube by Subscribing. Click this to Subscribe to TechToTinker Youtube channel.

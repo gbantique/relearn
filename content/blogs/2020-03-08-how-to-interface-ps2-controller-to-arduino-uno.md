@@ -20,34 +20,38 @@ url: /2020/03/08/how-to-interface-ps2-controller-to-arduino-uno/
 Have you ever think of what else could you do with your old PS2 Game Controller? What if you can use it to control something other than your PS2? Yes, it is possible with the help of microcontroller. In this blog post, I will walk you through on how to interface the PS2 game controller to an Arduino Uno microcontroller. But before that, let me tell you how I come up to this idea.
 
 I am thinking on controlling my Bipedal Robot project wireless. My options are the following:  
-1\. Android mobile phone (with Serial bluetooth terminal) and HC-06 bluetooth module but since I do not have personal android mobile phone(I am just borrowing from my son :)), this idea is not possible.  
-2\. Dual joystick from defective game controller interface to ESP32. I am able to make two ESP32 to talked with each other using BLE but this will cost more.  
-3\. Wireless PS2 controller, perfect idea! I personally don’t have it, so I tried to purchased from local electronics store. After tinkering with it, it was just a waste of money. After that, I decided to purchased it online.
+1. Android mobile phone (with Serial bluetooth terminal) and HC-06 bluetooth module but since I do not have personal android mobile phone(I am just borrowing from my son :)), this idea is not possible.  
+2. Dual joystick from defective game controller interface to ESP32. I am able to make two ESP32 to talked with each other using BLE but this will cost more.  
+3. Wireless PS2 controller, perfect idea! I personally don’t have it, so I tried to purchased from local electronics store. After tinkering with it, it was just a waste of money. After that, I decided to purchased it online.
 
 So without further discussion, we need the following materials for this tinkering.
 
 ## **Bill Of Materials**  
-1\. PS2 game controller (preferably wireless but the wired one functions the same).  
-[![](https://1.bp.blogspot.com/-FqXGQWsY_jY/Xjql743a1DI/AAAAAAAAACY/1AoGh6yLGkw_trgV5QwI5kg4h8BuHyfggCLcBGAsYHQ/s400/Wireless%2BPS2%2BController.png)](https://1.bp.blogspot.com/-FqXGQWsY_jY/Xjql743a1DI/AAAAAAAAACY/1AoGh6yLGkw_trgV5QwI5kg4h8BuHyfggCLcBGAsYHQ/s1600/Wireless%2BPS2%2BController.png)  
-2\. Arduino Uno microcontroller.  
-3\. PS2 Arduino library.  
-4\. A couple of jumper wires.
+
+![](/images/Wireless%2BPS2%2BController.png)
+
+1. PS2 game controller (preferably wireless but the wired one functions the same).  
+2. Arduino Uno microcontroller.  
+3. PS2 Arduino library.  
+4. A couple of jumper wires.
 
 ## **Hardware Instruction**
+
 **So lets build it!**
 
-[![](https://1.bp.blogspot.com/-4sUBwu9XYgQ/XmTnSbPo3dI/AAAAAAAAB10/vjtp3UBQqCgN3twXE6-okiqDBNHWjZH3wCLcBGAsYHQ/s640/How-to-interface-PS2-to-Arduino.png)](https://1.bp.blogspot.com/-4sUBwu9XYgQ/XmTnSbPo3dI/AAAAAAAAB10/vjtp3UBQqCgN3twXE6-okiqDBNHWjZH3wCLcBGAsYHQ/s1600/How-to-interface-PS2-to-Arduino.png)
+![](/images/How-to-interface-PS2-to-Arduino.png)
 
 1. Connect the PS2 DAT pin (pin 1) to digital pin D13 of Arduino Uno.  
-2\. Connect the PS2 CMD pin (pin 2) to digital pin D12 of Arduino Uno.  
-3\. Connect the PS2 GND pin (pin 4) to GND pin of Arduino Uno.  
-4\. Connect the PS2 VCC pin (pin 5) to +5V pin of Arduino Uno.  
-5\. Connect the PS2 C/S pin (pin 6) to digital pin D11 of Arduino Uno.  
-6\. Connect the PS2 CLK pin (pin 7) to digital pin D10 of Arduino Uno.
+2. Connect the PS2 CMD pin (pin 2) to digital pin D12 of Arduino Uno.  
+3. Connect the PS2 GND pin (pin 4) to GND pin of Arduino Uno.  
+4. Connect the PS2 VCC pin (pin 5) to +5V pin of Arduino Uno.  
+5. Connect the PS2 C/S pin (pin 6) to digital pin D11 of Arduino Uno.  
+6. Connect the PS2 CLK pin (pin 7) to digital pin D10 of Arduino Uno.
 
 Now our setup is ready. We will be using the PS2 Library for Arduino of Bill Porter. I just modified the example sketch for PS2 so suit our needs. Lets upload the sketch and see the result.
 
 ## **Video Demonstration**  
+
 {{< youtube id="aC_moW2T7e4" title="How to Interface PS2 Controller to Arduino Uno" >}}
 
 ## **Source Code**  

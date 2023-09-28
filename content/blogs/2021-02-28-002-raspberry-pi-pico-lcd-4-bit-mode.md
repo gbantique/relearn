@@ -16,11 +16,12 @@ url: /2021/02/28/002-raspberry-pi-pico-lcd-4-bit-mode/
 
 ## **Introduction** 
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/002-pico-lcd-4-bit-mode.png)
+![](/images/002-pico-lcd-4-bit-mode.png)
 
 In this article, we will learn on how to use the 16×2 LCD module in 4-bit Mode with MicroPython language. For this tutorial, we will used a Raspberry Pi Pico with MicroPython firmware.
 
 ## **Bill Of Materials**
+
 1. Raspberry Pi Pico development board.
 2. 16×2 LCD module the ordinary one without I2C interface.
 3. Breadboard to hold and connect the circuit.
@@ -28,9 +29,10 @@ In this article, we will learn on how to use the 16×2 LCD module in 4-bit Mode 
 
 ## **Circuit Diagram**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/002-pico-lcd-4-bit-mode-diagram.png)
+![](/images/002-pico-lcd-4-bit-mode-diagram.png)
 
 ## **Hardware Instruction**
+
 1. Connect the LCD VSS pin to the ground.
 2. Connect the LCD VDD pin to the 5V pin.
 3. Connect the LCD VO pin at the center wiper of the potentiometer.
@@ -43,10 +45,12 @@ In this article, we will learn on how to use the 16×2 LCD module in 4-bit Mode 
 10. Connect the LCD D7 pin to the GPIO 13 of the Pico.
 
 ## **Software Instruction**
+
 1. Copy the lcd\_api.py and the gpio\_lcd.py to the Raspberry Pi Pico MicroPython root directory.
 2. Try the sample source code and adapt it according to your needs.
 
 ## **Video Demonstration**
+
 {{< youtube id="Xq0bt-0kbBk" >}}
 
 ## **Call To Action**
@@ -501,5 +505,6 @@ class GpioLcd(LcdApi):
 
 ## **References And Credits**
 
-**Dave Hylands LCD library:** [https://github.com/dhylands/python\_lcd](https://github.com/dhylands/python_lcd)
+1. Dave Hylands LCD library:
+[https://github.com/dhylands/python\_lcd](https://github.com/dhylands/python_lcd)
 

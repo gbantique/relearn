@@ -8,11 +8,12 @@ title: '003 - ESP32 MicroPython: General Purpose Input Output | GPIO Pins'
 url: /2020/09/09/003-esp32-micropython-general-purpose-input-output-gpio-pins/
 ---
 
-
 ## **Video Demonstration**
+
 {{< youtube id="9J4YWvHMWf4" >}}
 
 ## **Call To Action**
+
 If you like this tutorial and you find it useful, please Share it to your friends. Please consider also supporting me by Subscribing. [Click this to Subscribe to TechToTinker Youtube channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
 ## **Source Code**

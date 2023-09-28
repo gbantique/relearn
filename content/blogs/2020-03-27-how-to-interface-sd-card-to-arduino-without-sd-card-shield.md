@@ -22,17 +22,20 @@ I wonder if I can interface SD card to a microcontroller without using any adapt
 
 So first, let me introduce myself. My name is George! Welcome to tech-to-tinker Youtube channel where technology is explored and shared.
 
-[![](https://1.bp.blogspot.com/-LFwTynPljGM/Xn1wmZqPr4I/AAAAAAAAADs/D0InLlGX9T00LgFIopC_2G0-0EoIBdvNACLcBGAsYHQ/s400/SDCard-to-Arduino-Uno-Schematic.png)](https://1.bp.blogspot.com/-LFwTynPljGM/Xn1wmZqPr4I/AAAAAAAAADs/D0InLlGX9T00LgFIopC_2G0-0EoIBdvNACLcBGAsYHQ/s1600/SDCard-to-Arduino-Uno-Schematic.png)
+![](/images/SDCard-to-Arduino-Uno-Schematic.png)
 
 ## **Bill Of Materials**
+
 1. Arduino Uno.
 2. A spare SD card you are willing to kiss goodbye :). Because you might damage it.
 3. Soldering iron, some soldering leads, and your soldering skills.
 4. Some jumper wires.
 
 ## **Hardware Instruction**
+
 1. First, make the necessary soldering of jumper wires to the SD card. Please refer to the schematic below. You may also break out the SD card cover to expose its internal parts. This is to make soldering easier. I suggest to make the connection from inside so that you may still connect the SD card to a computer for transferring of files (please refer to what I did).
-[![](https://1.bp.blogspot.com/-JxHLXM5sGig/Xn10MgzzeqI/AAAAAAAAAD4/8Ou-xqM6ixQegQA1mt0m0v32nfWz_jgmgCLcBGAsYHQ/s1600/SDCard-Solder-For-SPI.png)](https://1.bp.blogspot.com/-JxHLXM5sGig/Xn10MgzzeqI/AAAAAAAAAD4/8Ou-xqM6ixQegQA1mt0m0v32nfWz_jgmgCLcBGAsYHQ/s1600/SDCard-Solder-For-SPI.png)
+
+![](/images/SDCard-Solder-For-SPI.png)
 
 **Please take note of the following:**
 * SD card pin 1 (C/S pin) is connected with (green) wire to Arduino Uno pin 10.
@@ -46,14 +49,18 @@ So first, let me introduce myself. My name is George! Welcome to tech-to-tinker 
 4. Make sure “Arduino Uno” is selected under Tools &gt; Board.
 5. Check that the correct serial port is selected under Tools &gt; Port.
 6. The source code is available in the Arduino IDE under Files &gt; Examples &gt; SD, or you may copy the source code provided below.
-[![](https://1.bp.blogspot.com/-X5Joe9X-oDQ/Xn145t7ypWI/AAAAAAAAAEE/oZ3683CGSdEs4aKuPpDxEJGrH861huGvQCLcBGAsYHQ/s640/SDCard-to-Arduino-CardInfo.png)](https://1.bp.blogspot.com/-X5Joe9X-oDQ/Xn145t7ypWI/AAAAAAAAAEE/oZ3683CGSdEs4aKuPpDxEJGrH861huGvQCLcBGAsYHQ/s1600/SDCard-to-Arduino-CardInfo.png)
+
+![](/images/SDCard-to-Arduino-CardInfo.png)
+
 7. If all goes well, you should be able to see something similar to above picture in your Serial Monitor.
 8. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="fzp6SN3Ldlo" >}}
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 /*
   SD card test

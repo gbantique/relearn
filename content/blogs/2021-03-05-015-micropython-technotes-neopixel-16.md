@@ -16,22 +16,25 @@ url: /2021/03/05/015-micropython-technotes-neopixel-16/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/015-technotes-neopixel-16-RGB-LED-ring.png)
+![](/images/015-technotes-neopixel-16-RGB-LED-ring.png)
 
 In this article, we will learn about the addressable NeoPixel. Addressable Neopixel contains a WS2812B chip and an RGB LED in one package. With WS2812B, it is possible to make the a chain of RGB LED to be addressable. Meaning to say, it can be controlled individually.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. ESP32 shield from Gorillacell ESP32 development kit (optional, you can still make it without this shield. It is just use to simplify the circuit connection).
 3. 3-pin female-female dupont jumper wires.
 4. Neopixel Ring (16 RGB)
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **DI** – for the Data Input (DI) control signal pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 dev board on top of the ESP32 shield making sure that pins are aligned and the USB ports are on the same side.
 2. Next, attach the dupont wires to the Neopixel ring according to the color coding which is black for the ground, red for the VCC, and yellow for the control signal pin.
 3. Next, attach the other side of the dupont to the ESP32 shield by matching the colors of the wires to the colors of the pin headers in the ESP32 shield, that is black to black, red to red, and yellow to yellow.
@@ -39,12 +42,15 @@ In this article, we will learn about the addressable NeoPixel. Addressable Neopi
 5. Next, connect the ESP32 to the computer through the micro USB cable. The demo circuit should now be ready.
 
 ## **Software Instruction**
+
 MicroPython has a builtin module or driver library for the Neopixel. Just import it in the source code.
 
 ## **Video Demonstration**
+
 {{< youtube id="_w0O-qEeqHg" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -178,5 +184,6 @@ while True:
 
 ## **References And Credits**
 
-**Purchase the Gorillacell ESP32 development kit at:** [gorillacell.kr](http://gorillacell.kr/)
+1. Purchase the Gorillacell ESP32 development kit at:
+[gorillacell.kr](http://gorillacell.kr/)
 

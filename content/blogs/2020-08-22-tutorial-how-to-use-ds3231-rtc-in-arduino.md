@@ -11,34 +11,40 @@ url: /2020/08/22/tutorial-how-to-use-ds3231-rtc-in-arduino/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn how to use the DS3231 Real Time Clock (RTC) module.
 
 ## **Bill Of Materials**
-1\. DS3231 RTC module with coin cell battery inserted.  
-2\. Arduino Uno board, or any Arduino compatible boards.  
-3\. 0.96 OLED display.  
-4\. A breadboard and jumper wires for connecting the circuits.
+
+1. DS3231 RTC module with coin cell battery inserted.  
+2. Arduino Uno board, or any Arduino compatible boards.  
+3. 0.96 OLED display.  
+4. A breadboard and jumper wires for connecting the circuits.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-YTuk9KjCV3g/X0EHlrRQQAI/AAAAAAAACAo/PEDO8ld0M2MCVjkeliiUnQNVpEynfVwQwCLcBGAsYHQ/s640/DS3231_RTC.png)](https://1.bp.blogspot.com/-YTuk9KjCV3g/X0EHlrRQQAI/AAAAAAAACAo/PEDO8ld0M2MCVjkeliiUnQNVpEynfVwQwCLcBGAsYHQ/s1500/DS3231_RTC.png)
+
+![](/images/DS3231_RTC.png)
 
 ## **Hardware Instruction**
-1\. Connect the DS3231 VCC pin to Arduino Uno 5V pin.  
-2\. Connect the DS3231 GND pin to Arduino Uno GND pin.  
-3\. Connect the DS3231 SDA pin to Arduino Uno A4 pin.  
-4\. Connect the DS3231 SCL pin to Arduino Uno A5 pin.  
-5\. Connect the OLED VCC pin to Arduino Uno 5V pin.  
-6\. Connect the OLED GND pin to Arduino Uno GND pin.  
-7\. Connect the OLED SDA pin to Arduino Uno A4 pin.  
-8\. Connect the OLED SCL pin to Arduino Uno A5 pin.  
-9\. Copy and paste the source code below to Arduino IDE.  
-10\. Upload the sketch to the Arduino board.  
-11\. Please feel free the example source code and enjoy tinkering.
+
+1. Connect the DS3231 VCC pin to Arduino Uno 5V pin.  
+2. Connect the DS3231 GND pin to Arduino Uno GND pin.  
+3. Connect the DS3231 SDA pin to Arduino Uno A4 pin.  
+4. Connect the DS3231 SCL pin to Arduino Uno A5 pin.  
+5. Connect the OLED VCC pin to Arduino Uno 5V pin.  
+6. Connect the OLED GND pin to Arduino Uno GND pin.  
+7. Connect the OLED SDA pin to Arduino Uno A4 pin.  
+8. Connect the OLED SCL pin to Arduino Uno A5 pin.  
+9. Copy and paste the source code below to Arduino IDE.  
+10. Upload the sketch to the Arduino board.  
+11. Please feel free the example source code and enjoy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="1Ob4u8ok7Q8" >}}
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please do not hesitate to write it in the comment box.
 
 If you enjoy this tutorial, please consider supporting me by Subscribing. [Click this to Subscribe](https://www.youtube.com/c/TechToTinker?sub_confirmation=1).
@@ -46,6 +52,7 @@ If you enjoy this tutorial, please consider supporting me by Subscribing. [Click
 Thank you and stay safe always.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 #include "Adafruit_GFX.h"
 #include "Adafruit_SSD1306.h"

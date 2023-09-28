@@ -14,22 +14,25 @@ url: /2021/03/20/018-micropython-technotes-button-reading-an-input/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/018-technotes-buttons.png)
+![](/images/018-technotes-buttons.png)
 
 In this article, we will learn on how to read an input device with ESP32 using MicroPython programming language. GorillaCell ESP32 development kit comes with 4 pieces of Button modules with different colors of button caps.
 
 ## **Pinout**
+
 1. **G** – for the ground pin.
 2. **V** – for the VCC or supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** flashed with MicroPython firmware. If your ESP32 has no MicroPython firmware, be sure to learn it from: https://techtotinker.blogspot.com/2021/01/001-micropython-technotes-get-started.html . The ESP32 will serve as the brain for this experiment.
 2. **ESP32 shield** from GorillaCell ESP32 development kit which will extend the ESP32 pins to the pin headers for easy access and easy connection without confusion.
 3. **3-pin female-female dupont wires** which will connects the button modules to the ESP32 shield pin headers.
 4. **Button modules** which will serve as an input device.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 on top of the ESP32 shield and make sure that both USB ports are on the same side.
 2. Next, attach the dupont wires to the button module by following the color coding which is black wires for the ground, red wires for the VCC, and yellow wires for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the dupont wires to the colors of the pin headers which black to black, red to red, and yellow to yellow. For this experiment I choose GPIO 32 as the input signal pin for the Red button, GPIO 33 for the Green button, and GPIO 34 for the Blue button.
@@ -37,6 +40,7 @@ In this article, we will learn on how to read an input device with ESP32 using M
 5. Lastly, connect the ESP32 to the computer through the micro-USB cable. Our demo circuit should now be ready. Yehey!
 
 ## **Software Instruction**
+
 For the button module, I prepared 3 examples you can copy to Thonny for you to try.
 
 Play with it, modify it according to your needs.
@@ -44,9 +48,11 @@ Play with it, modify it according to your needs.
 Enjoy learning and happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="WbGduiwDAGc" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -146,7 +152,6 @@ while True:
 
 ## **References And Credits**
 
-Purchase your Gorillacell ESP32 development kit at:
-
+1. Purchase your Gorillacell ESP32 development kit at:
 [gorillacell.kr](http://gorillacell.kr/)
 

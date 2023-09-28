@@ -18,35 +18,41 @@ url: /2021/06/09/038-micropython-technotes-buzzer/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/06/038-2BMicroPython-2BTechNotes-2BBuzzer-2Bblog.png)
+![](/images/038-2BMicroPython-2BTechNotes-2BBuzzer-2Bblog.png)
 
 In this article, we will talk about the BUZZER module with ESP32 using MicroPython.
 
 A BUZZER module is basically an electrical device that converts electrical signal into an audible audio signal or a sound that we can hear. Typical uses of Buzzer are in alarms, user audio feedback, or to provide some kind of melodies.
 
 ## **Pinout**
+
 1. **G** – for the ground pin.
 2. **V** – for the supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 3-pin female-female dupont jumper wires.
 4. Gorillacell buzzer moduel.
 
 ## **Hardware Instruction**
+
 1. Provide power to the buzzer module through the G-pin and V-pin.
 2. Attach the buzzer S-pin to ESP32 GPIO 23.
 
 ## **Software Instruction**
+
 1. Copy the source code and paste it to your Thonny IDE and click the RUN button.
 2. Modify it according to your liking and most of all, enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="QVA0SNsYSik" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -273,10 +279,10 @@ buzzer.play(twinkle, 600, 512)
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
+1. Purchase your Gorillacell ESP32 development kit at:
 [https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. MicroPython PWM references:**
+2. MicroPython PWM references:
 <https://docs.micropython.org/en/v1.15/esp32/tutorial/pwm.html>
 <https://docs.micropython.org/en/latest/library/machine.PWM.html>
 

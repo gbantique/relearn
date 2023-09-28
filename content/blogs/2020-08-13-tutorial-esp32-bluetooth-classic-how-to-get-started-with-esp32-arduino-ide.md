@@ -9,20 +9,25 @@ url: /2020/08/13/tutorial-esp32-bluetooth-classic-how-to-get-started-with-esp32-
 ---
 
 ## **Introduction**
+
 ESP32 features a builtin WiFi and Bluetooth capabilities. In this tutorial, we will focus to the Bluetooth classic because Bluetooth LE deserves a separate tutorial.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-9chq16NamVE/XzNWlo7UFpI/AAAAAAAACAA/1YBewTetQiwNhK0fyveKlGhW1rSNZNS4QCPcBGAYYCw/s0/ESP32_WebServer_AP.png)](https://1.bp.blogspot.com/-9chq16NamVE/XzNWlo7UFpI/AAAAAAAACAA/1YBewTetQiwNhK0fyveKlGhW1rSNZNS4QCPcBGAYYCw/s640/ESP32_WebServer_AP.png)
+
+![](/images/ESP32_WebServer_AP.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="m2bcOhgjUts" >}}
 
 ## **Call To Action**
+
 If you find this tutorial as helpful, please consider supporting me by Subscribing to my Youtube channel.
 
 Thank you and have a good day.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
  #include <BluetoothSerial.h>  
    

@@ -14,9 +14,10 @@ url: /2020/05/25/tutorial-how-to-use-hc-sr04-ultrasonic-sensor-with-arduino/
 ---
 
 ## **Introduction**
+
 This tutorial is about the commonly use HC-SR04 ultrasonic sensor. We will give some details about it, explain how it works, and at the last part we will create an Arduino sketch to test its functionality.
 
-[![](https://1.bp.blogspot.com/-5fIJq2bwma0/XstGbyuDhaI/AAAAAAAAAHg/srqnr9MSz_QuHxjCJ5xFmLUaSi_4GOzZQCLcBGAsYHQ/w512-h316/HC-SR04-image.png)](https://1.bp.blogspot.com/-5fIJq2bwma0/XstGbyuDhaI/AAAAAAAAAHg/srqnr9MSz_QuHxjCJ5xFmLUaSi_4GOzZQCLcBGAsYHQ/s1600/HC-SR04-image.png)
+![](/images/HC-SR04-image.png)
 
 **HOW HC-SR04 WORKS:**  
 The HC-SR04 ultrasonic sensor uses a sound frequency to determine distance of an object just like how dolphins and bats senses its surroundings for navigation. Ultrasonic sound frequency can be found just above the upper limit of human hearing capacity (20 Hz to 20 KHz).
@@ -25,7 +26,8 @@ Ultrasonic sensors is composed of 2 sound transducers, one for transmitter and a
 1. The transmitter sends a signal and when the signal hits an object, the signal is reflected.
 2. The reflected signal is then receive by the receiver.
 
-[![](https://1.bp.blogspot.com/-QSQ1cUjT--s/XtWdACn3vDI/AAAAAAAAAIs/ocoBNKO5EYcTTGRlZCzbiUaI8OaEt-KZQCLcBGAsYHQ/w512-h384/HC-SR04-Illustration.png)](https://1.bp.blogspot.com/-QSQ1cUjT--s/XtWdACn3vDI/AAAAAAAAAIs/ocoBNKO5EYcTTGRlZCzbiUaI8OaEt-KZQCLcBGAsYHQ/s1600/HC-SR04-Illustration.png)
+![](/images/HC-SR04-Illustration.png)
+
 The time it takes for the transmitted signal to be reflected back to the sensor is proportionally equivalent to the distance it travels according to the speed of sound.
 
 To determine the distance of an object, we will use the following formula:
@@ -36,6 +38,7 @@ But, we need to consider that the signal is sent, hits an object, then reflected
 The speed of sound is **343 m/sec** or **0.0343 cm/µsec** since the returned value of ultrasonic sensor is in micro seconds.
 
 ## **Pin Assignment**
+
 1. VCC: +5V DC
 2. Trig: Trigger pin is an input signal used to activate the sending of ultrasonic signal burst.
 3. Echo: Echo pin is an output signal which returns a TTL HIGH equivalent to the duration of travel from transmitting to receiving.
@@ -45,14 +48,16 @@ The HC-SR04 provides a distance measurement between 2 cm to 400 cm with an accur
 \[<https://www.electroschematics.com/wp-content/uploads/2013/07/HCSR04-datasheet-version-1.pdf>\]
 
 ## **Bill Of Materials**
+
 For this example, we will need the following materials to test its funtionality:
 1. An Arduino Uno board as the main controller.
 2. The HC-SR04 Ultrasonic sensor.
 3. Some jumper wires.
 
-[![](https://1.bp.blogspot.com/-3lD5MeWgTHQ/XstGajrmP7I/AAAAAAAAAHk/Vdmv1CHZvcMpoBIa74Yf7fLqYlpWxc27wCPcBGAYYCw/w512-h262/HC-SR04-CircuitDiagram.png)](https://1.bp.blogspot.com/-3lD5MeWgTHQ/XstGajrmP7I/AAAAAAAAAHk/Vdmv1CHZvcMpoBIa74Yf7fLqYlpWxc27wCPcBGAYYCw/s1600/HC-SR04-CircuitDiagram.png)
+![](/images/HC-SR04-CircuitDiagram.png)
 
 ## **Hardware Instruction**
+
 So lets build our circuit,
 1. Connect the VCC pin of HC-SR04 to 5V pin of Arduino Uno.
 2. Connect the Trig pin of HC-SR04 to digital pin 9 of Arduino Uno.
@@ -65,9 +70,11 @@ Now, let us prepare our Arduino code,
 3. Upload the sketch and if everything is ok, you should be able to see the measured distance of the HC-SR04 ultrasonic sensor in your Serial Monitor.
 
 ## **Video Demonstration**
+
 {{< youtube id="NwMDtrWotsw" >}}
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 #define ECHO_PIN 10
 #define TRIG_PIN 9

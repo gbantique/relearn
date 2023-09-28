@@ -13,6 +13,7 @@ url: /2021/01/22/004-micropython-technotes-gorilla-cell-i-o-devices/
 ---
 
 ## **Introduction**
+
 Gorillacell ESP32 development kit also comes with 80 pieces of input and output devices also known as IO devices. Each IO devices is clearly labeled to prevent confusion.
 
 GorillaCell I/O devices are categorized as:
@@ -23,9 +24,11 @@ GorillaCell I/O devices are categorized as:
 4. **Communication cell** – are input and output devices use for communication. It is composed of bluetooth module, wifi module, gps module, and others.
 
 ## **Video Demonstration**
+
 {{< youtube id="ExxWC6xWNNI" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -37,5 +40,7 @@ See you,
 **– George Bantique | tech.to.tinker@gmail.com**
 
 ## **References And Credits**
-1. Purchased your GorillaCell ESP32 Development kit at: [gorillacell.kr/](http://gorillacell.kr/)
+
+1. Purchased your GorillaCell ESP32 Development kit at: 
+[gorillacell.kr/](http://gorillacell.kr/)
 

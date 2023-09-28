@@ -11,9 +11,9 @@ title: '006 - ESP32 MicroPython: How to control servo motor with MicroPython'
 url: /2020/09/15/006-esp32-micropython-how-to-control-servo-motor-with-micropython/
 ---
 
-
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-fZyq2Zqb7Qk/X2FwMBcWjfI/AAAAAAAACCM/BhXArRgofOgdWTaQiKA7lCHTlImYtKXGwCLcBGAsYHQ/s320/pwm_servo.png)](https://1.bp.blogspot.com/-fZyq2Zqb7Qk/X2FwMBcWjfI/AAAAAAAACCM/BhXArRgofOgdWTaQiKA7lCHTlImYtKXGwCLcBGAsYHQ/s529/pwm_servo.png)
+
+![](/images/pwm_servo.png)
 
  **Links to SG90 datasheet:**  
 http://www.ee.ic.ac.uk/pcheung/teaching/DE1\_EE/stores/sg90\_datasheet.pdf
@@ -38,9 +38,11 @@ these pwm duty values does not work for me, it gives very inaccurate result angl
 What works for me are a duty values of **<u>20 to 120</u>** or equivalent to **2% to 12% duty cycle.**
 
 ## **Video Demonstration**
+
 {{< youtube id="wWnDKsClpwQ" >}}
 
 ## **Call To Action**
+
 If you found this tutorial as helpful, please consider supporting my Youtube channel by Suscribing to TechToTinker Youtube channel. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
 ## **Source Code**

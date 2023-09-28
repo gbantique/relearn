@@ -18,26 +18,31 @@ url: /2020/11/04/016-esp32-micropython-web-server-esp32-access-point-mode-in-mic
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/016-esp32-micropython-wifi-ap-techtotinker.png)
+
+![](/images/016-esp32-micropython-wifi-ap-techtotinker.png)
 
 In this article you will learn to configure ESP32 wifi as Access Point. You will also learn to create a web server hosted on it.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. DHT22 (or DHT11 with slight, very small modification in the code).
 3. Connecting wires.
 
 ## **Hardware Instruction**
+
 1. Connect the DHT22 VCC pin to 3.3V pin of ESP32.
 2. Connect the DHT22 Data pin to D23 pin of ESP32.
 3. Connect the DHT22 GND pin to GND pin of ESP32.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/016-esp32-micropython-wifi-ap-techtotinker-diagram.png)
+![](/images/016-esp32-micropython-wifi-ap-techtotinker-diagram.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="LKQvzN_Rk-U" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

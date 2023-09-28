@@ -18,7 +18,7 @@ url: /2021/08/22/043-micropython-technotes-esp12e-wifi-external-wifi-module/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/08/043-MicroPython-TechNotes-ESP12E-WiFi-module.png)
+![](/images/043-MicroPython-TechNotes-ESP12E-WiFi-module.png)
 
 In this article, I will demonstrate on how you can use an external WiFi module with ESP32 using MicroPython. Though ESP32 possesses a builtin Wifi device, sometimes an external module is necessary if you want to lessen the workload of the microcontroller. This is also applicable to microcontroller that does not have a builtin WiFi such as Raspberry Pi Pico and STM32.
 
@@ -63,6 +63,7 @@ We will use an ESP12E Wifi module or more commonly known as ESP8266 NodeMCU.
     3. Send **AT+CIPCLOSE=1** to close TCP connection.
 
 ## **Pinout**
+
 It has 4 pins namely:
 1. GND – for the ground pin.
 2. VCC – for the supply voltage.
@@ -70,6 +71,7 @@ It has 4 pins namely:
 4. RX – for the UART serial receive pin.
 
 ## **Bill Of Materials**
+
 In order to follow this lesson, you will need:
 
 1. ESP32 development board.
@@ -78,6 +80,7 @@ In order to follow this lesson, you will need:
 4. ESP12E Wifi Module
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of Gorillacell ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the WiFi module by following a color coding such as black for the ground, red for the VCC, yellow for the TX, and white for the RX pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers such that black is to black, red is to red, yellow and the following colors to the yellow pin headers. For this lesson, I choose GPIO 25 for the TX pin and GPIO 26 for the RX pin.
@@ -85,13 +88,16 @@ In order to follow this lesson, you will need:
 5. Lastly, connect the ESP32 development board to the computer by attaching a micro USB cable.
 
 ## **Software Instruction**
+
 1. Copy the example source code from the SOURCE CODE section and paste it to Thonny IDE.
 2. Please feel free to modify it and adapt it according to your needs.
 
 ## **Video Demonstration**
+
 {{< youtube id="rUx4QAQws-w" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this video, please write your question in the comment box.
 You might also liked to support my journey on Youtube by subscribing on my channel, TechToTinker. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 Thank you and have a good days ahead.
@@ -377,10 +383,10 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchased your Gorillacell ESP32 development kit:**
+1. Purchased your Gorillacell ESP32 development kit:
     <https://gorillacell.kr/>
 
-**2. ESP12E AT Commands:**
+2. ESP12E AT Commands:
     [https://www.espressif.com/sites/default/files/documentation/4a-esp8266\_at\_instruction\_set\_en.pdf](https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf)
     <http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/>
     <https://www.electronicshub.org/esp8266-at-commands/>

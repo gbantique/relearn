@@ -16,6 +16,7 @@ url: /2020/06/26/tutorial-arduino-gpio-how-to-use-arduino-pins/
 ---
 
 ## **Introduction**
+
 When I am starting to learn the Arduino microcontroller, I started searching on how I am able to use it immediately because I believe that the best way of learning something is the experience of using it.
 
 In this tutorial, we will learn the basics of Arduino GPIO or the General Purpose Input Output or in the simplest term Arduino pins.
@@ -28,7 +29,7 @@ When a certain pin is configured as output, it can be used to write such as ligh
 
 Now let us discuss functions commonly used in Arduino:
 
-[![](https://1.bp.blogspot.com/-zESOMgrLSOs/XvW6xixKVXI/AAAAAAAAB7c/pEbVHHhhSEU2EnJYd7mSi7pLyRHdQcS1ACK4BGAsYHg/pinMode.png)](https://1.bp.blogspot.com/-zESOMgrLSOs/XvW6xixKVXI/AAAAAAAAB7c/pEbVHHhhSEU2EnJYd7mSi7pLyRHdQcS1ACK4BGAsYHg/s281/pinMode.png)
+![](/images/pinMode.png)
 
 ```cpp { lineNos="true" wrap="true" }
 pinMode(PIN, MODE)
@@ -55,28 +56,32 @@ This configures digital pin 13 as output.
 **Pull-down Resistor** – is a resistor connected between the GND and the specific pin. It function similar to pull-up resistor but opposite logic functions.
 *(show the benefit of pull-up resistor by showing the state of a pin when floating and when pullup.)*
 
-[  ](https://1.bp.blogspot.com/-YpMDtLPm4Ko/XvW68Wr7NMI/AAAAAAAAB7o/u3U9fXx-w6kF1DYFXtZ72RUyKWM-Qnm2ACK4BGAsYHg/s423/digitalWrite.png)[![](https://1.bp.blogspot.com/-YpMDtLPm4Ko/XvW68Wr7NMI/AAAAAAAAB7o/u3U9fXx-w6kF1DYFXtZ72RUyKWM-Qnm2ACK4BGAsYHg/w400-h65/digitalWrite.png)](https://1.bp.blogspot.com/-YpMDtLPm4Ko/XvW68Wr7NMI/AAAAAAAAB7o/u3U9fXx-w6kF1DYFXtZ72RUyKWM-Qnm2ACK4BGAsYHg/s423/digitalWrite.png)
+![](/images/digitalWrite.png)
 
 digitalWrite(PIN, HIGH/LOW)
 This function drives the PIN either a logic HIGH or logic LOW.
-[![](https://1.bp.blogspot.com/-JvaGNbxKioQ/XvW7D-kReJI/AAAAAAAAB74/m28vj3SnJXYjZoBFSol02Z-2atXm3xRsQCK4BGAsYHg/w400-h65/digitalRead.png)](https://1.bp.blogspot.com/-JvaGNbxKioQ/XvW7D-kReJI/AAAAAAAAB74/m28vj3SnJXYjZoBFSol02Z-2atXm3xRsQCK4BGAsYHg/s423/digitalRead.png)
+
+![](/images/digitalRead.png)
 
 digitalRead(PIN)
 This function reads the state of the PIN and return either a logic HIGH or logic LOW.
-[![](https://1.bp.blogspot.com/-3wXD5CyHMRg/XvW7KRksEbI/AAAAAAAAB8E/1I301U1sCi4xmcL5mSBCOupzoLCRdFRqgCK4BGAsYHg/w500-h195/analogWrite.png)](https://1.bp.blogspot.com/-3wXD5CyHMRg/XvW7KRksEbI/AAAAAAAAB8E/1I301U1sCi4xmcL5mSBCOupzoLCRdFRqgCK4BGAsYHg/s652/analogWrite.png)
+
+![](/images/analogWrite.png)
 
 analogWrite(PIN, VALUE)
 This function writes an analog value (in PWM square wave) to a pin.
 
-[![](https://1.bp.blogspot.com/-pFJ_x5IHcRs/XvW7RK6rmzI/AAAAAAAAB8Q/DL0sHT9I5gsW8JZl975mmqj-ycbawjPFwCK4BGAsYHg/w500-h195/analogRead.png)](https://1.bp.blogspot.com/-pFJ_x5IHcRs/XvW7RK6rmzI/AAAAAAAAB8Q/DL0sHT9I5gsW8JZl975mmqj-ycbawjPFwCK4BGAsYHg/s652/analogRead.png)
+![](/images/analogRead.png)
 
 analogRead(PIN)
 This function reads an analog value from a specified analog pins.
 
 ## **Circuit Diagram**
+
 *(insert circuit diagram here)*  
 
 ## **Video Demonstration**
+
 {{< youtube id="3nAjmWvTSGU" >}}
 
 ## **Source Code**

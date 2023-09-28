@@ -16,23 +16,28 @@ url: /2020/09/30/010-esp32-micropython-0-96-oled-in-micropython/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn to use the 0.96 inch OLED display with monochrome display. This is useful for displaying something for the end user.
 
 Its easy to use, we just need 4 wires. 2 wires for the power and another 2 wires for the i2c comunication protocol for controlling the display.
 
 ## **Circuit Diagram**
-![](https://1.bp.blogspot.com/-iuS6fhLBEEg/X3P2QQyniSI/AAAAAAAACDo/ECeFMcaPwB4AtUYNlXyRzagbMaLhfIzqgCLcBGAsYHQ/w313-h400/ESP32_OLED_MicroPython.png)
+
+![](/images/ESP32_OLED_MicroPython.png)
 
 ## **Hardware Instruction**
-1\. Connect the OLED VCC pin to 3V3 supply pin of ESP32.  
-2\. Connect the OLED GND pin to ESP32 GND pin.  
-3\. Connect the OLED SCL pin to ESP32 GPIO D22 pin (SCL dedicated pin).  
-4\. Connect the OLED SDA pin to ESP32 GPIO D21 pin (SDA dedicated pin).
+
+1. Connect the OLED VCC pin to 3V3 supply pin of ESP32.  
+2. Connect the OLED GND pin to ESP32 GND pin.  
+3. Connect the OLED SCL pin to ESP32 GPIO D22 pin (SCL dedicated pin).  
+4. Connect the OLED SDA pin to ESP32 GPIO D21 pin (SDA dedicated pin).
 
 ## **Video Demonstration**
+
 {{< youtube id="rIo_x_DtzcA" >}}
 
 ## **Call To Action**
+
 I hope you find this tutorial as helpful. If you have any question regarding this tutorial, please do not hesitate to write it in the comment box provided.
 
 Please also consider supporting me in my Youtube channel by Subscribing. [Please click this to Subscribe and confirm.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

@@ -13,10 +13,11 @@ url: /2020/06/18/how-to-use-lcd-keypad-shield-for-arduino/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn on how to use the LCD Keypad Shield for Arduino. This shield is compatible for Arduino Uno and Arduino Mega.
 
 ## **Pin assignments**
-[![](https://1.bp.blogspot.com/-WZfO-GoWjxo/XutLkVPQ8hI/AAAAAAAAB6g/8Mj6EFXmok8Mf0KBFgsl5CZkAr1TRnGrwCK4BGAsYHg/w500-h426/LCDKeypadShield.png)](https://1.bp.blogspot.com/-WZfO-GoWjxo/XutLkVPQ8hI/AAAAAAAAB6g/8Mj6EFXmok8Mf0KBFgsl5CZkAr1TRnGrwCK4BGAsYHg/s3396/LCDKeypadShield.png)
+![](/images/LCDKeypadShield.png)
 
 From this pin assignments, we can conclude that the following pins are free and available to be use for other purposes.
     
@@ -24,6 +25,7 @@ From this pin assignments, we can conclude that the following pins are free and 
 **Analog pins:** A1 to A5.
 
 ## **Video Demonstration**  
+
 {{< youtube id="Sf96riu27QI" >}}
 
 ## **Source Code**

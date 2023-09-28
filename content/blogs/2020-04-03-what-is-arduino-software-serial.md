@@ -17,14 +17,16 @@ url: /2020/04/03/what-is-arduino-software-serial/
 ---
 
 ## **Introduction**
+
 I feel obligated to post this tutorial after seeing beginners assigning two serial devices to Arduino Uno hardware serial pin which is digital pin 0 (Rx) and digital pin 1 (Tx). Connecting two serial devices results to undefined behavior due to conflicting signals. Arduino Uno, Arduino Nano, and Arduino Mini has only 1 serial port. If you need to connect more serial devices, you have the option to use their big brother; the Arduino Mega which has four serial ports and more pins available. But using the Arduino Mega results to additional cost. The other option is to use the Arduino Software Serial library.
 
 Arduino Software Serial library basically mimics or copy the behavior of the hardware serial. We are going to use the library of PaulStoffregen from <https://github.com/PaulStoffregen/SoftwareSerial>. With SoftwareSerial, we can assign another set of pins for serial devices.
 
-Please download the library then add it by clicking the Sketch &gt; Include Library &gt; Add ZIP Library and select the downloaded SoftwareSerial library.[![](https://1.bp.blogspot.com/-WTmUQ9XBYJQ/XoakNoJendI/AAAAAAAAAEk/Gp3oAg-RDHMCTLbrbM2G6gqpCFl6stg4ACLcBGAsYHQ/s1600/AddingLibrary.png)](https://1.bp.blogspot.com/-WTmUQ9XBYJQ/XoakNoJendI/AAAAAAAAAEk/Gp3oAg-RDHMCTLbrbM2G6gqpCFl6stg4ACLcBGAsYHQ/s1600/AddingLibrary.png)
+Please download the library then add it by clicking the Sketch &gt; Include Library &gt; Add ZIP Library and select the downloaded SoftwareSerial library.![](https://1.bp.blogspot.com/-WTmUQ9XBYJQ/XoakNoJendI/AAAAAAAAAEk/Gp3oAg-RDHMCTLbrbM2G6gqpCFl6stg4ACLcBGAsYHQ/s1600/AddingLibrary.png)
 
 ## **Hardware Instruction**
-[![](https://1.bp.blogspot.com/-QMNpduV0Qrc/XoatkUMXz2I/AAAAAAAAAEw/nfgQtZD7vnMNMsacdRzwu_KjemmbUHrRgCLcBGAsYHQ/s1600/SoftwareSerial-Schematic.png)](https://1.bp.blogspot.com/-QMNpduV0Qrc/XoatkUMXz2I/AAAAAAAAAEw/nfgQtZD7vnMNMsacdRzwu_KjemmbUHrRgCLcBGAsYHQ/s1600/SoftwareSerial-Schematic.png)
+
+![](/images/SoftwareSerial-Schematic.png)
 
 1. Connect the Arduino Uno pin 2 to USB-Serial converter Tx pin. 
 2. Connect the Arduino Uno pin 3 to USB-Serial converter Rx pin.

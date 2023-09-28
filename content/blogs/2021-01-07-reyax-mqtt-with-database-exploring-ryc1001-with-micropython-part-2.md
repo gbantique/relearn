@@ -15,7 +15,7 @@ url: /2021/01/07/reyax-mqtt-with-database-exploring-ryc1001-with-micropython-par
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/reyax-techtotinker-part1-1024x576.png)
+![](/images/reyax-techtotinker-part1-1024x576.png)
 
 Recently, I created a blog post introducing the new Reyax RYC1001 IoT cloud platform. Unlike its competitors, RYC1001 provides additional database capability on top of its MQTT server. I only use free applications available in the internet for Windows and for android. I played with it and I find it easy to use so I decided to further explore the RYC1001 but this time using actual devices to simulate a home automation.
 
@@ -28,6 +28,7 @@ The DHT22 sensor readings will be publish by ESP32 DOIT board through the notifi
 The relay arrays is controlled by publishing the button-controlled state through the command message on a sub-topic /control\_lights. The relays control will then be forwarded to ESP32 DOIT board which will be interpreted as a relay state.
 
 ## **Bill Of Materials**
+
 1. 2 pcs of ESP32 development board with MicroPython firmware or any microcontroller capable of MicroPython.
 2. A DHT22 sensor or any alternative.
 3. 4 channel relay arrays.
@@ -38,6 +39,7 @@ The relay arrays is controlled by publishing the button-controlled state through
 8. Some dupont jumper wires.
 
 ## **Hardware Instruction**
+
 **Relay Array:**
 
 1. Connect the ESP32 D5 pin to Relay IN1 pin.
@@ -66,12 +68,14 @@ The relay arrays is controlled by publishing the button-controlled state through
     - OLED rst pin to ESP32 D16 pin.
 2. It will be automatically power by ESP32 with 3.3V voltage supply.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/reyax-techtotinker-part1-diagram.png)
+![](/images/reyax-techtotinker-part1-diagram.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="e41bnxZRuuo" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -479,5 +483,7 @@ while True:
 ```
 
 ## **References And Credits**
-**Reyax RYC1001:**
-1. <http://reyax.com/products/ryc1001/>
+
+1. Reyax RYC1001:
+<http://reyax.com/products/ryc1001/>
+

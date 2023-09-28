@@ -15,20 +15,25 @@ url: /2020/09/18/007-esp32-micropython-how-to-make-some-sound-with-micropython/
 ---
 
 ## **Introduction**
+
 In this article, we will be exploring the use of Pulse Width Modulation or PWM in producing a sound using MicroPython.
 
 ## **Bill Of Materials**
+
 1. ESP32 Development board.
 2. A buzzer module or a speaker.
 3. Some connecting wires.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-qEcowz_70N4/X2Q3lea_V-I/AAAAAAAACCw/LqEkbsrcJQggoJTPvGVpkYNukPSjA9ougCLcBGAsYHQ/w400-h158/pwm_sound.png)](https://1.bp.blogspot.com/-qEcowz_70N4/X2Q3lea_V-I/AAAAAAAACCw/LqEkbsrcJQggoJTPvGVpkYNukPSjA9ougCLcBGAsYHQ/s573/pwm_sound.png)
+
+![](/images/pwm_sound.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="QAbn-7Ai6UU" >}}
 
 ## **Call To Action**
+
 If you found this tutorial as helpful, please consider supporting me by Subscribing to my Youtube channel: [Click this to Subscribe to TechToTinker](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
 ## **Source Code**

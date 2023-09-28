@@ -20,11 +20,12 @@ url: /2021/01/26/007-micropython-technotes-rgb-led/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/007-technotes-rgb-led-micropython.png)
+![](/images/007-technotes-rgb-led-micropython.png)
 
 In this article, we will look at RGB LED module. We will learn on how to use it to create cool and amazing projects.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage pin.
 3. **Red** – for the control signal of the red LED.
@@ -32,12 +33,14 @@ In this article, we will look at RGB LED module. We will learn on how to use it 
 5. **Blue** – for the control signal of the blue LED.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorilla Cell ESP32 shield (optional).
 3. 5-pin dupont jumper wires.
 4. RGB LED module.
 
 ## **Hardware Instruction**
+
 1. Attach the ESP32 development board on top of the Gorilla Cell ESP32 shield making sure that the pins are aligned and the both the USB port are on the same side, in my case it is in the left-hand side.
 2. Attach the dupont jumper wires to RGB LED module according to the following color coding: 
     - black for the Ground.
@@ -50,6 +53,7 @@ In this article, we will look at RGB LED module. We will learn on how to use it 
 5. Connect the ESP32 to computer by attaching a micro USB cable.
 
 ## **Software Instruction**
+
 1. Open the Thonny Python IDE. If you don’t have this installed, be sure to watch the article tutorial number 1.
 2. Press the “Stop” button to let the Thonny Python IDE to connect to ESP32.
 3. Create a new Python file by clicking the “New” button.
@@ -58,10 +62,11 @@ In this article, we will look at RGB LED module. We will learn on how to use it 
 6. Enjoy and feel free to modify it according to your liking.
 
 ## **Video Demonstration**
+
 {{< youtube id="TIJ_BKAwdOw" >}}
 
-
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -213,5 +218,7 @@ while True:
 ```
 
 ## **References And Credits**
+
+1. Purchased your kit at:
 [gorillacell.kr](http://gorillacell.kr/)
 

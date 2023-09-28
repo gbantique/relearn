@@ -14,17 +14,19 @@ url: /2020/07/14/tutorial-how-to-use-arduino-uno-as-hid-part-1-arduino-keyboard-
 ---
 
 ## **Introduction**
+
 Arduino boards are pre-configured to function as serial device so to emulate keyboard, we will reconfigure it as Human Interface Device (HID) so our computer will see it as keyboard.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-Oh8v-cp5Gh4/Xw2ARhyjH4I/AAAAAAAAAM4/azq28lqwFLggQI0VJDmvp3OLmiiLgNseQCLcBGAsYHQ/s640/HID-Keyboard.png)](https://1.bp.blogspot.com/-Oh8v-cp5Gh4/Xw2ARhyjH4I/AAAAAAAAAM4/azq28lqwFLggQI0VJDmvp3OLmiiLgNseQCLcBGAsYHQ/s1600/HID-Keyboard.png)
+
+![](/images/HID-Keyboard.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="tvqA-JcTQNg" >}}
 
-
-
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 uint8_t buf[8] = {

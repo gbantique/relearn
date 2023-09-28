@@ -14,20 +14,23 @@ url: /2020/07/22/multitasking-with-arduino-relay-timer-controller-using-millis/
 ---
 
 ## **Introduction**
+
 In this demonstration, I show a Relay Timer Controller. The multitasking is achieve using the power of millis function.
 
 The following task are achieve:  
-1\. The On state of the relay (simulated through the LED).  
-2\. Navigating the LCD menu using buttons.
+1. The On state of the relay (simulated through the LED).  
+2. Navigating the LCD menu using buttons.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-p2lh2YFgCjY/XxfH45kVHVI/AAAAAAAAB_A/GXDAWFxLNnE5ziLYWnqvlUjuM1vE9vNhACLcBGAsYHQ/w466-h564/Relay%2BTimer%2BController%2B-%2BCircuit%2BDiagram.png)](https://1.bp.blogspot.com/-p2lh2YFgCjY/XxfH45kVHVI/AAAAAAAAB_A/GXDAWFxLNnE5ziLYWnqvlUjuM1vE9vNhACLcBGAsYHQ/s1600/Relay%2BTimer%2BController%2B-%2BCircuit%2BDiagram.png)
 
+![](/images/Relay%2BTimer%2BController%2B-%2BCircuit%2BDiagram.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="ylLiFOdPCWQ" >}}
 
 ## **Call To Action**
+
 If you like this article, please give me **thumbs up** and **share** this to your friends.
 
 If you have question, please write it in the **comment** box.
@@ -38,6 +41,7 @@ Please do not forget to **Subscribe**:
 Thank you and have a good day.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 #include "LiquidCrystal.h"
 

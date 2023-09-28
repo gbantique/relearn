@@ -17,20 +17,24 @@ url: /2020/06/19/rc-car-using-l298n-hc-06-and-arduino-uno/
 ---
 
 ## **Introduction**
+
 With this article, we will create a remote control (RC) car with the use of HC-06 bluetooth module to make it wireless and L298N motor driver to control speed and direction of rotations of the motors.
 
-[![](https://1.bp.blogspot.com/-bzANxF2VBt0/Xuy7XLYgodI/AAAAAAAAAJ4/TUfPU436S9wWdnQabTZQ3BO6AewI8D0EgCLcBGAsYHQ/w512-h451/L298N%2BRC%2BCar.png)](https://1.bp.blogspot.com/-bzANxF2VBt0/Xuy7XLYgodI/AAAAAAAAAJ4/TUfPU436S9wWdnQabTZQ3BO6AewI8D0EgCLcBGAsYHQ/s1600/L298N%2BRC%2BCar.png)
+![](/images/L298N%2BRC%2BCar.png)
 
 ## **Bill Of Materials**
-1\. Arduino Uno as the main board  
-2\. HC-06 bluetooth module to receive commands via bluetooth communication protocol.  
-3\. L298N motor driver module  
-4\. DC motors to move the RC car.
+
+1. Arduino Uno as the main board  
+2. HC-06 bluetooth module to receive commands via bluetooth communication protocol.  
+3. L298N motor driver module  
+4. DC motors to move the RC car.
 
 ## **Video Demonstration**
+
 {{< youtube id="4P0rrWE6LAs" >}}
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 #include "SoftwareSerial.h"
 

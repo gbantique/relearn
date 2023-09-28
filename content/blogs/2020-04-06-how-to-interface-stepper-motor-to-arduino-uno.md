@@ -18,32 +18,35 @@ url: /2020/04/06/how-to-interface-stepper-motor-to-arduino-uno/
 ---
 
 ## **Introduction**
+
 I am thinking on creating this tinkering with stepper motor long time ago until yesterday when I met someone in Facebook group asking help regarding his project related to controlling the stepper motor while being able to check for some controls and update LCD to display information. So basically his project should be able to do multiple things at the same time or multi-tasking. Even though Arduino Uno is a powerful microcontroller but it has only one processing core. It means it can process only one task at one time.
 
 To mimic or to copy the functionalities of multi-tasking, I suggest to use the proto-threading. Proto-threading is basically doing small chunks of task by using the power of millis() Arduino function. To do this, BlinkWithoutDelay example of Arduino is used (please refer to the source code below).
 
 ## **Bill Of Materials**  
-1\. Arduino Uno.  
-2\. Stepper motor.  
-3\. Stepper motor driver (such as L298)  
-4\. Keypad shield with 16×2 LCD.  
-5\. Some jumper wires
+1. Arduino Uno.  
+2. Stepper motor.  
+3. Stepper motor driver (such as L298)  
+4. Keypad shield with 16×2 LCD.  
+5. Some jumper wires
 
 ## **Hardware Instruction**
-[![](https://1.bp.blogspot.com/-BaFVq61Pruk/XorTs5GFSvI/AAAAAAAAB2g/-kHAcD3M2HESrh_viyASERagBWmvsTnfQCLcBGAsYHQ/s640/StepperMotor-KeypadShield-Arduino-Uno.jpg)](https://1.bp.blogspot.com/-BaFVq61Pruk/XorTs5GFSvI/AAAAAAAAB2g/-kHAcD3M2HESrh_viyASERagBWmvsTnfQCLcBGAsYHQ/s1600/StepperMotor-KeypadShield-Arduino-Uno.jpg)
-1\. By referring to the attached schematic above, connect the keypad shield to Arduino Uno.  
-2\. Connect the L298N motor driver to Arduino Uno as follows:  
- \* Connect the IN1 of L298N to Arduino Uno pin 13.  
- \* Connect the IN2 of L298N to Arduino Uno pin 12.  
- \* Connect the IN3 of L298N to Arduino Uno pin 11.  
- \* Connect the IN4 of L298N to Arduino Uno pin 3.  
-3\. Connect the stepper motor to L298N outputs.  
-4\. Enable the L298N by placing a jumper on enable pins.  
-5\. Connect a power supply on +12V pin according to your stepper motor voltage requirements.  
-6\. Connect the power supply GND to the GND pin of L298N.  
-7\. Connect the Arduino Uno GND to the GND pin of L298N.  
-8\. Upload the sketch provided in the source code below.  
-9\. The sketch basically functions as follows:  
+
+![](/images/StepperMotor-KeypadShield-Arduino-Uno.jpg)
+
+1. By referring to the attached schematic above, connect the keypad shield to Arduino Uno.  
+2. Connect the L298N motor driver to Arduino Uno as follows:  
+ * Connect the IN1 of L298N to Arduino Uno pin 13.  
+ * Connect the IN2 of L298N to Arduino Uno pin 12.  
+ * Connect the IN3 of L298N to Arduino Uno pin 11.  
+ * Connect the IN4 of L298N to Arduino Uno pin 3.  
+3. Connect the stepper motor to L298N outputs.  
+4. Enable the L298N by placing a jumper on enable pins.  
+5. Connect a power supply on +12V pin according to your stepper motor voltage requirements.  
+6. Connect the power supply GND to the GND pin of L298N.  
+7. Connect the Arduino Uno GND to the GND pin of L298N.  
+8. Upload the sketch provided in the source code below.  
+9. The sketch basically functions as follows:  
  UP button – increases the angle  
  DOWN button – decreases the angle  
  LEFT button – counter clockwise direction  
@@ -57,6 +60,7 @@ To mimic or to copy the functionalities of multi-tasking, I suggest to use the p
  &lt; and &gt; is necessary for parsing the command.
 
 ## **Video Demonstration**
+
 {{< youtube id="Y2vsN6yb0Zw" >}}
 
 ## **Source Code**

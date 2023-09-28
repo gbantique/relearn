@@ -20,12 +20,13 @@ url: /2021/10/06/048-micropython-technotes-analog-touch-sensor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/048-MicroPython-TechNotes-Analog-Touch-Sensor.jpg)
+![](/images/048-MicroPython-TechNotes-Analog-Touch-Sensor.jpg)
 
 In this article, I will discussed how to use an Analog Touch Sensor module which is interface to ESP32 with MicroPython programming language.
 Analog Touch Sensor module of Gorillacell ESP32 development kit provides a 4 touch sensor input in a single pin. This is achieve because the module provides a different analog value differently for each touch input.
 
 ## **Pinout**
+
 This module has 3 pins which are:
 1. **G** – for the ground pin.
 2. **V** – for the supply voltage.
@@ -41,14 +42,17 @@ In order to follow this lesson, you will need the following:
 5. You might also need an 8×8 Dot Matrix display with SPI interface for the example # 3.
 
 ## **Hardware Instruction**
+
 1. Connect the Analog Touch Sensor G pin to ESP32 GND pin.
 2. Connect the Analog Touch Sensor V pin to ESP32 3.3V pin.
 3. Connect the Analog Touch Sensor S pin to ESP32 GPIO 32. MicroPython implements ADC inputs on GPIO 32 to GPIO 39 only.
 
 ## **Video Demonstration**
+
 {{< youtube id="9YR26NDkx0E" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this lesson, be sure to write your message in the comment section.
 You might also like to consider supporting my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker YT channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
@@ -158,5 +162,5 @@ while True:
 
 ## **References And Credits**
 1. Purchase your Gorillacell ESP32 development kits from:
-    <https://gorillacell.kr/>
+[https://gorillacell.kr/](https://gorillacell.kr/)
 

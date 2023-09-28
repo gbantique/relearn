@@ -15,24 +15,29 @@ url: /2020/10/01/011-esp32-micropython-dht11-dht22-in-micropython/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn to use the DHT22 in MicroPython. DHT11 should be compatible with slight modification.
 
 ## **Circuit Diagram**
-![](https://1.bp.blogspot.com/-Tdt3MnqrsKk/X3XC8lfyABI/AAAAAAAACD0/ftFzf81jVfwnAhqTT9aw6S0l_ByvnixPACLcBGAsYHQ/s320/dht_mp.png)
+
+![](/images/dht_mp.png)
 
 ## **Hardware Instruction**
-1\. Connect the OLED VCC pin to 3V3 supply pin of ESP32.  
-2\. Connect the OLED GND pin to ESP32 GND pin.  
-3\. Connect the OLED SCL pin to ESP32 GPIO D22 pin (SCL dedicated pin).  
-4\. Connect the OLED SDA pin to ESP32 GPIO D21 pin (SDA dedicated pin).  
-5\. Connect the DHT VCC pin to 3V3 supply pin of ESP32.  
-6\. Connect the DHT GND pin to ESP32 GND pin.  
-7\. Connect the DHT Signal pin to ESP32 GPIO D23 pin.
+
+1. Connect the OLED VCC pin to 3V3 supply pin of ESP32.  
+2. Connect the OLED GND pin to ESP32 GND pin.  
+3. Connect the OLED SCL pin to ESP32 GPIO D22 pin (SCL dedicated pin).  
+4. Connect the OLED SDA pin to ESP32 GPIO D21 pin (SDA dedicated pin).  
+5. Connect the DHT VCC pin to 3V3 supply pin of ESP32.  
+6. Connect the DHT GND pin to ESP32 GND pin.  
+7. Connect the DHT Signal pin to ESP32 GPIO D23 pin.
 
 ## **Video Demonstration**
+
 {{< youtube id="USXOmXakEYQ" >}}
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please do not hesitate to write your inquiry in the comment box provided.
 
 If you enjoy this tutorial, please consider supporting me by Subscribing. [Click this to Subscribe to TechToTinker Youtube channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

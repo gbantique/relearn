@@ -14,13 +14,14 @@ url: /2021/04/01/003-raspberry-pi-pico-charlieplexing/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/003-pico-charlieplexing.png)
+![](/images/003-pico-charlieplexing.png)
 
 Have you ever wonder how to control a number of LEDs with less GPIO pins? I actually don’t have idea about Charlieplexing until recently that one of the viewer in my Youtube videos requested about it.
 
 So after a couple of searching the internet, I build the test circuit, coded the bare program that I could come up and I feel the necessity to share it also. So, here it is and I hope you like it.
 
 ## **Bill Of Materials**
+
 1. Raspberry Pi Pico development board which will serve as the brain for the demo circuit.
 2. 6 pieces of LEDs preferably with different colors but any will do.
 3. A breadboard to hold the circuit in place.
@@ -28,9 +29,10 @@ So after a couple of searching the internet, I build the test circuit, coded the
 
 ## **Schematic Diagram**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/003-pico-Charlieplexing_SCHEM.png)
+![](/images/003-pico-Charlieplexing_SCHEM.png)
 
 ## **Hardware Instruction**
+
 1. First, prepare the needed materials stated above.
 2. Next, attach the Raspberry Pi Pico on the breadboard and make sure that the pins are properly aligned.
 3. Next, arrange each pair of LEDs with opposite direction (please refer to the circuit diagram).
@@ -47,12 +49,14 @@ So after a couple of searching the internet, I build the test circuit, coded the
 
 If all goes well, your circuit should look like this.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/003-pico-Charlieplexing_DIAG.png)
+![](/images/003-pico-Charlieplexing_DIAG.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="Xg8u_WJjuwM" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

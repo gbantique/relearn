@@ -16,22 +16,25 @@ url: /2021/03/18/017-micropython-technotes-laser-module/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/017-technotes-LASER.png)
+![](/images/017-technotes-LASER.png)
 
 In this article, we will learn on how to use a LASER module with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **G** – for the ground pin.
 2. **V** – for the supply voltage.
 3. **S** – for the control signal pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board with MicroPython firmware that will serve as the main microcontroller.
 2. ESP32 shield from Gorillacell ESP32 development kit to extend the pins of ESP32 and to provide easy circuit connection.
 3. 3-pin female-female dupont jumper wires.
 4. And of course the LASER module itself.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the LASER module by following the color coding which black for the ground, red for the VCC, and yellow for the control signal pin.
 3. Next, attach the other side of the dupont jumper wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, and yellow to yellow. For this experiment, I choose GPIO 25 because this ESP32 shield provides 5V on GPIO 25.
@@ -39,12 +42,15 @@ In this article, we will learn on how to use a LASER module with ESP32 using Mic
 5. Next, connect the ESP32 to the computer through a micro-USB cable. The demo circuit should be ready.
 
 ## **Software Instruction**
+
 For this experiment, I prepared 2 example source code. Just copy and paste it in Thonny. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="yq0LTKFgReo" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -145,6 +151,6 @@ while True:
 
 ## **References And Credits**
 
-Purchased your Gorillacell ESP32 development kit at:
+1. Purchased your Gorillacell ESP32 development kit at:
 [gorillacell.kr](http://gorillacell.kr/)
 

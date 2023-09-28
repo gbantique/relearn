@@ -14,37 +14,42 @@ url: /2020/12/14/022-esp32-micropython-mqtt-part-2-subscribe/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/022-esp32-mqtt-part2-techtotinker.png)
+
+![](/images/022-esp32-mqtt-part2-techtotinker.png)
 
 In the previous tutorial, I demonstrate the use of MQTT protocol by sending DHT sensor readings to Thingspeak as MQTT broker while the ESP32 serves as MQTT client. The act of MQTT client sending data to MQTT broker is called MQTT publish.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/022-esp32-mqtt-part2-techtotinker-01-1024x576.png)
+![](/images/022-esp32-mqtt-part2-techtotinker-01-1024x576.png)
 
 Now in this tutorial, I will demonstrate the other direction of MQTT communication which is MQTT subscribe where a client is waiting for a message from a broker. A client that subscribes to a certain topic will receive a data update from the broker when a new publish data is received from a certain publishing client.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/022-esp32-mqtt-part2-techtotinker-02-1024x576.png)
+![](/images/022-esp32-mqtt-part2-techtotinker-02-1024x576.png)
 
 Now to demonstrate that, I will be needing 3 components which are:
 1. A publishing client
 2. A broker and
 3. A subscribe client
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/022-esp32-mqtt-part2-techtotinker-03-1024x576.png)
+![](/images/022-esp32-mqtt-part2-techtotinker-03-1024x576.png)
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. 0.96 OLED display
 
 ## **Hardware Instruction**
+
 1. Connect the OLED VCC pin to ESP32 3.3V pin.
 2. Connect the OLED GND pin to ESP32 GND pin.
 3. Connect the OLED SCL pin to ESP32 D22 pin.
 4. Connect the OLED SDA pin to ESP32 D21 pin.
 
 ## **Video Demonstration**
+
 {{< youtube id="rCGhxhhHV5c" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -274,5 +279,10 @@ while True:
 ```
 
 ## **References And Credits**
-**Thingspeak:** [thingspeak.com](http://thingspeak.com/)
-**MQTT Box:** <http://workswithweb.com/html/mqttbox/downloads.html>
+
+1. Thingspeak:
+[thingspeak.com](http://thingspeak.com/)
+
+2. MQTT Box:
+<http://workswithweb.com/html/mqttbox/downloads.html>
+

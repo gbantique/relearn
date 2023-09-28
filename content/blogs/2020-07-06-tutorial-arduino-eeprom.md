@@ -11,6 +11,7 @@ url: /2020/07/06/tutorial-arduino-eeprom/
 ---
 
 ## **Introduction**
+
 Whatever you are doing with the Arduino is lost the moment you pressed the RESET button or you removed the power. The work around that is to implement some data logging to an SD card or through the EEPROM.
 
 So what is EEPROM?  
@@ -19,12 +20,14 @@ EEPROM stands for Electrically Erasable Programmable Read-Only Memory. Each EEPR
 EEPROM is effective solution for saving data but do not abuse the use of it. Why? The manufacturer specified an approximate of 100,000 write cycles for each address position before it gets degrading and giving weird results. Read access is possible as many times as you like without compromising its life expectancy.
 
 ## **Video Demonstration**
+
 {{< youtube id="IaU1wvJ8qpEj" >}}
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-bH9B17AqRrQ/XwO4-iJrYhI/AAAAAAAAAL4/MMrpxuDqlt0bzqw9iFerxF27-EKS00SpQCK4BGAsYHg/w376-h500/Arduino_EEPROM-Diagram.png)](https://1.bp.blogspot.com/-bH9B17AqRrQ/XwO4-iJrYhI/AAAAAAAAAL4/MMrpxuDqlt0bzqw9iFerxF27-EKS00SpQCK4BGAsYHg/s681/Arduino_EEPROM-Diagram.png)
+![](/images/Arduino_EEPROM-Diagram.png)
 
 ## **Source Code**  
+
 **1. Without EEPROM**
 
 ```cpp { lineNos="true" wrap="true" }

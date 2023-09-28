@@ -7,11 +7,15 @@ baseURL = "https://techtotinker.com/"
 # if set to false, a site served from a subdirectory will generate wrong links
 # inside of the above mentioned files; if you serve the page from the servers root
 # you are free to set the value to false as recommended by the official Hugo documentation
+# true -> if put in techtotinker.com
+# false -> to serve on other way
 canonifyURLs = true # true -> all relative URLs would instead be canonicalized using baseURL
+
 # required value to serve this page from a webserver AND the file system;
 # if you don't want to serve your page from the file system, you can also set this value
 # to false
 relativeURLs = true # true -> rewrite all relative URLs to be relative to the current content
+
 # if you set uglyURLs to false, this theme will append 'index.html' to any branch bundle link
 # so your page can be also served from the file system; if you don't want that,
 # set disableExplicitIndexURLs=true in the [params] section
@@ -20,6 +24,7 @@ uglyURLs = false     # true -> basic/index.html -> basic.html
 # the directory where Hugo reads the themes from; this is specific to your
 # installation and most certainly needs be deleted or changed
 themesdir = "themes/"
+
 # yeah, well, obviously a mandatory setting for your site, if you want to
 # use this theme ;-)
 theme = "hugo-theme-relearn"

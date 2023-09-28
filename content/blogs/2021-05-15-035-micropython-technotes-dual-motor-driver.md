@@ -16,11 +16,12 @@ url: /2021/05/15/035-micropython-technotes-dual-motor-driver/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/05/035-DualMotorDriver-blogs.png)
+![](/images/035-DualMotorDriver-blogs.png)
 
 In this article, we will talk about the Dual Motor Driver with ESP32 using MicroPython. With Dual Motor Driver module, you can drive 2 or 4 pieces of DC motor with the ability to rotate the motor in clock-wise and counter-clockwise direction which is commonly found on remote control toy car and on robots.
 
 ## **Pinout**
+
 1. **GND** – for the ground pins.
 2. **VCC** – for the supply voltage for the H-bridge dual motor driver chip.
 3. **AIN1** – for motor A input pin 1.
@@ -31,6 +32,7 @@ In this article, we will talk about the Dual Motor Driver with ESP32 using Micro
 8. **BIN2** – for motor B input pin 2.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. ESP32 shield (Gorillacell).
 3. Joystick module (Gorillacell)
@@ -38,9 +40,11 @@ In this article, we will talk about the Dual Motor Driver with ESP32 using Micro
 5. Some DC motors.
 
 ## **Video Demonstration**
+
 {{< youtube id="VLGB4C4G0bM" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -327,6 +331,6 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 Development kit at:**  
+1. Purchase your Gorillacell ESP32 Development kit at:
  [https://gorillacell.kr](https://gorillacell.kr/)
 

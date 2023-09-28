@@ -17,15 +17,19 @@ url: /2020/10/28/015-esp32-micropython-web-server-esp32-station-mode-in-micropyt
 ---
 
 ## **Introduction**
+
 In this article, we will learn how to create a web server hosted in ESP32 using MicroPython language for controlling the state of GPIO pin. This can be applied for controlling a relay which is popular in home automation projects.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board with MicroPython firmware.
 
 ## **Video Demonstration**
+
 {{< youtube id="i8b-ZM2VeeU" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

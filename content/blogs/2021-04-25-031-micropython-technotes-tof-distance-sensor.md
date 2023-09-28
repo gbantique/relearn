@@ -16,17 +16,19 @@ url: /2021/04/25/031-micropython-technotes-tof-distance-sensor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/04/031-MicroPython-TechNotes-TOF.png)
+![](/images/031-MicroPython-TechNotes-TOF.png)
 
 In this article, we will learn how to use a TOF Distance Sensor with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the i2c serial data pin.
 4. **SCL** – for the i2c serial clock pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wire to the TOF distance sensor by following the color coding which is black for the ground, red for the VCC, yellow for the SDA pin, and white for the SCL pin.
 3. Next, attach the other end of the dupont wire by matching the color of the wire to the colors of the pin headers which is black to black, red to red, and yellow and the following colors to the yellow pin headers. In this experiment, I choose GPIO 21 for the SDA pin and GPIO 22 for the SCL pin.
@@ -34,14 +36,17 @@ In this article, we will learn how to use a TOF Distance Sensor with ESP32 using
 5. Lastly, connect ESP32 to the computer by connecting a micro USB cable.
 
 ## **Software Instruction**
+
 1. Copy the vl53l0x.py driver library to ESP32 MicroPython Device root directory by clicking the File menu and select Save As. Click MicroPython Device and save it as vl53l0x.py and click OK.
 2. Copy the example source code and paste it to Thonny IDE. Play with it and adapt it according to your wants.
 3. Enjoy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="vaTpC7yKJeE" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -762,6 +767,6 @@ class VL53L0X:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
-**[https://gorillacell.kr](https://gorillacell.kr/)**
+1. Purchase your Gorillacell ESP32 development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
 

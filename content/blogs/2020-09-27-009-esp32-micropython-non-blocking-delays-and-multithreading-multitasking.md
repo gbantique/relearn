@@ -12,29 +12,34 @@ url: /2020/09/27/009-esp32-micropython-non-blocking-delays-and-multithreading-mu
 ---
 
 ## **Introduction**
+
 In previous tutorials we learned to use the hardware timer interrupt which is very useful when we need to execute a task at specific interval period. We also use hardware timer interrupts for executing timed threaded task which is similar to multitasking. Using the hardware timer in that manner, sooner or later, we will runout of resources because ESP32 have 4 hardware timer only namely Timer0 to Timer3.
 
 In this video, we will try to explore alternative ways of doing multiple task at almost the same time using the time module.
 
 ## **Circuit Diagram**
-![](https://1.bp.blogspot.com/-rYdcCBcd2K0/X26oBPSJclI/AAAAAAAACDc/jXve0NeUYHcXtYScTmdbod5hMptYgfJnwCLcBGAsYHQ/w640-h322/MP_009_Time.png)
+
+![](/images/MP_009_Time.png)
 
 ## **Hardware Instruction**
-1\. Connect the ESP32 development board to the breadboard.  
-2\. Connect the cathode lead of the red LED to the ground while the anode pin through limiting resistor to GPIO D27 of ESP32.  
-3\. Connect the cathode lead of the green LED to the ground while the anode pin through limiting resistor to GPIO D26 of ESP32.  
-4\. Connect the cathode lead of the blue LED to the ground while the anode pin through limiting resistor to GPIO D25 of ESP32.  
-5\. Connect the ‘mode’ tactile switch with one pin to the ground while the other to GPIO D33 of ESP32.  
-6\. Connect the ‘left’ tactile switch with one pin to the ground while the other to GPIO D32 of ESP32.  
-7\. Connect the ‘rght’ tactile switch with one pin to the ground through a 10K resistor while the other to GPIO D35 of ESP32.  
-8\. Connect the ‘entr’ tactile switch with one pin to the ground through a 10K resistor while the other to GPIO D34 of ESP32.
+
+1. Connect the ESP32 development board to the breadboard.  
+2. Connect the cathode lead of the red LED to the ground while the anode pin through limiting resistor to GPIO D27 of ESP32.  
+3. Connect the cathode lead of the green LED to the ground while the anode pin through limiting resistor to GPIO D26 of ESP32.  
+4. Connect the cathode lead of the blue LED to the ground while the anode pin through limiting resistor to GPIO D25 of ESP32.  
+5. Connect the ‘mode’ tactile switch with one pin to the ground while the other to GPIO D33 of ESP32.  
+6. Connect the ‘left’ tactile switch with one pin to the ground while the other to GPIO D32 of ESP32.  
+7. Connect the ‘rght’ tactile switch with one pin to the ground through a 10K resistor while the other to GPIO D35 of ESP32.  
+8. Connect the ‘entr’ tactile switch with one pin to the ground through a 10K resistor while the other to GPIO D34 of ESP32.
 
 ***Pins D32 and D33 of ESP32 has internal pull-up resistor so take advantage of it while for pins D34 and D35 the internal pull-ups is NOT PRESENT so we use external pull-up resistor of 10 kilo Ohms which works exactly the same. The button switches are configured as ACTIVE-LOW, meaning the value when press is LOW or 0.***
 
 ## **Video Demonstration**
+
 {{< youtube id="DaRYiKsfdZk" >}}
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please do not hesitate to write it in the comment box provided.
 
 You may also like to Subscribe to my Youtube Channel. [Please click this to Subscribe to TechToTinker Youtube Channel.  ](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)  

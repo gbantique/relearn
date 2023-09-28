@@ -32,7 +32,8 @@ I decided to explore more functionality of the DF Player Mini which can be achie
 9. Breadboard (or a perfboard) 
 10. Some jumper wires
 
-[![](https://1.bp.blogspot.com/-hYuX6rNFCCM/XjqpGOYaT3I/AAAAAAAAACk/fv4VK6sfFVMJzEQCyTtNkjYBKnCHsD1KACLcBGAsYHQ/s320/DF%2BPlayer%2BMini%2BPinout.png)](https://1.bp.blogspot.com/-hYuX6rNFCCM/XjqpGOYaT3I/AAAAAAAAACk/fv4VK6sfFVMJzEQCyTtNkjYBKnCHsD1KACLcBGAsYHQ/s1600/DF%2BPlayer%2BMini%2BPinout.png)
+![](/images/DF-Player-Mini-Pinout.png)
+
 
 ## **Hardware Instruction**  
 1\. Insert the micro SD card to the DF player mini.  
@@ -59,7 +60,8 @@ I decided to explore more functionality of the DF Player Mini which can be achie
  e. Long press Button 3 to increase song volume.
 
 ## **Schematic Diagram**
-[![](https://1.bp.blogspot.com/-07GD25WTupQ/XkUENVjnkqI/AAAAAAAAB1I/M5OFZ_92TRcbfix3HIrfKt5xdhZJdVfoACLcBGAsYHQ/s640/DF-Player-Mini-Tinkering-with-Arduino-Nano.png)](https://1.bp.blogspot.com/-07GD25WTupQ/XkUENVjnkqI/AAAAAAAAB1I/M5OFZ_92TRcbfix3HIrfKt5xdhZJdVfoACLcBGAsYHQ/s1600/DF-Player-Mini-Tinkering-with-Arduino-Nano.png)
+![](/images/DF-Player-Mini-Tinkering-with-Arduino-Nano.png)
+
 
 ## **Video demonstration**
 {{< youtube id="ReS6kdhbBlA" >}}

@@ -17,17 +17,19 @@ url: /2021/02/25/013-micropython-technotes-8x16-dot-matrix-display-spi/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/013-technotes-8x16-dot-matrix-spi.png)
+![](/images/013-technotes-8x16-dot-matrix-spi.png)
 
 In this article, we will look at the 8×16 Dot Matrix Display with SPI as communication interface. This is basically the continuation of the previous tutorial on how to use the 8×8 Matrix Display.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 5-pin female-female dupont jumper wires.
 4. 8×16 Dot Matrix display – SPI interface.
 
 ## **Pinout**
+
 1. **GND** – for the ground.
 2. **VCC** – for the supply voltage.
 3. **DIN** – for the SPI data input pin.
@@ -35,6 +37,7 @@ In this article, we will look at the 8×16 Dot Matrix Display with SPI as commun
 5. **CS** – for the SPI chip select pin.
 
 ## **Hardware Instruction**
+
 1. Attach ESP32 dev board on top of ESP32 shield and make sure that both USB port is on the same side.
 2. Attach the dupont wires to the 8×16 dot matrix display according to the color coding which is black for the ground, red for the VCC, yellow for the DIN pin, white for the CLK pin, and blue for the CS pin.
 3. Attach the other side of the dupont jumper wires to the pin headers of ESP32 shield by matching its colors that is black to black, red to red, yellow and the following colors to yellow pin headers.
@@ -42,14 +45,17 @@ In this article, we will look at the 8×16 Dot Matrix Display with SPI as commun
 5. Connect the ESP32 to the computer through the micro USB cable. The demo circuit should now be ready.
 
 ## **Software Instruction**
+
 1. Save the max7219.py driver library below from the SOURCE CODE section of this blog post to the ESP32 MicroPython device root directory.
 2. Enjoy learning by trying the example source codes.
 3. Further the learning process by modifying it according to your liking.
 
 ## **Video Demonstration**
+
 {{< youtube id="ziKCOOLO9IA" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -195,7 +201,9 @@ while True:
 
 ## **References And Credits**
 
-1. Jeff Brown max7219.py: [https://github.com/jgbrown32/ESP8266\_MAX7219](https://github.com/jgbrown32/ESP8266_MAX7219)
+1. Jeff Brown max7219.py:
+[https://github.com/jgbrown32/ESP8266\_MAX7219](https://github.com/jgbrown32/ESP8266_MAX7219)
 
-2. Gorillacell ESP32 dev kit purchase: [gorillacell.kr](http://gorillacell.kr/)
+2. Gorillacell ESP32 dev kit purchase:
+[gorillacell.kr](http://gorillacell.kr/)
 

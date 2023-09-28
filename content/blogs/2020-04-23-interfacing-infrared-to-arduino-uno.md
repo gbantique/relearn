@@ -16,18 +16,22 @@ url: /2020/04/23/interfacing-infrared-to-arduino-uno/
 ---
 
 ## **Introduction**
+
 I am thinking if it is possible to create a single remote controller for the appliances in our home. So I do some search in google on how to interface infrared to a microcontroller. To my surprised it was very easy. But for the meantime while I do not have the materials, here is the infrared decoder. This could decode infrared code sent by our remote controllers, and ofcourse every remote controller has a different set of code. With the power of microcontroller, it is possible to change the set of IR code by just pressing a single button switch. LEDs will be use as indicators. Hello peeps. I am George, welcome to tech-to-tinker channel, where technology is explored and shared.
 
 And today, I am going to show you my tinkering with the Infrared reciever to Arduino Uno
 
 ## **Bill Of Materials**
+
 1. Arduino Uno  
 2. Keypad/LCD shield  
 3. Infrared receiver  
 4. Some jumper wires
 
 ## **Hardware Instruction**
-[![](https://1.bp.blogspot.com/-Joj0fb-qKcQ/XqELlXk9aVI/AAAAAAAAB3Y/0SYhR2EmkTo6DDAngiO_hvich46NqCvfQCLcBGAsYHQ/s640/Infrared-Interfacing-Arduino.png)](https://1.bp.blogspot.com/-Joj0fb-qKcQ/XqELlXk9aVI/AAAAAAAAB3Y/0SYhR2EmkTo6DDAngiO_hvich46NqCvfQCLcBGAsYHQ/s1600/Infrared-Interfacing-Arduino.png)
+
+![](/images/Infrared-Interfacing-Arduino.png)
+
 1. Connect the Keypad/LCD shield at the top of Arduino Uno board. Only the LCD of the shield will be use for this tinkering.  
 2. Connect the Infrared receiver as follows from Right-to-Left:  
     * VCC connected to Arduino 5V (red wire)  
@@ -37,9 +41,11 @@ And today, I am going to show you my tinkering with the Infrared reciever to Ard
 4. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="rfcsW---eNI" >}}
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 #include "IRremote.h"

@@ -14,12 +14,16 @@ url: /2020/05/20/source-code-astronomia-meme-and-funeral-dance-melodies-the-ardu
 ---
 
 ## **Introduction**
+
 This is a worldwide viral meme music is known as Astronomia Meme and Funeral Dance. The origin of these viral videos is Ghana, a country of Western Africa. The tradition is to celebrate death and the journey thereafter to another world.
 
 ## **Video Demonstration**
+
 {{< youtube id="Zmv6j_qcQ6g" >}}
 
 ## **Source Code**
+
+
 ```cpp { lineNos="true" wrap="true" }
 #include "pitches.h"
 
@@ -213,6 +217,7 @@ Copy the following and save it as pitches.h at the same folder of the project.
 ```
 
 ## **Call To Action**
+
 That’s all folks. Thank you.
 
 Happy tinkering.

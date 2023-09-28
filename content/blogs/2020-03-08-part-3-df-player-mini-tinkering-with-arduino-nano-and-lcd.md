@@ -60,7 +60,8 @@ To explore more with the functionalities of DF Player Mini, an LCD display is go
 
 
 ## **Schematic Diagram**
-[![](https://1.bp.blogspot.com/--y2e3DGg-ZE/XmQqUsaq46I/AAAAAAAAB1k/wHluZLqnGS0jvzirFZxp0RYmEOLxbJGPACLcBGAsYHQ/s640/DFPlayerMini-part3-schematic.png)](https://1.bp.blogspot.com/--y2e3DGg-ZE/XmQqUsaq46I/AAAAAAAAB1k/wHluZLqnGS0jvzirFZxp0RYmEOLxbJGPACLcBGAsYHQ/s1600/DFPlayerMini-part3-schematic.png)
+
+![](/images/DFPlayerMini-part3-schematic.png)
 
 
 ## **Video demonstration**

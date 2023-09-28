@@ -14,6 +14,7 @@ url: /2020/10/07/013-esp32-micropython-uart-serial-in-micropython/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn to use the UART peripheral of ESP32 in MicroPython.
 UART is useful for interfacing devices such as 
 
@@ -33,18 +34,22 @@ ESP32 has 3 hardware uart serial ports available which are Port 0, port 1, and p
 The UARTs Tx and Rx pin can be reassigned to other GPIO pins by setting the rx and tx parameters in UART object creation or in object init initialization.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-fwaLw0au4JI/X31_1u5GkaI/AAAAAAAACEM/56lJbYceNG06NwJ-JWmJ4UBzdO3bPDT7gCLcBGAsYHQ/w400-h340/MP_013_UART.png)](https://1.bp.blogspot.com/-fwaLw0au4JI/X31_1u5GkaI/AAAAAAAACEM/56lJbYceNG06NwJ-JWmJ4UBzdO3bPDT7gCLcBGAsYHQ/s556/MP_013_UART.png)
+
+![](/images/MP_013_UART.png)
 
 ## **Hardware Instruction**
-1\. Connect the VCC pin of USB-Serial converter to ESP32 3.3V pin.  
-2\. Connect the GND pin of USB-Serial converter to ESP32 GND pin.  
-3\. Connect the Tx pin of USB-Serial converter to ESP32 GPIO 16 (Rx2) pin.
-4\. Connect the Rx pin of USB-Serial converter to ESP32 GPIO 17 (Tx2) pin.
+
+1. Connect the VCC pin of USB-Serial converter to ESP32 3.3V pin.  
+2. Connect the GND pin of USB-Serial converter to ESP32 GND pin.  
+3. Connect the Tx pin of USB-Serial converter to ESP32 GPIO 16 (Rx2) pin.
+4. Connect the Rx pin of USB-Serial converter to ESP32 GPIO 17 (Tx2) pin.
 
 ## **Video Demonstration**
+
 *insert video line here*
 
 ## **Call To Action**
+
 I hope you learned something from this. If you have any question regarding this tutorial, please do not hesitate to write your question and suggestion in the comment box provided.
 
 You may also like to Share this to your friends, so that it can reach more people who might benefit from this.

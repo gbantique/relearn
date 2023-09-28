@@ -15,15 +15,19 @@ url: /2020/09/26/008-esp32-micropython-hardware-timer-interrupts/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn how to use the hardware Timer Interrupts of ESP32 in MicroPython. Timer in essence is basically a counter that either counts up or counts down. Timers can be use to trigger an interrupt event when an overflow happened or a certain count value is reached.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-b-0wMRPDxjY/X26dU-s3CAI/AAAAAAAACDI/2fNriDTwwlcBlWT9A6RnsnJCfEI4ID_vQCLcBGAsYHQ/w373-h400/MP_008_servo.png)](https://1.bp.blogspot.com/-b-0wMRPDxjY/X26dU-s3CAI/AAAAAAAACDI/2fNriDTwwlcBlWT9A6RnsnJCfEI4ID_vQCLcBGAsYHQ/s657/MP_008_servo.png)
+
+![](/images/MP_008_servo.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="lV7Rju9Cvo0" >}}
 
 ## **Call To Action**
+
 If you have any question or suggestion, please do not hesitate to write it in the comment box provided.
 
 If you find this article as helpful, please kindly consider supporting my Youtube channel by Subscribing. [Please click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

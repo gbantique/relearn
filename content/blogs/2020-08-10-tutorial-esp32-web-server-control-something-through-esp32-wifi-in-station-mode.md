@@ -13,22 +13,27 @@ url: /2020/08/10/tutorial-esp32-web-server-control-something-through-esp32-wifi-
 ---
 
 ## **Introduction**
- ESP32 has a WIFI capability where we can take advantage for controlling anything remotely
+
+ESP32 has a WIFI capability where we can take advantage for controlling anything remotely
 
 In this tutorial we will learn how to use ESP32 to host a website for controlling anything lets say turning ON or OFF of the light at home. In this video, we will just use LEDs for demonstration. If you decided to use it in the actual application, you may connect a relay instead of the LED.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-PYCl2mCT3Nw/XzEg2C4YKZI/AAAAAAAAAOo/ilJYi29s0PM8aYz8l8cVuQqFyR0UUmZDwCLcBGAsYHQ/s640/ESP32_WebServer_STA.png)](https://1.bp.blogspot.com/-PYCl2mCT3Nw/XzEg2C4YKZI/AAAAAAAAAOo/ilJYi29s0PM8aYz8l8cVuQqFyR0UUmZDwCLcBGAsYHQ/s1227/ESP32_WebServer_STA.png)
+
+![](/images/ESP32_WebServer_STA.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="Lqn2J7LesCY" >}}
 
 ## **Call To Action**
+
 If you have any question, please write it in the comment box so I may try it to the best I can do. Please LIKE, SHARE, and SUBSCRIBE.
 
 Thank you and have a good day.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
  
  /*  Simple ESP32 Web Server

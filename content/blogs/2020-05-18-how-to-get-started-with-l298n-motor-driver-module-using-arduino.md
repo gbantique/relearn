@@ -15,6 +15,7 @@ url: /2020/05/18/how-to-get-started-with-l298n-motor-driver-module-using-arduino
 ---
 
 ## **Introduction**
+
 The L298N motor driver module is a cheap solution when you need to drive a 2 DC motors or 1 stepper motor. It is a popular motor driver module to the DIYers and hobbyist due to ease of use and availability.
 
 **Features**
@@ -53,7 +54,8 @@ Below is the pin assignments and its configuration.
 **PWR jumper pin:** - this is to enable onboard voltage regulator
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-Z9j68PMbPmE/XsIye-OPFKI/AAAAAAAAB38/wO5Jb2qFVHwZlB_574Wy1CEXTElcAdungCK4BGAsYHg/s320/L298N-Demo-Schem.png)](https://1.bp.blogspot.com/-Z9j68PMbPmE/XsIye-OPFKI/AAAAAAAAB38/wO5Jb2qFVHwZlB_574Wy1CEXTElcAdungCK4BGAsYHg/L298N-Demo-Schem.png)
+
+![](/images/L298N-Demo-Schem.png)
 
 **NOTES:**
 1. Referring to the circuit diagram, I am supplying the L298N with 6V battery. +6V is connected to the +12V pin motor supply voltage.
@@ -65,6 +67,7 @@ Below is the pin assignments and its configuration.
 7. EnB is tied to Arduino Uno digital pin 11. This pin has a capability of outputting a Pulse Width Modulation (PWM) signal. This is to control the speed of rotation of the motor.
 
 ## **Video Demonstration**
+
 {{< youtube id="OLFjdCk2nS8" >}}
 
 ## **Source Code**

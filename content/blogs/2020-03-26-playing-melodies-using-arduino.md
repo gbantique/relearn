@@ -27,40 +27,38 @@ As per Arduino Tone function documentation, a single pin can produce a frequency
 As a caveat, I am not a musician or a musically inclined person so please pardon my limitations with regards to music especially with this tinkering. 🙂
 
 ## **Bill Of Materials**  
-1\. Arduino Uno microcontroller.  
-2\. A speaker (we are not going to use any audio amplifier to simplify our circuits, but please feel free to use one).
+1. Arduino Uno microcontroller.  
+2. A speaker (we are not going to use any audio amplifier to simplify our circuits, but please feel free to use one).
 
 ## **Hardware Instruction**  
-1\. Connect the +pin of the speaker to Arduino Uno pin 9.  
-2\. Connect the other pin of the speaker to Arduino GND pin.  
-3\. Connect the Arduino Uno board to computer.  
-4\. Select “Arduino Uno” under Tools &gt; Board.  
-5\. Make sure that the correct serial port is selected under Tools &gt; Port.  
-6\. Upload the sketch using the source code provided.  
-7\. Enjoy.
+1. Connect the +pin of the speaker to Arduino Uno pin 9.  
+2. Connect the other pin of the speaker to Arduino GND pin.  
+3. Connect the Arduino Uno board to computer.  
+4. Select “Arduino Uno” under Tools &gt; Board.  
+5. Make sure that the correct serial port is selected under Tools &gt; Port.  
+6. Upload the sketch using the source code provided.  
+7. Enjoy.
 
 ## **Schematic Diagram**  
-[![](https://1.bp.blogspot.com/-edUI5DeXbAU/Xn1MCAPP8VI/AAAAAAAAADg/mymmbJ_3bro2vXSjICtvogOs51INmK9fACLcBGAsYHQ/s400/Playing-Melodies-Using-Arduino-SCHEM.png)](https://1.bp.blogspot.com/-edUI5DeXbAU/Xn1MCAPP8VI/AAAAAAAAADg/mymmbJ_3bro2vXSjICtvogOs51INmK9fACLcBGAsYHQ/s1600/Playing-Melodies-Using-Arduino-SCHEM.png)
+
+![](/images/Playing-Melodies-Using-Arduino-SCHEM.png)
 
 ## **Video Demonstration**  
+
 {{< youtube id="WbDgJpO971k" >}}
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
+
 /*
-  Melody
-
   Plays a melody
-
-  circuit:
-  - 8 ohm speaker on digital pin 8
 
   created 21 Jan 2010
   modified 30 Aug 2011
   by Tom Igoe
 
   This example code is in the public domain.
-
   http://www.arduino.cc/en/Tutorial/Tone
 */
 

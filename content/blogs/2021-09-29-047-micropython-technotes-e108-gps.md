@@ -21,7 +21,7 @@ url: /2021/09/29/047-micropython-technotes-e108-gps/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/047-MicroPython-TechNotes-GPS-TechToTinker.png)
+![](/images/047-MicroPython-TechNotes-GPS-TechToTinker.png)
 
 In this article, I will discuss how you can use a GPS module with ESP32 using MicroPython.
 
@@ -46,12 +46,12 @@ The E108 GPS module has 4 pins namely:
 4. **Rx** – for the UART **serial receive pin**, connect the Tx pin of the microcontroller.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield, optional.
 3. Gorillacell GPS module set with antenna.
 4. 0.96 OLED for the display or just use the REPL to observe the GPS data.
 5. 4-pin dupont wires.
-
 
 ## **Hardware Instruction**
 
@@ -71,9 +71,11 @@ The E108 GPS module has 4 pins namely:
 3. Copy and paste E108GPS_Example#1.py to Thonny IDE. You may save it to MicroPython device root directory as main.py. This will make the program run after reset or after power ON. Or just save it to your local hard drive, save it the filename you like, and run it clicking the RUN button.
 
 ## **Video Demonstration**
+
 {{< youtube id="330qdOZpIcQ" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this video, please do not hesitate to leave your message in the comment section.
 You might also like to support my journey on Youtube by subscribing to my channel. [Click this link to Subscribe to TechToTinker Youtube channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 As always, thank you for visiting.
@@ -696,30 +698,31 @@ class MicropyGPS(object):
 ```
 
 ### 3. SSD1306.py
-    Copy it from: <https://techtotinker.com/010-micropython-technotes-0-96-oled-display/>
+
+Copy it from: <https://techtotinker.com/010-micropython-technotes-0-96-oled-display/>
 
 
 ## **References And Credits**
 1. Purchase your Gorillacell ESP32 development kit at:
-    <https://gorillacell.kr/>
-    Or email them at: <alphaco@hanmail.net>
+<https://gorillacell.kr/>
+Or email them at: <alphaco@hanmail.net>
 
 2. microGPS.py Github repository:
-    <https://github.com/inmcm/micropyGPS>
+<https://github.com/inmcm/micropyGPS>
 
 3. Convert degrees minutes seconds to decimal degrees by visiting:
-    <https://www.rapidtables.com/convert/number/degrees-minutes-seconds-to-degrees.html>
+<https://www.rapidtables.com/convert/number/degrees-minutes-seconds-to-degrees.html>
 
 ## **Additional Information**
 
 In case you want to plot the GPS coordinates on the map, you may achieve it by:
-    1. Parse the latitude and convert it as decimal degrees.
-    2. Parse the longitude and convert it as decimal degrees.
-    3. Parse the altitude in meters.
-    4. Concatenate the coordinates to the following internet link:
-        **https://www.google.com/maps/@&lt;latitude&gt;,&lt;longitude&gt;,&lt;altitude&gt;**
-        **For example:**
-            <https://www.google.com/maps/@7.360303,125.7525,14z>
-    5. The links in the example should open a google maps in the location provided by the GPS module.</div><div> </div>
+1. Parse the latitude and convert it as decimal degrees.
+2. Parse the longitude and convert it as decimal degrees.
+3. Parse the altitude in meters.
+4. Concatenate the coordinates to the following internet link:
+`https://www.google.com/maps/@&lt;latitude&gt;,&lt;longitude&gt;,&lt;altitude&gt;`
+    - **For example:**
+    `https://www.google.com/maps/@7.360303,125.7525,14z`
+5. The links in the example should open a google maps in the location provided by the GPS module.</div><div> </div>
 
 

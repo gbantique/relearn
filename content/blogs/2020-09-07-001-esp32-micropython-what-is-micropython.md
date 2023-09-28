@@ -12,13 +12,14 @@ url: /2020/09/07/001-esp32-micropython-what-is-micropython/
 ---
 
 ## **Introduction**
+
 MicroPython is essentially a Python created for microcontrollers.
 
 MicroPython is a light-weight and compact implementation of Python Programming Language. It is stripped and trimmed down in order to work with embedded devices which basically has limited resources.
 
 And with the help of machine modules, we can easily communicate with the hardware input and output devices.
 
-[![](https://1.bp.blogspot.com/-4sGkpapRT_s/X1XVsdMSalI/AAAAAAAACBk/wduFHnYTEEMVR6d1BeCJtMQQMhGYq7dugCLcBGAsYHQ/w500-h250/MicroPythonVSCpp.png)](https://1.bp.blogspot.com/-4sGkpapRT_s/X1XVsdMSalI/AAAAAAAACBk/wduFHnYTEEMVR6d1BeCJtMQQMhGYq7dugCLcBGAsYHQ/s718/MicroPythonVSCpp.png)
+![](/imaages/MicroPythonVSCpp.png)
 
 So how does the MicroPython works? as you may asked.
 1. In MicroPython, the source code is created and/or edited in the computer using an Editor like Thonny Python which is the same as in Arduino traditional programming using an Arduino IDE.
@@ -33,6 +34,7 @@ Another cool feature of MicroPython is the addition of REPL. REPL stands for Rea
 REPL take advantage of the UART serial interface which is commonly included to almost all embedded devices available in the market.
 
 ## **Video Demonstration:**
+
 {{< youtube id="eHf76lzPbdU" >}}
 
 Thank you.

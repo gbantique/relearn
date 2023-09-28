@@ -9,6 +9,7 @@ url: /2021/01/22/001-micropython-technotes-get-started-with-micropython/
 ---
 
 ## **Introduction**
+
 In this article, I will guide you on how to get started with MicroPython using an ESP32.
 
 I divided the procedure in to 3 simple steps as follows:
@@ -71,14 +72,15 @@ So without further delays, lets dive in.
 
 If everything goes accordingly, you should now be ready to start programming your ESP32 with MicroPython. Congratulations.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/001-technotes-firmware-techtotinker.png)
+![](/images/001-technotes-firmware-techtotinker.png)
 
 
 ## **Video Demonstration**
+
 {{< youtube id="GL7cJ5kawjk" >}}
 
-
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -90,5 +92,7 @@ See you,
 **– George Bantique | tech.to.tinker@gmail.com**
 
 ## **References And Credits**
-1. Purchased your GorillaCell ESP32 Development kit at: [gorillacell.kr/](http://gorillacell.kr/)
+
+1. Purchased your GorillaCell ESP32 Development kit at: 
+[gorillacell.kr/](http://gorillacell.kr/)
 

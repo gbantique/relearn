@@ -17,22 +17,25 @@ url: /2021/04/06/026-micropython-technotes-light-dependent-resistor-ldr/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/04/026-LDR-blog.png)
+![](/images/026-LDR-blog.png)
 
 In this article, we will learn how to use an LDR with ESP32 using MicroPython programming language. LDR stands for Light Dependent Resistor. It is a type of electronic component that changes resistance according to the light intensity.
 
 ## **Pinout**
+
 1. **G** – for the ground.
 2. **V** – for the supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. An ESP32 development board to serve as the brain for the experiment.
 2. Gorillacell ESP32 shield to extend ESP32 pins to pin headers for easy circuit connection.
 3. A 3-pin female-female dupont jumper wires to attach the LDR module to the ESP32 shield.
 4. An LDR sensor module itself.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont jumper wires to the LDR module by following a color coding which is black for the ground, red for the VCC, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers such as black to black, red to red, and yellow to yellow. For this, I choose GPIO 32 to serve as analog input pin from the LDR module.
@@ -40,6 +43,7 @@ In this article, we will learn how to use an LDR with ESP32 using MicroPython pr
 5. Lastly, connect the ESP32 to the computer using a micro-USB cable.
 
 ## **Software Instruction**
+
 For this experiment, I prepared 3 examples.
 
 Copy and paste it to your Thonny IDE.
@@ -49,6 +53,7 @@ Please feel free to modify it according to your needs.
 Happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="R0irhLDL4Tc" >}}
 
 ## **Call To Action**
@@ -139,7 +144,6 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
-
-**[gorillacell.kr](http://gorillacell.kr/)**
+1. Purchase your Gorillacell ESP32 development kit at:
+[gorillacell.kr](http://gorillacell.kr/)
 

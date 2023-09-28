@@ -12,12 +12,12 @@ title: '004 - ESP32 MicroPython: External Interrupts'
 url: /2020/09/10/004-esp32-micropython-external-interrupts/
 ---
 
-
 ## **Circuit Diagram for Example 3**
 
-[![](https://1.bp.blogspot.com/-roaiYuUfiWU/X1ne2ImRuPI/AAAAAAAACBw/3jYSuGSE9WoNCSjT3p_nbO5VqRL61QwfgCLcBGAsYHQ/w400-h355/uP_interrupt_bb.png)](https://1.bp.blogspot.com/-roaiYuUfiWU/X1ne2ImRuPI/AAAAAAAACBw/3jYSuGSE9WoNCSjT3p_nbO5VqRL61QwfgCLcBGAsYHQ/s1269/uP_interrupt_bb.png)
+![](/images/uP_interrupt_bb.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="HhoQdoQMNWo" >}}
 
 ## **Source Code**

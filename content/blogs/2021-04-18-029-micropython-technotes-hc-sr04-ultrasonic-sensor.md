@@ -14,23 +14,26 @@ url: /2021/04/18/029-micropython-technotes-hc-sr04-ultrasonic-sensor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/04/029-HCSR04.png)
+![](/images/029-HCSR04.png)
 
 In this article, we will learn how to use an HC-SR04 Ultrasonic Sensor with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. GND – for the ground pin.
 2. VCC – for the supply voltage.
 3. TRIG – for the trigger signal pin.
 4. ECHO – for the echo signal pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 4-pin female-female dupont jumper wires.
 4. HC-SR04 ultrasonic sensor module.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the ultrasonic sensor and follow the color coding which is black for the ground, red for the VCC, yellow for the TRIG pin, and white for the ECHO pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers that is black to black, red to red, yellow and the following colors to yellow pin headers. For this experiment, I choose GPIO 21 for the TRIG pin and GPIO 22 for the ECHO pin.
@@ -38,14 +41,17 @@ In this article, we will learn how to use an HC-SR04 Ultrasonic Sensor with ESP3
 5. Lastly, connect the ESP32 to the computer through a micro-USB cable.
 
 ## **Software Instruction**
+
 1. Copy the example source code to Thonny IDE.
 2. Play with it and adapt according to your needs.
 3. Enjoy and happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="I1HEU5F5QKU" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -185,9 +191,9 @@ class HCSR04:
 
 ## **References And Credits**
 
-**1. Purchase Gorillacell ESP32 development kit at:**
-[**https://gorillacell.kr**](https://gorillacell.kr/)
+1. Purchase Gorillacell ESP32 development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. HC-SR04 driver library:**
-**<https://github.com/rsc1975/micropython-hcsr04/blob/master/hcsr04.py>**
+2. HC-SR04 driver library:
+<https://github.com/rsc1975/micropython-hcsr04/blob/master/hcsr04.py>
 

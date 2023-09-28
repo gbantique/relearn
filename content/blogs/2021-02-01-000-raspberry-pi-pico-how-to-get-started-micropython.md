@@ -15,16 +15,19 @@ url: /2021/02/01/000-raspberry-pi-pico-how-to-get-started-micropython/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/000-pico-get-started-micropython.png)
+
+![](/images/000-pico-get-started-micropython.png)
 
 I just received my Raspberry Pi Pico which I purchased in our local online store and I am so excited to try it out the moment I received it.
 
 And just after a minute or two, I am able to make the most popular Hello world of embedded electronics which is the blinking of the LED. So, I decided to create a tutorial on how easy it is to get started with Raspberry Pi Pico using MicroPython language. I divided this tutorial into 3 simple steps. So, without further delays, lets get started.
 
 ## **Bill Of Materials**
+
 1. Raspberry Pi Pico
 
 ## 3 Simple Steps to Get Started with MicroPython Using Raspberry Pi Pico:
+
 1. Configure Raspberry Pi Pico as MicroPython device. 
     - First, download the MicroPython firmware from the official webpage of Raspberry Pi Pico by pressing and holding the BOOTSEL button on the Pico while attaching the micro USB cable. This will make your Pico recognized as storage device.
     - Next, open a file explorer, look for Raspberry drive. Inside it, double click the index.htm which will redirect you to the Raspberry Pi Pico official page.
@@ -53,9 +56,11 @@ led.toggle()
 ```
 
 ## **Video Demonstration**
+
 {{< youtube id="wSmcCE1Lv3M" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -67,8 +72,10 @@ See you,
 **– George Bantique | tech.to.tinker@gmail.com**
 
 ## **References And Credits**
+
 1. Raspberry Pi Pico official page:   
 <https://www.raspberrypi.org/documentation/pico/getting-started/>  
 
-2. Thonny Python IDE: [thonny.org](http://thonny.org/)
+2. Thonny Python IDE:
+[thonny.org](http://thonny.org/)
 

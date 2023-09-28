@@ -15,7 +15,8 @@ url: /2020/11/30/020-esp32-micropython-restful-apis-demo-read-and-write/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/020-esp32-REST-API-write-techtotinker.png)
+
+![](/images/020-esp32-REST-API-write-techtotinker.png)
 
 In this article, we will learn a more complete usage of RESTful APIs which is bidirectional communication with the server that is both sending and requesting of data.
 
@@ -24,10 +25,12 @@ In article 018, I demonstrate sending of data to Thingspeak server using the HTT
 This time, I would like to demonstrate both data writing and data reading to Thingspeak IoT platform using RESTful APIs.
 
 ## **Bill Of Materials**
+
 1. ESP32 DOIT board with DHT sensor and an LED with limiting resistor.
 2. ESP32 Heltec boad.
 
 ## **Hardware Instruction**
+
 1. Connect the ESP32 DOIT board 3.3V pin to DHT22 VCC pin.
 2. Connect the ESP32 DOIT board D23 pin to DHT22 DOUT pin.
 3. Connect the ESP32 DOIT board GND pin to DHT22 GND pin.
@@ -36,9 +39,11 @@ This time, I would like to demonstrate both data writing and data reading to Thi
 6. Leave the Heltec ESP32 development without any connection. The OLED uses the ESP32 pin 15 for SCL and pin 4 for the SDA. **The OLED RST pin should be tied to VCC**. It was connected to ESP32 pin 16.
 
 ## **Video Demonstration**
+
 {{< youtube id="GZh5pF5yKM0" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

@@ -18,23 +18,26 @@ url: /2021/08/06/042-micropython-technotes-jdy-32-bluetooth-low-energy-ble/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/08/042-BLE-2Bblogs.png)
+![](/images/042-BLE-2Bblogs.png)
 
 In this article, I will show you on how we can use a Bluetooth Low Energy module with ESP32 using MicroPython. Bluetooth modules are useful for controlling applications such as in robotics or for displaying sensor values in IOT projects. BLE stands for Bluetooth Low Energy. It provides low power consumption because it stays in sleep mode most of the time.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 4-pin female-female dupont wires.
 4. Gorillacell Bluetooth 4.0 BLE module.
 
 ## **Pinout**
+
 1. GND – for the grounds.
 2. VCC – for the supply voltage.
 3. TX – Serial UART transmit pin.
 4. RX – Serial UART receive pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of Gorillacell ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to Bluetooth 4.0 module by following the color coding that is black for the ground, red for the VCC, yellow for the TX pin, and white for the RX pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers such that black is to black, red is to red, and yellow and following colors to yellow pin headers.
@@ -42,13 +45,16 @@ In this article, I will show you on how we can use a Bluetooth Low Energy module
 5. Lastly, connect the ESP32 to the computer by attaching a micro USB cable.
 
 ## **Software Instruction**
+
 1. Copy the sample source code from the SOURCE CODE section and paste it to your Thonny IDE.
 2. Please feel free to modify it according to your needs.
 
 ## **Video Demonstration**
+
 {{< youtube id="p5JzDTXKByE" >}} 
 
 ## **Call To Action**
+
 If you have any concern regarding this video, please write your question in the comment box.
 You might also liked to support my journey on Youtube by subscribing on my channel, TechToTinker. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 Thank you and have a good days ahead.
@@ -125,8 +131,10 @@ while True:
 ```
 
 ## **References And Credits**
-**1. Purchase your Gorillacell ESP32 development kits:**
-<http://gorillacell.kr/>
 
-2. [**JDY-32 Datasheet**](http://myosuploads3.banggood.com/products/20190517/20190517042519JDY32.pdf)
+1. Purchase your Gorillacell ESP32 development kits:
+    [https://gorillacell.kr/](https://gorillacell.kr/)
+
+2. JDY-32 Datasheet
+    [http://myosuploads3.banggood.com/products/20190517/20190517042519JDY32.pdf](http://myosuploads3.banggood.com/products/20190517/20190517042519JDY32.pdf)
 

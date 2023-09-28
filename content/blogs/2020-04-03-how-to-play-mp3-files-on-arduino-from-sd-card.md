@@ -18,22 +18,26 @@ url: /2020/04/03/how-to-play-mp3-files-on-arduino-from-sd-card/
 ---
 
 ## **Introduction**
+
 After successfully accessing the SD Card with Arduino Uno the crude way (by soldering directly to SD card pins), I thought of making an mp3 player :). As a caveat, this design is not recommended for a daily mp3 player but it does play and I am happy with it. So let’s prepare the following materials:  
 
 ## **Bill Of Materials**
-1\. Arduino Uno (or any microcontroller you are comfortable with).  
-2\. SD card loaded with mp3 file.  
-3\. A speaker (optional audio amplifier).  
-4\. 3 pieces tactile switch for player control.  
-5\. Breadboard.  
-6\. Some jumper wires.  
-7\. Source code provided below.
+
+1. Arduino Uno (or any microcontroller you are comfortable with).  
+2. SD card loaded with mp3 file.  
+3. A speaker (optional audio amplifier).  
+4. 3 pieces tactile switch for player control.  
+5. Breadboard.  
+6. Some jumper wires.  
+7. Source code provided below.
 
 So let us begin by:
 
 ## **Hardware Instruction**
+
 1. First, make the necessary soldering of jumper wires to the SD card. Please refer to the schematic below. You may also break out the SD card cover to expose its internal parts. This is to make soldering easier. I suggest to make the connection from inside so that you may still connect the SD card to a computer for transferring of files (please refer to what I did).
-[![](https://1.bp.blogspot.com/-JxHLXM5sGig/Xn10MgzzeqI/AAAAAAAAAD4/8Ou-xqM6ixQegQA1mt0m0v32nfWz_jgmgCLcBGAsYHQ/s1600/SDCard-Solder-For-SPI.png)](https://1.bp.blogspot.com/-JxHLXM5sGig/Xn10MgzzeqI/AAAAAAAAAD4/8Ou-xqM6ixQegQA1mt0m0v32nfWz_jgmgCLcBGAsYHQ/s1600/SDCard-Solder-For-SPI.png)
+
+![](/images/SDCard-Solder-For-SPI.png)
 
 ### **Please take note of the following:**
 * SD card pin 1 (C/S pin) is connected with (green) wire to Arduino Uno pin 10.
@@ -62,6 +66,7 @@ So let us begin by:
 5. Lastly, feel free to modify the source code for learning and fun.
 
 ## Video Demonstration:
+
 _insert video here_
 
 ## **Source Code**

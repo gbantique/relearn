@@ -19,42 +19,47 @@ url: /2020/04/21/part-1-wav-music-player-using-arduino-uno-and-sd-card/
 ---
 
 ## **Introduction**
+
 Few days ago, I am thinking if I could create a mini karaoke using an Arduino Uno, LCD for the lyrics display, SD card for the sound files and the lyrics, and some switches for the playback functions. I tried to search through google and youtube for some resources but even the basic functionality of music playing is not available. Lyrics display with Arduino is also a challenge, so I decided to strip the lyrics display functionality for the meantime and focus first with basic music playback. So here it is.
 
 ## **Bill Of Materials**
-[![](https://1.bp.blogspot.com/-KZYK0cePPDM/Xp4aUqDoUnI/AAAAAAAAB3E/CzUJcuStC9coHlO0HVJsB03S0aNGyh-igCLcBGAsYHQ/s640/IMG_1280.JPG)](https://1.bp.blogspot.com/-KZYK0cePPDM/Xp4aUqDoUnI/AAAAAAAAB3E/CzUJcuStC9coHlO0HVJsB03S0aNGyh-igCLcBGAsYHQ/s1600/IMG_1280.JPG)
 
-1\. Arduino Uno for the main board microcontroller.  
-2\. Keypad and LCD shield  
- \* the LCD will be used to display the current wav file being played. It will also be used for displaying symbols of Play, Pause, Play Next, Play Previous, Volume UP, and Volume DOWN.  
- \* the button switches functions as basic playback control.  
-3\. SD card module which will be access by SPI communication protocol.  
-4\. SD card with converted wav files. It should be  
- \* 8 bit resolution  
- \* 16, 000 Hz sampling rate  
- \* mono audio channels  
- \* unsigned 8 bit PCM format
+![](/images/IMG_1280.JPG)
+
+1. Arduino Uno for the main board microcontroller.  
+2. Keypad and LCD shield  
+ * the LCD will be used to display the current wav file being played. It will also be used for displaying symbols of Play, Pause, Play Next, Play Previous, Volume UP, and Volume DOWN.  
+ * the button switches functions as basic playback control.  
+3. SD card module which will be access by SPI communication protocol.  
+4. SD card with converted wav files. It should be  
+ * 8 bit resolution  
+ * 16, 000 Hz sampling rate  
+ * mono audio channels  
+ * unsigned 8 bit PCM format
 
 ## **Hardware Instruction**
-[![](https://1.bp.blogspot.com/-ZmWOPZmQAsc/Xp4WP8KUIkI/AAAAAAAAB20/DvZQZR9uztEGN-eRUnNg4piXso6HH0iZgCLcBGAsYHQ/s640/WAV-Music-Player-Schematic.png)](https://1.bp.blogspot.com/-ZmWOPZmQAsc/Xp4WP8KUIkI/AAAAAAAAB20/DvZQZR9uztEGN-eRUnNg4piXso6HH0iZgCLcBGAsYHQ/s1600/WAV-Music-Player-Schematic.png)
-1\. Connect the LCD/Keypad shield above the Arduino Uno.  
-2\. the speaker is connected to Arduino Uno digital pin 3 and GND. I am using this speaker box for amplification of the sound. But you may also try to connect it directly to a speaker without an amplifier, sound will be very weak.  
-3\. the SD card module is connected as follows:  
- \* SD card Chip Select or pin 1 is connected to Arduino Uno digital pin 2 by this white wire.  
- \* SD card MOSI or pin 2 is connected to Arduino Uno digital pin 11 by this black wire.  
- \* SD card GND or pin 3 is connected to Arduino Uno GND pin by this brown wire.  
- \* SD card 5V or pin 4 is connected to Arduino Uno 5V pin by this red wire.  
- \* SD card SCLK or pin 5 is connected to Arduino Uno digital pin 13 by this orange wire.  
- \* SD card MISO or pin 7 is connected to Arduino Uno digital pin 12 by this yellow wire.  
-4\. The sound files is accessed using the Arduino SD and SPI libraries.  
-5\. The sound is played to digital pin 3 by Pulse Width Modulation (PWM) using the Arduino TMRPCM library. The default speaker output of TMRPCM is via digital pin 9. But since I am using a Keypad/LCD shield, digital pin 9 is already use as LCD enable pin. To make this work, you need to edit the pcmConfig.h under the TMRPCM library and uncomment by removing the double forward slash before the #define USE\_TIMER2. This will enable digital pin 3 as speaker output.
- \* pressing the SELECT button functions as Play or Pause the current music  
- \* pressing the LEFT button functions as Play Previous music  
- \* pressing the RIGHT button functions as Play Next music  
- \* pressing the UP button functions as Volume UP or increase the volume. The TMRPCM library allows a volume upto 7 but a volume of 4 is the maximum this setup could allow, above this is just a noise.  
- \* pressing the DOWN button functions as Volume DOWN or decrease the volume.
+
+![](/images/WAV-Music-Player-Schematic.png)
+
+1. Connect the LCD/Keypad shield above the Arduino Uno.  
+2. the speaker is connected to Arduino Uno digital pin 3 and GND. I am using this speaker box for amplification of the sound. But you may also try to connect it directly to a speaker without an amplifier, sound will be very weak.  
+3. the SD card module is connected as follows:  
+ * SD card Chip Select or pin 1 is connected to Arduino Uno digital pin 2 by this white wire.  
+ * SD card MOSI or pin 2 is connected to Arduino Uno digital pin 11 by this black wire.  
+ * SD card GND or pin 3 is connected to Arduino Uno GND pin by this brown wire.  
+ * SD card 5V or pin 4 is connected to Arduino Uno 5V pin by this red wire.  
+ * SD card SCLK or pin 5 is connected to Arduino Uno digital pin 13 by this orange wire.  
+ * SD card MISO or pin 7 is connected to Arduino Uno digital pin 12 by this yellow wire.  
+4. The sound files is accessed using the Arduino SD and SPI libraries.  
+5. The sound is played to digital pin 3 by Pulse Width Modulation (PWM) using the Arduino TMRPCM library. The default speaker output of TMRPCM is via digital pin 9. But since I am using a Keypad/LCD shield, digital pin 9 is already use as LCD enable pin. To make this work, you need to edit the pcmConfig.h under the TMRPCM library and uncomment by removing the double forward slash before the #define USE\_TIMER2. This will enable digital pin 3 as speaker output.
+ * pressing the SELECT button functions as Play or Pause the current music  
+ * pressing the LEFT button functions as Play Previous music  
+ * pressing the RIGHT button functions as Play Next music  
+ * pressing the UP button functions as Volume UP or increase the volume. The TMRPCM library allows a volume upto 7 but a volume of 4 is the maximum this setup could allow, above this is just a noise.  
+ * pressing the DOWN button functions as Volume DOWN or decrease the volume.
 
 ## **Video Demonstration**
+
 {{< youtube id="oha6W0bg_nY" >}}
 
 ## **Source Code**

@@ -17,11 +17,12 @@ url: /2021/02/19/012-micropython-technotes-8x8-dot-matrix-display-spi/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/012-technotes-8x8-dot-matrix-spi-micropython.png)
+![](/images/012-technotes-8x8-dot-matrix-spi-micropython.png)
 
 In this tutorial, we will learn on how to use an 8×8 Dot Matrix Display with SPI protocol as communication interface. For this tutorial, I will be using the 8×8 Dot Matrix Display module with SPI protocol from GorillaCell ESP32 development kit.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **DIN** – for the SPI serial data input.
@@ -29,12 +30,14 @@ In this tutorial, we will learn on how to use an 8×8 Dot Matrix Display with SP
 5. **CS** – for the SPI chip select pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield (optional).
 3. 5-pin female-female dupont jumper wires.
 4. 8×8 dot matrix display (SPI).
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 dev board on top the ESP32 shield making sure that both USB port is on the same side.
 2. Next, attach the dupont wires to the 8×8 dot matrix display by following the a color coding which is black for the ground, red for the VCC, and etc.
 3. Next, attach the other side of the dupont wires to the ESP32 shield with the following pin assignment which is black to the GND, red to the VCC, yellow to GPIO 23, white to GPIO 19, and blue to GPIO 18.
@@ -42,15 +45,18 @@ In this tutorial, we will learn on how to use an 8×8 Dot Matrix Display with SP
 5. Next, connect the ESP32 to the computer by connecting a micro-USB cable. Our demo circuit is now ready.
 
 ## **Software Instruction**
+
 1. Copy the max7219.py and paste it to Thonny IDE.
 2. Save it to ESP32 MicroPython device root directory by clicking the File menu and select Save As.
 3. Give it a name as max7219.py and click Ok.
 4. Play with your dot matrix display using the example # 1 and example # 2. Please feel free to modify it according to your needs. And if you have any concern, just send me a message by writing in the comment box provided.
 
 ## **Video Demonstration**
+
 {{< youtube id="gfaz_nJ5gj8" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -283,7 +289,9 @@ class Max7219(framebuf.FrameBuffer):
 
 ## **References And Credits**
 
-1. Purchase the kits at: </div><div><https://gorillacell.kr>
+1. Purchase the kits at:
+</div><div><https://gorillacell.kr>
 
-2. MAX7219 Driver Library of Jeff Brown: </div><div>[https://github.com/jgbrown32/ESP8266\_MAX7219](https://github.com/jgbrown32/ESP8266_MAX7219)
+2. MAX7219 Driver Library of Jeff Brown:
+[https://github.com/jgbrown32/ESP8266\_MAX7219](https://github.com/jgbrown32/ESP8266_MAX7219)
 

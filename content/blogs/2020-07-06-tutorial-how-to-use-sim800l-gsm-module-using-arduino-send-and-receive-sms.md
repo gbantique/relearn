@@ -11,9 +11,10 @@ url: /2020/07/06/tutorial-how-to-use-sim800l-gsm-module-using-arduino-send-and-r
 ---
 
 ## **Introduction**
+
 There are actually a lot of GSM module available in the market but I personally recommend and prefer SIM800L due to its size and simplicity. It has a small footprint so it occupies a very small space. This is because SIM800L only provides the basic core of GSM. Meaning to say, you need to provide additional circuitry to use it but don’t worry I will show you the simplest way to use it.
 
-**<u>To send SMS:</u>**  
+**To send SMS:**  
  1. Send **AT+CMGF=1 &lt;CR&gt;&lt;LF&gt;**  
  – this is to configure the GSM module to text mode  
  **CR** – Cariage Return, ASCII character 13 or r  
@@ -32,7 +33,7 @@ There are actually a lot of GSM module available in the market but I personally 
  **LF** – Line Feed, ASCII character 10 or n  
  5. Send a **CTRL+Z** character or **ASCII character 26**.
 
-**<u>To receive SMS:</u>**  
+**To receive SMS:**  
  1. Send **AT+CMGF=1 &lt;CR&gt;&lt;LF&gt;**  
  – this is to configure the GSM module to text mode  
  **CR** – Cariage Return, ASCII character 13 or r  
@@ -43,9 +44,11 @@ There are actually a lot of GSM module available in the market but I personally 
  **LF** – Line Feed, ASCII character 10 or n
 
 ## **Video Demonstration**
+
 {{< youtube id="Xz73S-mrv3Y" >}}
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 #include "SoftwareSerial.h"

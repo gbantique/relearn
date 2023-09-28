@@ -16,23 +16,30 @@ url: /2020/11/07/017-esp32-micropython-dht-values-auto-updates-using-ajax/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/017-technotes-web-server-esp32-techtotinker.png)</figure>In the previous tutorials we learned to create web server both as station mode and access point mode using socket connection. And in last video, we use a DHT sensor for displaying measurement readings in simple web server similar to a weather station. While displaying sensor values, we discovered the necessity of constantly updating the displayed measurements. And we concluded that updating the whole web page using the html meta refresh is not efficient. I decided to learn AJAX in order to update only the DHT sensor values displayed without refreshing the whole web page.
+
+![](/images/017-technotes-web-server-esp32-techtotinker.png)
+
+In the previous tutorials we learned to create web server both as station mode and access point mode using socket connection. And in last video, we use a DHT sensor for displaying measurement readings in simple web server similar to a weather station. While displaying sensor values, we discovered the necessity of constantly updating the displayed measurements. And we concluded that updating the whole web page using the html meta refresh is not efficient. I decided to learn AJAX in order to update only the DHT sensor values displayed without refreshing the whole web page.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board, or ESP8266.
 2. DHT22 temperature and humidity sensor, or DHT11.
 
 ## **Hardware Instruction**
+j
 1. Connect the DHT22 VCC pin to ESP32 3.3V pin.
 2. Connect the DHT22 Data pin to ESP32 D23 pin.
 3. Connect the DHT22 GND pin to ESP32 GND pin.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/017-technotes-web-server-esp32-techtotinker-diagram.png)
+![](/images/017-technotes-web-server-esp32-techtotinker-diagram.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="r9eUTvj9zEM" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -183,8 +190,10 @@ while True:
 ```
 
 ## **References And Credits**
+
 1. W3Schools Ajax Introduction:  
 [https://www.w3schools.com/js/js\_ajax\_intro.asp](https://www.w3schools.com/js/js_ajax_intro.asp)
 
 2. W3Schools setInterval Method:  
 [https://www.w3schools.com/jsref/met\_win\_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp)
+

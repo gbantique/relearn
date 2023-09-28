@@ -18,28 +18,34 @@ url: /2020/11/13/018-esp32-micropython-thingspeak-restful-apis/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/018-esp32-rest-api-micropython-techtotinker.png)
+
+![](/images/018-esp32-rest-api-micropython-techtotinker.png)
+
 REST API is one of the most popular API types. REST stands for **REpresentational State Transfer** which is also known as RESTful APIs.
 
 It is designed to take advantage of existing protocol. It can be used over any existing protocol, but it is typically used over HTTP when used on web applications.
 
 A **RESTful API** is an application program interface that uses **HTTP requests** to **GET**, **PUT**, **POST** and **DELETE** data.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/018-esp32-rest-api-micropython-techtotinker-thingspeak-1024x498.png)
+![](/images/018-esp32-rest-api-micropython-techtotinker-thingspeak-1024x498.png)
 
 ## **Bill Of Materials**
+
 1. ESP32 or ESP8266 development board.
 2. DHT22 temperature and humidity sensor, or DHT11.
 
 ## **Hardware Instruction**
+
 1. Connect the DHT22 VCC pin to ESP32 3.3V pin.
 2. Connect the DHT22 Data pin to ESP32 D23 pin.
 3. Connect the DHT22 GND pin to ESP32 GND pin.
 
 ## **Video Demonstration**
+
 {{< youtube id="F0WtIg6fRs4" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -258,8 +264,13 @@ def delete(url, **kw):
 ```
 
 ## **References And Credits**
-**1. Thingspeak website:**  [http://www.thingspeak.com](http://www.thingspeak.com/)  
-**2. Mathworks register:**   
- <https://www.mathworks.com/mwaccount/register>
-**3. urequests.py library:**   
- <https://github.com/micropython/micropython-lib/blob/master/urequests/urequests.py>
+
+1. Thingspeak website:
+[http://www.thingspeak.com](http://www.thingspeak.com/)  
+
+2. Mathworks register:
+<https://www.mathworks.com/mwaccount/register>
+
+3. urequests.py library:
+<https://github.com/micropython/micropython-lib/blob/master/urequests/urequests.py>
+

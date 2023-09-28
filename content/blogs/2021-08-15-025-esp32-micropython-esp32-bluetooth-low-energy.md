@@ -17,7 +17,8 @@ url: /2021/08/15/025-esp32-micropython-esp32-bluetooth-low-energy/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/08/ESP32-2BBLE.png)
+![](/images/ESP32-2BBLE.png)
+
 In this article, I will discussed how you can use ESP32 BLE capability using MicroPython.
 
 Bluetooth Low Energy or BLE is very popular on most devices today because of its low power consumption. That is achieve by constantly switching to sleep mode then once in a while wakes up to process Bluetooth functions. With its low power requirements, it is best suited for battery operated applications.
@@ -25,9 +26,11 @@ Bluetooth Low Energy or BLE is very popular on most devices today because of its
 As of this writing, Bluetooth Classic or the traditional Bluetooth communication is not yet supported by MicroPython community so we will just use the BLE instead. By following the example source code given below, you can implement both direction of communication using BLE.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 
 ## **Video Demonstration**
+
 {{< youtube id="ZR3vgToAHbY" >}}
 
 ## **Source Code**
@@ -136,7 +139,8 @@ while True:
 
 ```
 
-### 2. Example # 2, demo continuous sending of BLE message. In this example is\_ble\_connected global variable is used. This will represent if a device is connected on the BLE device. If you try to send a BLE message when no device is connected, it will throw an error OS Error: -128.:
+### 2. Example # 2, demo continuous sending of BLE message.
+In this example is\_ble\_connected global variable is used. This will represent if a device is connected on the BLE device. If you try to send a BLE message when no device is connected, it will throw an error OS Error: -128.:
 
 ```py { lineNos="true" wrap="true" }
 from machine import Pin

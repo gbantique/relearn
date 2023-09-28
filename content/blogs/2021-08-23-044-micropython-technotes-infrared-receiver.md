@@ -19,23 +19,26 @@ url: /2021/08/23/044-micropython-technotes-infrared-receiver/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/08/044-2B-2BMicroPython-2BTechNotes-2BInfrared-2BReceiver.png)
+![](/images/044-2B-2BMicroPython-2BTechNotes-2BInfrared-2BReceiver.png)
 
 In this article, I will tackle how you can use an Infrared receiver module with ESP32 using MicroPython. GorillaCell Infrared Receiver module from GorillaCell ESP32 development kits uses a VS1838 photodiode infrared receiver. It is low cost and easy to use.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 3-pin female-female dupont wires.
 4. Gorillacell Infrared Receiver module.
 
 ## **Pinout**
+
 It has 3 pins namely:
 1. G – for the ground pin.
 2. V – for the supply voltage.
 3. S – for the infrared receive signal pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of the ESP32 shield and make sure that both the USB port are on the same side.
 2. Next, attach the dupont wires to the Infrared Receiver module by following the color coding that is black for the ground, red for the VCC, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers that is black is to black, red is to red, and yellow is to yellow pin headers. For this lesson, I choose GPIO 23 to serve as the input pin from the Infrared Receiver module.
@@ -43,6 +46,7 @@ It has 3 pins namely:
 5. Lastly, connect the ESP32 to the computer using a micro-USB connector cable.
 
 ## **Software Instruction**
+
 1. Copy the ir\_rx.py from the SOURCE CODE section and paste it to Thonny IDE.
 2. Save it to MicroPython root directory by clicking the File menu and select Save As.
 3. Select MicroPython Device.
@@ -51,10 +55,19 @@ It has 3 pins namely:
 6. Feel free to modify and adapt according to your needs.
 
 ## **Video Demonstration**
+
 {{< youtube id="Xch1VZgfH5c" >}}
 
 ## **Call To Action**
-If you have any concern regarding this video, please write your question in the comment box.</div><div> </div><div>You might also liked to support my journey on Youtube by subscribing on my channel, TechToTinker. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)</div><div> </div><div>Thank you and have a good days ahead.</div><div> </div><div>See you,</div><div>– George Bantique | tech.to.tinker@gmail.com</div><div> </div>## SOURCE CODE:
+
+If you have any concern regarding this video, please write your question in the comment box.
+
+You might also liked to support my journey on Youtube by subscribing on my channel, TechToTinker. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
+
+Thank you and have a good days ahead.
+
+    – George Bantique | tech.to.tinker@gmail.com
+## **Source Code**
 
 ### 1. Example # 1, decode and display the receive infrared data to the REPL:
 
@@ -319,9 +332,9 @@ class NEC_16(NEC_ABC):
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kits from:**
+1. Purchase your Gorillacell ESP32 development kits from:
     <https://gorillacell.kr/>
 
-**2. Peter Hinch micropython IR library:**
+2. Peter Hinch micropython IR library:
     [http://github.com/peterhinch/micropython\_ir](http://github.com/peterhinch/micropython_ir)
 

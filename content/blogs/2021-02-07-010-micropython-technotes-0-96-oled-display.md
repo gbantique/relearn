@@ -16,23 +16,26 @@ url: /2021/02/07/010-micropython-technotes-0-96-oled-display/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/010-technotes-0.96-oled-micropython.png)
+![](/images/010-technotes-0.96-oled-micropython.png)
 
 In this article, we will look at 0.96 OLED display using the MicroPython language. OLED stands for Organic Light Emitting Diode is a self-illuminating so backlight is not needed and more power efficient.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield (this is optional, you can directly connect to ESP32 if you don’t have this)
 3. 4-pin female-female Dupont jumper wires.
 4. Gorillacell 0.96 OLED display module.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the i2c serial data pin.
 4. **SCL** – for the i2c serial clock pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board at the top of ESP32 shield making sure that the USB ports are on the same sides.
 2. Next, attach the dupont jumper wires to the OLED display according to the color coding which is black for the GND, red for the VCC, yellow for the SDA, and white for the SCL.
 3. Next, attach the other side of the dupont jumper wires to the ESP32 shield by matching the colors of the pin headers and the colors of the jumper wires which is black to black, red to red, yellow and following colors to the yellow. In this tutorial, I choose GPIO 21 for the SDA and GPIO 22 for the SCL.
@@ -40,11 +43,13 @@ In this article, we will look at 0.96 OLED display using the MicroPython languag
 5. Next, connect the ESP32 to the computer by attaching a micro USB cable. The demo circuit should now be ready.
 
 ## **Software Instruction**
+
 1. In order to easily use the 0.96 OLED display, we need an external driver library. Thankfully, there is an available library from Adafruit which is the SSD1306.py: <https://github.com/adafruit/micropython-adafruit-ssd1306/blob>. Copy and paste it to the Thonny Python IDE.
 2. Save it to ESP32 MicroPython root directory by clicking the File menu, select Save As.
 3. Click the MicroPython device and save it as “ssd1306.py”. To check if you successfully save the OLED driver library, click the View menu and select File. The ssd1306.py should be seen under the MicroPython device.
 
 ## **Video Demonstration**
+
 {{< youtube id="jb56yR44NnI" >}}
 
 ## **Call To Action**
@@ -328,7 +333,9 @@ class SSD1306_SPI(SSD1306):
 ```
 
 ## **References And Credits**
-1. Adafruit SSD1306: <https://github.com/adafruit/micropython-adafruit-ssd1306/blob>
+1. Adafruit SSD1306:
+<https://github.com/adafruit/micropython-adafruit-ssd1306/blob>
 
-2. Gorillacell ESP32 kit: [gorillacell.kr](http://gorillacell.kr/)
+2. Gorillacell ESP32 kit:
+[gorillacell.kr](http://gorillacell.kr/)
 

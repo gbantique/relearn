@@ -17,10 +17,12 @@ url: /2020/05/18/how-to-get-started-with-l293d-motor-driver-shield-with-arduino/
 ---
 
 ## **Introduction**
+
 I have here an L293D Motor Driver Shield V1. It has 2 pieces L293D dual H-bridge motor driver IC to be able to provide control to a total of 4 DC motor. It also comes with 74HC595 shift registers to minimized the use of pins.
 
 ## **Pin Assignment**
-[![](https://1.bp.blogspot.com/-AJfMJNdGw0Q/XtWl90Qyu7I/AAAAAAAAAI4/T3udhxH9qXknlVTPqaeKE1CfVydl-yYEgCLcBGAsYHQ/w512-h320/L293DArduinoShieldPinouts.png)](https://1.bp.blogspot.com/-AJfMJNdGw0Q/XtWl90Qyu7I/AAAAAAAAAI4/T3udhxH9qXknlVTPqaeKE1CfVydl-yYEgCLcBGAsYHQ/s1600/L293DArduinoShieldPinouts.png)
+
+![](/images/L293DArduinoShieldPinouts.png)
 
 **DC Motors:**  
 Motor 1: digital pin 11  
@@ -57,13 +59,13 @@ It can run 2 servo motors using the 3-pin male headers.
 
 **How to supply power to the shield:**
 
-1\. Single power supply for both Arduino and motors:  
+1. Single power supply for both Arduino and motors:  
 Coonect AC-to-DC power adapter to Arduino DC barrel jack  
 Connect external DC power supply to the EXT\_PWR terminal block  
 This setup take advantage of the onboard voltage regulator found in the Arduino Uno board.  
 Make sure that the PWR jumper pin is in place
 
-2\. Separate power supply for Arduino and for motors:  
+2. Separate power supply for Arduino and for motors:  
 Power the Arduino through the USB or through the DC barrel connector  
 Power the motors through the EXT\_PWR terminal block  
 Make sure that the PWR jumper pins is removed. You might damaged your Arduino if you accidentally forget this step.
@@ -74,10 +76,12 @@ Onboard power LED indicator.
 Onboard reset switch button
 
 ## **Video Demonstration**
+
 {{< youtube id="zyPyx1aIA3o" >}}
 
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 // Adafruit Motor shield library

@@ -11,6 +11,7 @@ url: /2020/07/07/tutorial-how-to-use-sim800l-dtmf-to-control-anything-arduino/
 ---
 
 ## **Introduction**
+
 In here we will learn how we can use SIM800L DTMF to control anything from simple turning On or turning Off of LED to big projects like home automation.
 
 DTMF stands for Dual Tone Multi Frequency or more commonly known as Touch Tone. You will most likely to experience the use of DTMF when you call the customer support hotline of big companies which requires you to press a set of different numbers. I am thinking that this is to categories customer concerns and direct you to a specific person who is knowledgeable about your concern.
@@ -35,9 +36,11 @@ With DTMF, each key you press on your phones generates 2 tones of specific frequ
 For example when you press #1 key, you are sending a 697 Hz tone and a 1209 Hz tone. This is in order to separate DTMF from human voice.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/--IXK48vmzj4/XwQM8vzKoDI/AAAAAAAAAMU/w5G0hd3BDc0kZnKikY55ik9nqd0NPurogCK4BGAsYHg/w414-h500/SIM800L-DTMF.png)](https://1.bp.blogspot.com/--IXK48vmzj4/XwQM8vzKoDI/AAAAAAAAAMU/w5G0hd3BDc0kZnKikY55ik9nqd0NPurogCK4BGAsYHg/s754/SIM800L-DTMF.png)
+
+![](/images/SIM800L-DTMF.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="QueiLXLFVtM" >}}
 
 ## **Source Code**

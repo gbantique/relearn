@@ -18,7 +18,7 @@ url: /2021/09/13/045-micropython-technotes-infrared-transmitter/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/045-2BMicroPython-2BTechNotes-2BInfrared-2BTransmitter.png)
+![](/images/045-2BMicroPython-2BTechNotes-2BInfrared-2BTransmitter.png)
 
 In this article, I will tackle how you can use an Infrared transmitter module with ESP32 using MicroPython. GorillaCell Infrared Transmitter module from GorillaCell ESP32 development kits uses an infrared transmitter LED. It is low cost and easy to use.
 
@@ -33,12 +33,13 @@ In this article, I will tackle how you can use an Infrared transmitter module wi
 4. Gorillacell Infrared Transmitter module.
 
 ## **Pinout**
+
 It has 3 pins namely:
     1. G – for the ground pin.
     2. V – for the supply voltage.
     3. S – for the infrared transmitter signal pin.
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/IR-2BDecoder-2BSetup.png)
+![](/images/IR-2BDecoder-2BSetup.png)
 
 ## **Hardware Instruction**
 
@@ -67,9 +68,11 @@ It has 3 pins namely:
 6. Feel free to modify and adapt according to your needs.
 
 ## **Video Demonstration**
+
 {{< youtube id="SFxsKJl3Kmw" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this video, please write your question in the comment box.
 
 You might also liked to support my journey on Youtube by subscribing on my channel, TechToTinker. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -81,7 +84,7 @@ See you,
 
 ## **Source Code**
 
-### **1. <span style="background-color: #ffe599;">Example # 1, basics of transferring Infrared data:</span>**
+### **1. Example # 1, basics of transferring Infrared data:**
 
 ```py { lineNos="true" wrap="true" }
 # More details can be found in TechToTinker.blogspot.com 
@@ -312,9 +315,9 @@ class NEC(IR):
 
 ## **References And Credits**
 
-### 1. Purchase your Gorillacell ESP32 development kits from:
-    <https://gorillacell.kr/>
+1. Purchase your Gorillacell ESP32 development kits from:
+    [https://gorillacell.kr/](https://gorillacell.kr/)
 
-### 2. Peter Hinch micropython IR library:
+2. Peter Hinch micropython IR library:
     [http://github.com/peterhinch/micropython\_ir](http://github.com/peterhinch/micropython_ir)
 

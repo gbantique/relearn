@@ -17,27 +17,32 @@ url: /2020/10/03/012-esp32-micropython-hc-sr04-ultrasonic-sensor-in-micropython/
 ---
 
 ## **Introduction**
+
 In this video, we will learn how to use the HC-SR04 ultrasonic sensor in MicroPython. With ultrasonic sensor, it can be use for measuring distance or it can be use for sensing an object.
 
 ## **Circuit Diagram**
-![](https://1.bp.blogspot.com/-GBHan8a3zaE/X3hqZ-4LRCI/AAAAAAAACEA/x43baNMifwIv1agCPVON2EiiEgePw07xACLcBGAsYHQ/w400-h364/hcsr04_mp.png)
+
+![](/images/hcsr04_mp.png)
 
 ## **Hardware Instruction**
-1\. Connect the HC-SR04 VCC pin to ESP32 VIN pin. The HC-SR04 needs 5V, trust me I already tried using the 3V3 pin, it doesn’t work.  
-2\. Connect the HC-SR04 Trigger pin to ESP32 GPIO D13.  
-3\. Connect the HC-SR04 Echo pin to ESP32 GPIO D12.  
-4\. Connect the HC-SR04 GND pin to ESP32 GND pin.  
-5\. Connect one of the buzzer pin to ESP32 GPIO D32.  
-6\. Connect the other pin of the buzzer to ESP32 GND pin.  
-7\. Download the hcsr04.py module from: [Download the hcsr04.py](https://github.com/rsc1975/micropython-hcsr04/blob/master/hcsr04.py)  
-8\. Copy and paste it to Thonny Python IDE.  
-9\. Make sure that the ESP32 is plugged into the computer, then click File menu then select Save as  
-10\. Save it as main.py
+
+1. Connect the HC-SR04 VCC pin to ESP32 VIN pin. The HC-SR04 needs 5V, trust me I already tried using the 3V3 pin, it doesn’t work.  
+2. Connect the HC-SR04 Trigger pin to ESP32 GPIO D13.  
+3. Connect the HC-SR04 Echo pin to ESP32 GPIO D12.  
+4. Connect the HC-SR04 GND pin to ESP32 GND pin.  
+5. Connect one of the buzzer pin to ESP32 GPIO D32.  
+6. Connect the other pin of the buzzer to ESP32 GND pin.  
+7. Download the hcsr04.py module from: [Download the hcsr04.py](https://github.com/rsc1975/micropython-hcsr04/blob/master/hcsr04.py)  
+8. Copy and paste it to Thonny Python IDE.  
+9. Make sure that the ESP32 is plugged into the computer, then click File menu then select Save as  
+10. Save it as main.py
 
 ## **Video Demonstration**
+
 {{< youtube id="AzGr7FtGUh0" >}}
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please do not hesitate to write your inquiry in the comment box provided.
 
 If you enjoy this video, please consider supporting my journey by Subscribing to my Youtube channel. [Click this to Subscribe to TechToTinker Youtube channel.  ](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

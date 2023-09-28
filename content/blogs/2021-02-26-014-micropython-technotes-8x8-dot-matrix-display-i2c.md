@@ -17,23 +17,26 @@ url: /2021/02/26/014-micropython-technotes-8x8-dot-matrix-display-i2c/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/02/014-technotes-8x8-dot-matrix-i2c.png)
+![](/images/014-technotes-8x8-dot-matrix-i2c.png)
 
 In this article, we will learn on how to use the 8×8 Dot Matrix display with an I2C communication interface using the MicroPython language.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 4-pin female-female dupont jumper wires.
 4. 8×8 Dot Matrix display (I2C)
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the I2C serial data pin.
 4. **SCL** – for the I2C serial clock pin.
 
 ## **Hardware Instruction**
+
 1. Attach the ESP32 dev board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Attach the dupont wire on the 8×8 Dot Matrix display by following the color coding which is black for the GND, red for the VCC, yellow for the SDA, and white for the SCL pin.
 3. Attach the other side of the dupont to the ESP32 shield by matching the colors of the wires to the colors of the pin headers that is black to black, red to red, and yellow and the following colors to yellow pin headers.
@@ -41,6 +44,7 @@ In this article, we will learn on how to use the 8×8 Dot Matrix display with an
 5. Connect the ESP32 to the computer through a micro USB cable. Our demo circuit should now be ready.
 
 ## **Software Instruction**
+
 1. Go to the source of the driver library from the Github of Tony Smith: https://github.com/smittytone/HT16K33-Python or you may copy it provided below on the SOURCE CODE section of this blog post.
 2. Save one by one the ht16k33.py and the ht16k33Matrix.py to the MicroPython device root directory.  
     By clicking the File menu and select Save As.
@@ -48,9 +52,11 @@ In this article, we will learn on how to use the 8×8 Dot Matrix display with an
 4. Enjoy playing with the examples and try to modify it to enhance the learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="yGFF_lEl-68" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -783,7 +789,9 @@ class HT16K33Matrix(HT16K33):
 
 ## **References And Credits**
 
-**Tony Smith:** <https://github.com/smittytone/HT16K33-Python>
+1. Tony Smith:
+<https://github.com/smittytone/HT16K33-Python>
 
-**Gorillacell:** [gorillacell.kr](http://gorillacell.kr/)
+2. Gorillacell:
+[gorillacell.kr](http://gorillacell.kr/)
 

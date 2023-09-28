@@ -12,6 +12,7 @@ url: /2020/07/25/project-idea-arduino-voltmeter/
 ---
 
 ## **Introduction**
+
 In this project idea, we will create a simple voltmeter by taking advantage of the Arduino’s analog to digital converter. The problem is it can only measure up to 5V, if you exceeded this limit the Arduino could be damage. The workaround is to use a voltage divider circuit.
 
 In light of that, let us review some basic theory behind it.
@@ -19,40 +20,44 @@ In light of that, let us review some basic theory behind it.
 So what is voltmeter? Voltmeter is a device use for measuring the voltage across a specific component or electronics circuit.
 
 With that, let us create it using the **<u>following materials:</u>**  
-1\. Arduino Uno board or any compatible board  
-2\. 16×2 LCD for the display  
-3\. A breadboard  
-4\. A potentiometer for the LCD contrast control  
-5\. Some resistor values in R1 = 10 x R2 such as  
+1. Arduino Uno board or any compatible board  
+2. 16×2 LCD for the display  
+3. A breadboard  
+4. A potentiometer for the LCD contrast control  
+5. Some resistor values in R1 = 10 x R2 such as  
  R1 = 100K and R2 = 10K  
  R1 = 10K and R2 = 1K  
  R1 = 560 and R2 = 56, since this are the resistor values we use, please modify the sketch source code according to your R1 and R2 resistor values.  
-6\. Some jumper wires.
+6. Some jumper wires.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-LwWgP8nI_Mo/XxvksQozmDI/AAAAAAAAAN0/-SYtaswhc6s8SRizmpSqxKrZheGqaWdkQCLcBGAsYHQ/s1600/Arduino%2BVoltmeter%2BCircuit%2BDiagram.png)](https://1.bp.blogspot.com/-LwWgP8nI_Mo/XxvksQozmDI/AAAAAAAAAN0/-SYtaswhc6s8SRizmpSqxKrZheGqaWdkQCLcBGAsYHQ/s1600/Arduino%2BVoltmeter%2BCircuit%2BDiagram.png)
+
+![](/images/Arduino%2BVoltmeter%2BCircuit%2BDiagram.png)
 
 ## **Hardware Instruction**
-1\. Connect the LCD pin 1 VSS to the Arduino GND  
-2\. Connect the LCD pin 2 VDD to the Arduino 5V  
-3\. Connect the potentiometer pin 1 and pin 3 to Arduino 5V and GND respectively, and the potentiometer center pin 2 to LCD pin 3 VEE/Vo  
-4\. Connect the LCD pin 4 RS to the Arduino digital pin 13  
-5\. Connect the LCD pin 5 RW to the Arduino GND because we only need to write to the LCD (no reading required)  
-6\. Connect the LCD pin 6 En to the Arduino digital pin 12  
-7\. Leave the LCD pin 7 D0 to pin 10 D3 not connected because we will use 4-bit mode of the LCD.  
-8\. Connect the LCD pin 11 D4 to the Arduino digital pin 11  
-9\. Connect the LCD pin 12 D5 to the Arduino digital pin 10  
-10\. Connect the LCD pin 13 D6 to the Arduino digital pin 9  
-11\. Connect the LCD pin 14 D7 to the Arduino digital pin 8  
-12\. Connect the LCD pin 15 Anode to the Arduino 5V via current limiting resistor (220 ohms).  
-13\. Connect the LCD pin 16 Cathode to the Arduino GND
-14\. Attach the voltage divider circuit accordingly (verify it according to the circuit diagram) or if in doubt ask for some help.  
-15\. Upload the provided sketch.
+
+1. Connect the LCD pin 1 VSS to the Arduino GND  
+2. Connect the LCD pin 2 VDD to the Arduino 5V  
+3. Connect the potentiometer pin 1 and pin 3 to Arduino 5V and GND respectively, and the potentiometer center pin 2 to LCD pin 3 VEE/Vo  
+4. Connect the LCD pin 4 RS to the Arduino digital pin 13  
+5j. Connect the LCD pin 5 RW to the Arduino GND because we only need to write to the LCD (no reading required)  
+6. Connect the LCD pin 6 En to the Arduino digital pin 12  
+7. Leave the LCD pin 7 D0 to pin 10 D3 not connected because we will use 4-bit mode of the LCD.  
+8. Connect the LCD pin 11 D4 to the Arduino digital pin 11  
+9. Connect the LCD pin 12 D5 to the Arduino digital pin 10  
+10. Connect the LCD pin 13 D6 to the Arduino digital pin 9  
+11. Connect the LCD pin 14 D7 to the Arduino digital pin 8  
+12. Connect the LCD pin 15 Anode to the Arduino 5V via current limiting resistor (220 ohms).  
+13. Connect the LCD pin 16 Cathode to the Arduino GND
+14. Attach the voltage divider circuit accordingly (verify it according to the circuit diagram) or if in doubt ask for some help.  
+15. Upload the provided sketch.
 
 ## **Video Demonstration**
+
 {{< youtube id="FECSXHVpqwo" >}}
 
 ## **Call To Action**
+
 If you find this tutorial as helpful, please give me THUMBS UP and SHARE this to your friends.
 
 Comment your question and suggestion in the comment box. And please SUBSCRIBE.
@@ -62,6 +67,7 @@ Thank you and have a good day.
 Happy tinkering.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 #include "LiquidCrystal.h"
 

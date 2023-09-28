@@ -12,22 +12,27 @@ url: /2020/07/15/tutorial-how-to-use-arduino-uno-as-hid-part-2-arduino-mouse-emu
 ---
 
 ## **Introduction**
+
 In this tutorial, we will explore the mouse emulation in Arduino Uno. This should be the part 2 in using the Arduino Uno as Human Interface Device.
 
 You may also want to visit the part 1 here:  
 [Tutorial: How to use Arduino Uno as HID | Arduino Keyboard Emulation](https://techtotinker.blogspot.com/2020/07/tutorial-how-to-use-arduino-uno-as-hid.html)
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-WyL_U__2_FI/Xw8IJoWbEkI/AAAAAAAAANE/5UFliK1Ve78lYOaEYuZCqQDRnpXKK-T3gCLcBGAsYHQ/s400/Arduino-HID-mouse.png)](https://1.bp.blogspot.com/-WyL_U__2_FI/Xw8IJoWbEkI/AAAAAAAAANE/5UFliK1Ve78lYOaEYuZCqQDRnpXKK-T3gCLcBGAsYHQ/s1600/Arduino-HID-mouse.png)
+
+![](/images/Arduino-HID-mouse.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="hq_KQwfpajA" >}}
 
 **Firmware Links:**
+
 [Arduino Mouse firmware](https://drive.google.com/file/d/1p2j_xAIBPsN76k7pFZb6iK_RU_AKrEP7/view?usp=sharing)  
 [Arduino Original firmware](https://drive.google.com/file/d/1Xs2ADXVjBxxyRpavzPLE5NW-zOCYorf0/view?usp=sharing)
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 /* Arduino USB Mouse HID demo */

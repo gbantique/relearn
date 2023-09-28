@@ -28,38 +28,40 @@ url: /2020/03/21/8-degrees-of-freedom-dof-robot-using-arduino-uno/
 This project is an 8-Degrees-Of-Freedom Robot. It is called 8-DOF-Robot because it has 8 servo motors. It has 2 servos for the left and right ankle, 2 servos for the left and right knee, 2 servos for the left and right hips, and 2 servos for the left and right shoulder. No movement for the shoulders yet because I am focus with the walking.
 
 This project is my long and forgotten project because of its complexities like:  
-1\. How to control multiple servo motors at the same time?  
-2\. How to rotate servo motors in staggered timing?  
-3\. How to control it wirelessly?  
-4\. How to make it walk?
+1. How to control multiple servo motors at the same time?  
+2. How to rotate servo motors in staggered timing?  
+3. How to control it wirelessly?  
+4. How to make it walk?
 
 To solve the complexities, the following are what I did.
 
-\# 1: How to control multiple servo motors at the same time? I used what they call PROTOTHREADING which is basically the BlinkWithoutDelay in the Examples of Arduino IDE. With protothreading, it seems like the microcontroller is doing multiple task at the same time. Task like checking the command from wireless PS2, setting the command, setting the requested angle of each servo motors, rotating the servo motors, updating the LCD display, and updating the serial for debugging purposes.
+1: How to control multiple servo motors at the same time? I used what they call PROTOTHREADING which is basically the BlinkWithoutDelay in the Examples of Arduino IDE. With protothreading, it seems like the microcontroller is doing multiple task at the same time. Task like checking the command from wireless PS2, setting the command, setting the requested angle of each servo motors, rotating the servo motors, updating the LCD display, and updating the serial for debugging purposes.
 
-\# 2: How to rotate servo motors in staggered timing? I used what they call STATE MACHINE which is tracking the current angle of the servo versus the requested angle for that specific servo motors and rotating it gradually. I also added a protection check on each side of the servo motors to prevent it from over-turning. This is achieve by comparing the current angle versus the minimum and maximum angle possible.
+2: How to rotate servo motors in staggered timing? I used what they call STATE MACHINE which is tracking the current angle of the servo versus the requested angle for that specific servo motors and rotating it gradually. I also added a protection check on each side of the servo motors to prevent it from over-turning. This is achieve by comparing the current angle versus the minimum and maximum angle possible.
 
-\# 3: How to control it wirelessly? I achieve this by using a wireless PS2 controller. The PS2 receiver is connected to the microcontroller then I use the Bill Porters Arduino library for PS2.
+3: How to control it wirelessly? I achieve this by using a wireless PS2 controller. The PS2 receiver is connected to the microcontroller then I use the Bill Porters Arduino library for PS2.
 
-\# 4: How to make it walk? This is the hardest part because I cannot find a sample code online to follow. There is a research paper I found but the angle mentioned are too ideal and when followed will results to robot falling down. So what I do is by trial and error in simulating how human walks. I used a four-stage per step walking (1) lean to the LEFT, (2) RIGHT foot forward up, (3) RIGHT foot forward down, and (4) balance foot with the RIGHT. This is also the same with the other side.
+4: How to make it walk? This is the hardest part because I cannot find a sample code online to follow. There is a research paper I found but the angle mentioned are too ideal and when followed will results to robot falling down. So what I do is by trial and error in simulating how human walks. I used a four-stage per step walking (1) lean to the LEFT, (2) RIGHT foot forward up, (3) RIGHT foot forward down, and (4) balance foot with the RIGHT. This is also the same with the other side.
 
 Atlast, after many hours of tinkering and code troubleshooting, I am able to make it walk.
 
-1\. By pressing the LEFT arrow button: 1-step forward (left foot first).  
-2\. By pressing the RIGHT arrow button: 1-step forward (right foot first).  
-3\. By pressing the UP arrow button: Walking forward.  
-4\. By pressing the DOWN arrow button: Stop walking.  
-5\. By pressing the R1 + LEFT arrow button: 1-step backward (left foot first).  
-6\. By pressing the R1 + RIGHT arrow button: 1-step backward (right foot first).  
-7\. By pressing the R1 + UP arrow button: Walking backward.  
-8\. By pressing the R1 + DOWN arrow button: Stop walking.  
-9\. By pressing the TRIANGLE button: Vow.
+1. By pressing the LEFT arrow button: 1-step forward (left foot first).  
+2. By pressing the RIGHT arrow button: 1-step forward (right foot first).  
+3. By pressing the UP arrow button: Walking forward.  
+4. By pressing the DOWN arrow button: Stop walking.  
+5. By pressing the R1 + LEFT arrow button: 1-step backward (left foot first).  
+6. By pressing the R1 + RIGHT arrow button: 1-step backward (right foot first).  
+7. By pressing the R1 + UP arrow button: Walking backward.  
+8. By pressing the R1 + DOWN arrow button: Stop walking.  
+9. By pressing the TRIANGLE button: Vow.
 
 ## **Video Demonstration**
+
 {{< youtube id="R8QRPjkcPcU" >}}
 
 
 ## **Call To Action**
+
 If you have any concern regarding this video, please write your message in the comment section.
 
 You might also like to consider supporting my Youtube channel by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -69,6 +71,7 @@ Thank you and may God bless us all.
 
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 /*  
   * Original sourse: https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library  

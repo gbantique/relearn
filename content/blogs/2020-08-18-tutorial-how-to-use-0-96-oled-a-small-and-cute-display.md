@@ -18,23 +18,26 @@ url: /2020/08/18/tutorial-how-to-use-0-96-oled-a-small-and-cute-display/
 **Operating Voltage**: 3V to 5V
 
 **Common variations of this OLED module:**  
-1\. **Different monochrome color:** white, blue, yellow  
-2\. **Different resolution:** 128×64 and 128×32 pixels  
-3\. **Different communication protocol:** I2C and SPI  
-4\. **Different driver IC:** SSD1306 and SSH1106  
-5\. **Some has additional reset pin.**
+1. **Different monochrome color:** white, blue, yellow  
+2. **Different resolution:** 128×64 and 128×32 pixels  
+3. **Different communication protocol:** I2C and SPI  
+4. **Different driver IC:** SSD1306 and SSH1106  
+5. **Some has additional reset pin.**
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-FLc7UaD4QTc/Xzu9GDnBcRI/AAAAAAAAAO0/l-d7fLk-aEgB1xulMEpe8Fkgjn0HVtyigCLcBGAsYHQ/w418-h512/oled_circuit.png)](https://1.bp.blogspot.com/-FLc7UaD4QTc/Xzu9GDnBcRI/AAAAAAAAAO0/l-d7fLk-aEgB1xulMEpe8Fkgjn0HVtyigCLcBGAsYHQ/s1257/oled_circuit.png)
+
+![](/images/oled_circuit.png)
 
 links of libraries:
 [https://github.com/adafruit/Adafruit\_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 [https://github.com/adafruit/Adafruit-GFX-Librar](https://github.com/adafruit/Adafruit-GFX-Library)
 
 ## **Video Demonstration**
+
 {{< youtube id="c2H60R9qnlc" >}}
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please do not hesitate to write it in the comment box below and I will be happy to answer it.
 
 If you like this video, please kindly consider supporting me by Subscribing to TechToTinker Youtube channel. [Click this to SUBSCRIBE.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -42,6 +45,7 @@ If you like this video, please kindly consider supporting me by Subscribing to T
 Thank you and have a good day.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 // Load the libraries for the DHT sensor
 #include "Wire.h"

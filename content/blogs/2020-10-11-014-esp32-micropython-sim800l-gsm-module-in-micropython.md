@@ -16,29 +16,35 @@ url: /2020/10/11/014-esp32-micropython-sim800l-gsm-module-in-micropython/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will tackle on how to interface SIM800L GSM module to ESP32 in MicroPython.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-2Nb5xCGaXws/X4G7pSyf6mI/AAAAAAAACEc/Evpku9h-pRMMSxfkdw5F-jSzgwD5AGKtACLcBGAsYHQ/w400-h356/sim800l_intro_mp.png)](https://1.bp.blogspot.com/-2Nb5xCGaXws/X4G7pSyf6mI/AAAAAAAACEc/Evpku9h-pRMMSxfkdw5F-jSzgwD5AGKtACLcBGAsYHQ/s551/sim800l_intro_mp.png)
+
+![](/images/sim800l_intro_mp.png)
 
 ## **Hardware Instruction**
-1\. Connect SIM800L Rx pin to ESP32 GPIO 16 (Tx2).
-2\. Connect SIM800L Tx pin to ESP32 GPIO 17 (Rx2).  
-3\. Connect the SIM800L VCC pin to external positive terminal. In this tutorial, I use external power supply through 1N4001 diode.  
-4\. Common ground all the ground pins. **Refer to this manual for the AT Commands:**
+
+1. Connect SIM800L Rx pin to ESP32 GPIO 16 (Tx2).
+2. Connect SIM800L Tx pin to ESP32 GPIO 17 (Rx2).  
+3. Connect the SIM800L VCC pin to external positive terminal. In this tutorial, I use external power supply through 1N4001 diode.  
+4. Common ground all the ground pins. **Refer to this manual for the AT Commands:**
 
 [https://www.elecrow.com/wiki/images/2/20/SIM800\_Series\_AT\_Command\_Manual\_V1.09.pdf](https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf)
 
 ## **Video Demonstration**
+
 {{< youtube id="uKGD9oKQJSs" >}}
 
 ## **Call To Action**
+
 If you find this tutorial as helpful, please do Subscribe to my Youtube channel by clicking the following link: [Click this to Subscribe to TechToTinker Youtube channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
 Thank you and have a good days ahead,  
 George Bantique, TechToTinker
 
 ## **Source Code**
+
 ```py { lineNos="true" wrap="true" }
 import machine
 gsm = machine.UART(2, 115200)

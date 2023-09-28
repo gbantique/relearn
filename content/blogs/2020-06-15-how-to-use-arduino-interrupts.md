@@ -37,7 +37,7 @@ It is highly recommended to make the ISR as short as possible because an ISR tha
 
 **External Interrupt pins:**  
   
-[![](https://1.bp.blogspot.com/-oH8RcqJfVX8/XutD-q2ERjI/AAAAAAAAAJs/tOBeW0kiKfs1qCULMGsjvCVBYt-2LMsxACLcBGAsYHQ/s400/Arduino%2BInterrupt%2BPins.png)](https://1.bp.blogspot.com/-oH8RcqJfVX8/XutD-q2ERjI/AAAAAAAAAJs/tOBeW0kiKfs1qCULMGsjvCVBYt-2LMsxACLcBGAsYHQ/s1600/Arduino%2BInterrupt%2BPins.png)
+![](/images/Arduino%2BInterrupt%2BPins.png)
 
 **How to set interrupt:**
 
@@ -61,6 +61,7 @@ Keep in mind the following rules when using interrupt:
 4. ***Make global variable volatile.*** This is as per C standard, variable should be declared volatile when there is chance that the variable will be use outside the normal execution flow (outside the main loop, which is the ISR function). Volatile disables the variable optimization.
 
 ## **Video Demonstration**
+
 {{< youtube id="lD7o0lySAIs" >}}
 
 

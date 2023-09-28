@@ -20,29 +20,33 @@ url: /2021/01/30/008-micropython-technotes-16x2-lcd/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/008-technotes-lcd-micropython.png)
+![](/images/008-technotes-lcd-micropython.png)
 
 In this article, we will look at LCD. We will also learn on how to use it using the MicroPython language. LCD stands for Liquid Crystal Display. What I have is 16×2 LCD with Gorilla Cell LCD module which uses i2c protocol to simplify wiring connection.
 
 ## **Pinout**
+
 1. **GND** – for the ground pins.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the i2c serial data pin.
 4. **SCL** – for the i2c serial clock pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorilla Cell ESP32 shield.
 3. 4-pin female to female dupont jumper wires.
 4. and of course the Gorilla Cell LCD module itself.
 
 ## **Hardware Instruction**
+
 1. First attach the dupont jumper wires to the LCD module by following the color coding which is black for the ground, red for the VCC, yellow for the SDA, and white for the SCL pin.
 2. Next, attach the other end of the dupont jumper wires to the Gorilla Cell ESP32 shield by matching the colors of the dupont wires to the colors of the pin headers on ESP32 shield which is black to black, red to red, yellow and the following colors to yellow pin headers. For this experiment, I choose GPIO 21 for the SDA and GPIO 22 for the SCL pins.
 3. Next, power the ESP32 shield by attaching a USB type-C cable. Make sure that the power switch is slide to ON state.
 4. Next, connect the ESP32 to the computer by attaching a micro-USB cable. Our demo is now ready.
 
 ## **Software Instruction**
+
 For the software part, we will be needing additional driver library. Luckily, there is available library from Github which is written by Dave Hylands https://github.com/dhylands/python\_lcd/
 
 1. First, open your Thonny Python IDE.
@@ -53,9 +57,11 @@ For the software part, we will be needing additional driver library. Luckily, th
 6. Repeat steps #3 to steps #5 for i2c\_lcd.py.
 
 ## **Video Demonstration**
+
 {{< youtube id="ewq9y2d63mM" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -396,7 +402,9 @@ class I2cLcd(LcdApi):
 
 ## **References And Credits**
 
-1. Dave Hylands python lcd library: [https://github.com/dhylands/python\_lcd/](https://github.com/dhylands/python_lcd/)
+1. Dave Hylands python lcd library: 
+[https://github.com/dhylands/python\_lcd/](https://github.com/dhylands/python_lcd/)
 
-2. Gorilla Cell ESP32 development kit: [gorillacell.kr](http://gorillacell.kr/)
+2. Gorilla Cell ESP32 development kit: 
+[gorillacell.kr](http://gorillacell.kr/)
 

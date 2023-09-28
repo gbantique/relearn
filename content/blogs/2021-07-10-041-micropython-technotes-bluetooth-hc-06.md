@@ -20,11 +20,12 @@ url: /2021/07/10/041-micropython-technotes-bluetooth-hc-06/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/07/041-2B-2BMicroPython-2BTechNotes-2BHC06-2BBluetooth.png)
+![](/images/041-2B-2BMicroPython-2BTechNotes-2BHC06-2BBluetooth.png)
 
 In this article, I will talk about the (external) BLUETOOTH module with ESP32 using MicroPython.
 
 ## **Bill Of Materials**
+
 *To follow this lesson you will need the following:*
 
 1. ESP32 development board.
@@ -32,29 +33,34 @@ In this article, I will talk about the (external) BLUETOOTH module with ESP32 us
 3. 4-pin female-female dupont wires.
 4. Gorillacell Bluetooth module.
 
-![](https://techtotinker.com/wp-content/uploads/2021/07/HC06-2BBluetooth-2BGorillacell-2Bpinout.png)
+![](/images/HC06-2BBluetooth-2BGorillacell-2Bpinout.png)
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **TX** – for the UART transmit pin.
 4. **RX** – for the UART receive pin.
 
 ## **Hardware Instruction**
+
 1. Connect the Bluetooth module GND pin to ESP32 GND pin.
 2. Connect the Bluetooth module VCC pin to ESP32 3.3V pin.
 3. Connect the Bluetooth module TX pin to ESP32 GPIO 23 pin.
 4. Connect the Bluetooth module RX pin to ESP32 GPIO 25 pin.
 
 ## **Software Instruction**
+
 1. Copy the sample source code below and paste it to your Thonny IDE.
 2. Run it then modify according to your needs.
 3. Enjoy and happy learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="Tp7s5xOMiTU" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -150,6 +156,7 @@ while True:
 ```
 
 # **References And Credits**
+
 1. Purchased your Gorillacell ESP32 development kit at:
-<https://gorillacell.kr/>
+    [https://gorillacella.kr/](https://gorillacell.kr/)
 

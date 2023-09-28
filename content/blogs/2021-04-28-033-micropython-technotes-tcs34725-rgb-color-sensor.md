@@ -16,23 +16,26 @@ url: /2021/04/28/033-micropython-technotes-tcs34725-rgb-color-sensor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/04/033-2BTCS34725-2Bblogs.png)
+![](/images/033-2BTCS34725-2Bblogs.png)
 
 In this article, we will learn how to use the TCS34725 RGB Color Sensor with ESP32 using MicroPython programming language.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 4-pin female-female dupont wires.
 4. TCS34725 RGB color sensor module.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the I2C serial data pin.
 4. **SCL** – for the I2C serial clock pin.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield and make sure that both USB ports are on the same side.
 2. Next, attach the dupont wires to the RGB Color Sensor by following the color coding which is black for the ground, red for the VCC, yellow for the SDA pin, and white for the SCL pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers such as black to black, red to red, and yellow and the following colors to yellow pin headers. For this experiment, I choose GPIO 21 for the SDA pin and GPIO 22 for the SCL pin.
@@ -40,13 +43,16 @@ In this article, we will learn how to use the TCS34725 RGB Color Sensor with ESP
 5. Lastly, connect the ESP32 to the computer.
 
 ## **Software Instruction**
+
 1. Copy the tcs34725.py below and paste it to Thonny IDE and save it to ESP32 MicroPython root directory by clicking the File menu and select Save As. Click the MicroPython Device and save it as tcs34725.py.
 2. Copy the example source codes and play with it.
 
 ## **Video Demonstration**
+
 {{< youtube id="VNSo75WlyCk" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -309,9 +315,9 @@ class GORILLACELL_RGB:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
-**[https://gorillacell.kr](https://gorillacell.kr/)**
+1. Purchase your Gorillacell ESP32 development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. TCS34725 Driver Library:**
-**<https://github.com/adafruit/micropython-adafruit-tcs34725>**
+2. TCS34725 Driver Library:
+<https://github.com/adafruit/micropython-adafruit-tcs34725>
 

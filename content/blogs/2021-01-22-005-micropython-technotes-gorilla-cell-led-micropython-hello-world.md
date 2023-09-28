@@ -19,31 +19,36 @@ url: /2021/01/22/005-micropython-technotes-gorilla-cell-led-micropython-hello-wo
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2023/03/005-technotes-led-micropython-techtotinker.png)
+
+![](/images/005-technotes-led-micropython-techtotinker.png)
 
 In this article, we will look at LED. We will learn on how to control it by turning it ON and OFF. **LED** stands for **L**ight-**E**mitting **D**iode. It is a type of electronic of component that emits light when a sufficient voltage is applied on its terminals.
 
 ## **Pinout**
+
 1. **G** – for the ground pin.
 2. **V** – for the supply voltage pin.
 3. **S** – for the control signal for the LED. Applying a logic 1 on this pin will turn ON the LED and a logic 0 turn it OFF.
 
 ## **Bill Of Materials**
+
 1. LED module.
 2. ESP32 Development board.
 3. Gorilla ESP32 shield.
 4. 3-pin female-to-female dupont jump wires.
 
 ## **Hardware Instruction**
+
 1. Connect ESP32 dev board at the top of ESP32 shield observing correct orientation and alignment.
 2. Attach a dupont to LED module observing proper color-coding which black wire for the ground, red wire for the VCC, and yellow wire for other signal pins.
 3. Attach the other side of dupont to ESP32 shield by matching the color-coding of the dupont and the pin headers which black to black, red to red, and other colors to yellow.
 4. Power up the ESP32 shield by attaching the USB type-C cable.
 5. Connect the micro USB cable to ESP32 dev board.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/005-technotes-led-micropython-techtotinker-diagram.png)
+![](/images/005-technotes-led-micropython-techtotinker-diagram.png)
 
 ## **Software Instruction**
+
 1. Open Thonny Python IDE.
 2. Click “New” to create a new file.
 3. Copy and paste one of the example source code.
@@ -53,9 +58,11 @@ In this article, we will look at LED. We will learn on how to control it by turn
 7. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="CsMkJr3qhH4" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -203,5 +210,6 @@ Creates the list of LED objects which works similar to an array.
 Inside the main loop, the LEDs are turned on one-by-one by using the for loop and turned on the LED according to current loop index.
 
 ## **References And Credits**
+
 1. [gorillacell.kr/](http://gorillacell.kr/)
 

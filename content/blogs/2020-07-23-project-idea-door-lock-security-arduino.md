@@ -13,55 +13,59 @@ url: /2020/07/23/project-idea-door-lock-security-arduino/
 ---
 
 ## **Introduction**
+
 In this project, we will create a door lock security system using an Arduino.
 
 The idea is as follows:  
-1\. The door lock is controlled by entering the correct password.  
-2\. If user password entered is correct, open the door lock  
-3\. If user password entered is wrong, an alarm will be triggered (alarm sound and flashing of LED). It can be turned only by entering the admin password.
+1. The door lock is controlled by entering the correct password.  
+2. If user password entered is correct, open the door lock  
+3. If user password entered is wrong, an alarm will be triggered (alarm sound and flashing of LED). It can be turned only by entering the admin password.
 
-**<u>The materials needed are:</u>**
+**The materials needed are:**
 
-1\. An **Arduino Uno** board or any other compatible Arduino board.  
-2\. A **16×2 LCD** for the display  
-3\. A 3×4 or **4×4 membrane keypad** for inputting the password.  
-4\. A **servo motor** that will serve as a door lock  
-5\. A **buzzer** or a speaker for the audible alarm.  
-6\. Some **LED** for the visual indicator, this is optional  
-7\. Some **resistor** for limiting the current to the LED  
-8\. A **breadboard** and **wires** for connecting the circuit.  
-9\. A **potentiometer** for the LCD contrast, this is optional
+1. An **Arduino Uno** board or any other compatible Arduino board.  
+2. A **16×2 LCD** for the display  
+3. A 3×4 or **4×4 membrane keypad** for inputting the password.  
+4. A **servo motor** that will serve as a door lock  
+5. A **buzzer** or a speaker for the audible alarm.  
+6. Some **LED** for the visual indicator, this is optional  
+7. Some **resistor** for limiting the current to the LED  
+8. A **breadboard** and **wires** for connecting the circuit.  
+9. A **potentiometer** for the LCD contrast, this is optional
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-CAN-3XMwtSE/Xxkcx-LZ2BI/AAAAAAAAANo/U-ADLqFFxrYgLYSTCVkcRc9ca9pi--ImwCLcBGAsYHQ/w495-h612/DoorLockSecurity-Circuit-Diagram.png)](https://1.bp.blogspot.com/-CAN-3XMwtSE/Xxkcx-LZ2BI/AAAAAAAAANo/U-ADLqFFxrYgLYSTCVkcRc9ca9pi--ImwCLcBGAsYHQ/s1600/DoorLockSecurity-Circuit-Diagram.png)
+
+![](/images/DoorLockSecurity-Circuit-Diagram.png)
 
 ## **Hardware Instruction**
+
 If you have some confusion regarding the connection, please refer to the circuit diagram.  
-1\. Connect the LCD pin 1 VSS to the Arduino GND.  
-2\. Connect the LCD pin 2 VDD to the Arduino 5V.  
-3\. Connect the potentiometer pin 1 and pin 3 to Arduino 5V and GND respectively, and the potentiometer center pin 2 to LCD pin 3 VEE/Vo.  
-4\. Connect the LCD pin 4 RS to the Arduino digital pin 13.  
-5\. Connect the LCD pin 5 RW to the Arduino GND because we only need to write to the LCD (no reading required).  
-6\. Connect the LCD pin 6 En to the Arduino digital pin 12.  
-7\. Leave the LCD pin 7 D0 to pin 10 D3 not connected because we will use 4-bit mode of the LCD.  
-8\. Connect the LCD pin 11 D4 to the Arduino digital pin 11.  
-9\. Connect the LCD pin 12 D5 to the Arduino digital pin 10.  
-10\. Connect the LCD pin 13 D6 to the Arduino digital pin 9.  
-11\. Connect the LCD pin 14 D7 to the Arduino digital pin 8.  
-12\. Connect the LCD pin 15 Anode to the Arduino 5V via current limiting resistor.  
-13\. Connect the LCD pin 16 Cathode to the Arduino GND.  
-14\. Connect the 4×4 membrane keypad to Arduino digital pin 7 to digital pin 0.  
-15\. Connect the red LED to Arduino analog pin A0 via current limiting resistor.  
-16\. Connect the blue LED to the Arduino analog pin A1 via current limiting resistor.  
-17\. Connect buzzer to Arduino analog pin A2 and GND respectively.  
-18\. Connect the servo motor signal pin to Arduino analog pin A3, and its power to external power supply.  
-19\. I already Uploaded the source code in the Arduino Uno, so lets power it.
+1. Connect the LCD pin 1 VSS to the Arduino GND.  
+2. Connect the LCD pin 2 VDD to the Arduino 5V.  
+3. Connect the potentiometer pin 1 and pin 3 to Arduino 5V and GND respectively, and the potentiometer center pin 2 to LCD pin 3 VEE/Vo.  
+4. Connect the LCD pin 4 RS to the Arduino digital pin 13.  
+5. Connect the LCD pin 5 RW to the Arduino GND because we only need to write to the LCD (no reading required).  
+6. Connect the LCD pin 6 En to the Arduino digital pin 12.  
+7. Leave the LCD pin 7 D0 to pin 10 D3 not connected because we will use 4-bit mode of the LCD.  
+8. Connect the LCD pin 11 D4 to the Arduino digital pin 11.  
+9. Connect the LCD pin 12 D5 to the Arduino digital pin 10.  
+10. Connect the LCD pin 13 D6 to the Arduino digital pin 9.  
+11. Connect the LCD pin 14 D7 to the Arduino digital pin 8.  
+12. Connect the LCD pin 15 Anode to the Arduino 5V via current limiting resistor.  
+13. Connect the LCD pin 16 Cathode to the Arduino GND.  
+14. Connect the 4×4 membrane keypad to Arduino digital pin 7 to digital pin 0.  
+15. Connect the red LED to Arduino analog pin A0 via current limiting resistor.  
+16. Connect the blue LED to the Arduino analog pin A1 via current limiting resistor.  
+17. Connect buzzer to Arduino analog pin A2 and GND respectively.  
+18. Connect the servo motor signal pin to Arduino analog pin A3, and its power to external power supply.  
+19. I already Uploaded the source code in the Arduino Uno, so lets power it.
 
 ## **Video Demonstration**
+
 {{< youtube id="NPj5BMVAzqQ" >}}
 
-
 ## **Call To Action**
+
 If you like this video, please give me thumbs up and share this to your friends.
 
 Leave your comments and suggestions in the comment box.
@@ -72,6 +76,7 @@ Please do not forget to Subscribe to TechToTinker Youtube channel:
 Thank you and have a good day.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 /*

@@ -16,23 +16,26 @@ url: /2021/04/21/030-micropython-technotes-ds3231-rtc/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2021/04/030-MicroPython-TechNotes-RTC.png)
+![](/images/030-MicroPython-TechNotes-RTC.png)
 
 In this article, we will learn to use the DS3231 RTC module with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the i2c serial data pin.
 4. **SCL** – for the i2c serial clock pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. 4-pin female-female dupont wires.
 4. DS3231 RTC module.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the RTC module by following the color coding which is black for the ground, red for the VCC, yellow for the SDA pin, and white for the SCL pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which such as black to black, red to red, and yellow and the following colors to the yellow pin headers. For this experiment, I choose GPIO 21 for the SDA pin and GPIO 22 for the SCL pin.
@@ -40,14 +43,17 @@ In this article, we will learn to use the DS3231 RTC module with ESP32 using Mic
 5. Lastly, connect the ESP32 to the computer through a micro USB cable.
 
 ## **Software Instruction**
+
 1. Copy the ds3231.py and save it to ESP32 MicroPython root directory.
 2. Copy and paste to Thonny IDE the example source code, play with it and feel free to modify it adapting according to your needs.
 3. Enjoy and happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="Z8mjG5feAec" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -535,9 +541,9 @@ ds = DS3231(i2c)
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
-[**https://gorillacell.kr**](https://gorillacell.kr/)
+1. Purchase your Gorillacell ESP32 development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. Peter Hinch DS3231 driver library:**
-[**https://github.com/peterhinch/micropython-samples/tree/master/DS3231**](https://github.com/peterhinch/micropython-samples/tree/master/DS3231)
+2. Peter Hinch DS3231 driver library:
+[https://github.com/peterhinch/micropython-samples/tree/master/DS3231](https://github.com/peterhinch/micropython-samples/tree/master/DS3231)
 

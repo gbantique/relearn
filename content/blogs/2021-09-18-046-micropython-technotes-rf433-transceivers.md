@@ -18,7 +18,7 @@ url: /2021/09/18/046-micropython-technotes-rf433-transceivers/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/046-2BMicroPython-2BTechNotes-2BRF433-2BTransceivers.png)
+![](/images/046-2BMicroPython-2BTechNotes-2BRF433-2BTransceivers.png)
 
 In this article, I will tackle how you can use an RF433 transceiver modules with ESP32 using MicroPython.
 
@@ -38,36 +38,37 @@ To follow this lesson, you will need the following:
 **Side-trip:**
     Since I don’t have prior knowledge in using an RF433 transceiver modules so I did some quick research in the internet. I found this video <https://www.youtube.com/watch?v=98tYLEnevfA> where he demonstrates the use of the module without using any microcontroller. You might want to jump to 2:23 timestamp to just watch the demonstration.
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/RF433-2BReceiver-2BTransmitter-2Bwithout-2BMicrocontroller.png)
+![](/images/RF433-2BReceiver-2BTransmitter-2Bwithout-2BMicrocontroller.png)
 
 I have the exact components, so I followed the circuit but it is a bit clunky. It easily picks interference and it is not working properly.
 
-![](https://techtotinker.com/wp-content/uploads/2021/09/Gorillacell-2BRF433-2BTransceivers-2Bwithout-2BMicrocontroller.png)
+![](/images/Gorillacell-2BRF433-2BTransceivers-2Bwithout-2BMicrocontroller.png)
 
 I have a spare components from Gorillacell for RF433 transceivers which produces a functional circuit.
 
 ## **Hardware Instruction**
-1\. Attach the RF433 transceiver module to ESP32 as follows:
 
+1. Attach the RF433 transceiver module to ESP32 as follows:
  RF433 Rx/Tx G pin to ESP32 ground pin.
-
  RF433 Rx/Tx V pin to ESP32 5V pin.
-
  RF433 Rx/Tx S pin to ESP32 GPIO 23 pin.
 
-2\. (Optional) Power the ESP32 shield with an external power supply through the type-C USB cable connector.
+2. (Optional) Power the ESP32 shield with an external power supply through the type-C USB cable connector.
 
-3\. Connect the ESP32 to the computer through a micro USB cable.
+3. Connect the ESP32 to the computer through a micro USB cable.
 
 ## **Software Instruction**
-1\. Copy the source code and run source code to the assigned ESP32, 1 for the transmitter side and another 1 for the receiver side circuit.
 
-2\. Feel free to modify the source code and please let me know if you made progress or you have any concern.
+1. Copy the source code and run source code to the assigned ESP32, 1 for the transmitter side and another 1 for the receiver side circuit.
+
+2. Feel free to modify the source code and please let me know if you made progress or you have any concern.
 
 ## **Video Demonstration**
+
 {{< youtube id="BkmIUqccwDw" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this video, please write your question in the comment box.
 
 You might also liked to support my journey on Youtube by subscribing on my channel, TechToTinker. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -171,7 +172,7 @@ while True:
 
 ### 6. Modified # 1, toggling the state of the receiver on-board LED, transmitter:
 
-    **(use the same source code in # 2)**
+**(use the same source code in # 2)**
 
 ## **References And Credits**
    

@@ -13,16 +13,19 @@ url: /2020/09/13/005-esp32-micropython-pulse-width-modulation/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn to use the PWM of ESP32 in MicroPython. PWM stands for Pulse Width Modulation.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-cBMVi23uA8A/X2Fz-gnsdqI/AAAAAAAACCg/WIEimPw2e_crptZIIdSEK5uQUc994ES6wCLcBGAsYHQ/w356-h400/pwm_dcmotor.png)](https://1.bp.blogspot.com/-cBMVi23uA8A/X2Fz-gnsdqI/AAAAAAAACCg/WIEimPw2e_crptZIIdSEK5uQUc994ES6wCLcBGAsYHQ/s618/pwm_dcmotor.png)
+
+![](/images/pwm_dcmotor.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="0SHE2UMJq6Y" >}}
 
-  
 ## **Call To Action**
+
 If you find this tutorial helpful, please consider Subscribing to my Youtube channel by [clicking this link to SUBSCRIBE to TechToTinker Youtube channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
 Thank you.

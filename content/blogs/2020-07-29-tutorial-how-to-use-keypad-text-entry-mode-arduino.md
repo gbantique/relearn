@@ -13,48 +13,54 @@ url: /2020/07/29/tutorial-how-to-use-keypad-text-entry-mode-arduino/
 ---
 
 ## **Introduction**
+
 In this article, I will discuss how we can use a matrix keypad for text entry purposes which is similar to T9 keypad used by Nokia and other bar phones.
 
 The circuit is the same as the previous tutorial. Be sure to check it out here: [4×4 Keypad Introduction](https://techtotinker.blogspot.com/2020/07/tutorial-how-to-use-4x4-keypad-arduino.html)
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-V0M2FlWl9so/XyAONxtI18I/AAAAAAAAAOI/-_j1s9fF0VojIKsXaStP8ESI5vDDzjfKgCLcBGAsYHQ/w452-h594/Keypad.png)](https://1.bp.blogspot.com/-V0M2FlWl9so/XyAONxtI18I/AAAAAAAAAOI/-_j1s9fF0VojIKsXaStP8ESI5vDDzjfKgCLcBGAsYHQ/s1600/Keypad.png)
+
+![](/images/Keypad.png)
 
 ## **Bill Of Materials**
+
 1. Arduino Uno or any compatible Arduino microcontroller board.
 2. 16×2 LCD for the LCD.
 3. 4×4 or 3×4 Keypad
 4. Breadboard, jumper wires, resistor, potentiometer, etc.
 
 ## **Hardware Instruction**
-1\. Connect the LCD pin 1 VSS to the Arduino GND  
-2\. Connect the LCD pin 2 VDD to the Arduino 5V  
-3\. Connect the potentiometer pin 1 and pin 3 to Arduino 5V and GND respectively, and the potentiometer center pin 2 to LCD pin 3 VEE/Vo  
-4\. Connect the LCD pin 4 RS to the Arduino digital pin 13  
-5\. Connect the LCD pin 5 RW to the Arduino GND because we only need to write to the LCD (no reading required)  
-6\. Connect the LCD pin 6 En to the Arduino digital pin 12  
-7\. Leave the LCD pin 7 D0 to pin 10 D3 not connected because we will use 4-bit mode of the LCD.  
-8\. Connect the LCD pin 11 D4 to the Arduino digital pin 11  
-9\. Connect the LCD pin 12 D5 to the Arduino digital pin 10  
-10\. Connect the LCD pin 13 D6 to the Arduino digital pin 9  
-11\. Connect the LCD pin 14 D7 to the Arduino digital pin 8  
-12\. Connect the LCD pin 15 Anode to the Arduino 5V via current limiting resistor (220 ohms).  
-13\. Connect the LCD pin 16 Cathode to the Arduino GND  
-14\. Connect the keypad Row1 (left-most) to the Arduino Uno digital pin D7.  
-15\. Connect the keypad Row2 to the Arduino Uno digital pin D6.  
-16\. Connect the keypad Row3 to the Arduino Uno digital pin D5.  
-17\. Connect the keypad Row4 to the Arduino Uno digital pin D4.  
-18\. Connect the keypad Column1 to the Arduino Uno digital pin D3.  
-19\. Connect the keypad Column2 to the Arduino Uno digital pin D2.  
-20\. Connect the keypad Column3 to the Arduino Uno digital pin D1.  
-21\. Connect the keypad Column4 (right-most) to the Arduino Uno digital pin D0.  
-22\. Upload the provided sketch making sure that the correct board and serial comm port is selected under the Tools menu of Arduino IDE.  
-23\. If it works, modify and experiment with it, and enjoy learning.
+
+1. Connect the LCD pin 1 VSS to the Arduino GND  
+2. Connect the LCD pin 2 VDD to the Arduino 5V  
+3. Connect the potentiometer pin 1 and pin 3 to Arduino 5V and GND respectively, and the potentiometer center pin 2 to LCD pin 3 VEE/Vo  
+4. Connect the LCD pin 4 RS to the Arduino digital pin 13  
+5. Connect the LCD pin 5 RW to the Arduino GND because we only need to write to the LCD (no reading required)  
+6. Connect the LCD pin 6 En to the Arduino digital pin 12  
+7. Leave the LCD pin 7 D0 to pin 10 D3 not connected because we will use 4-bit mode of the LCD.  
+8. Connect the LCD pin 11 D4 to the Arduino digital pin 11  
+9. Connect the LCD pin 12 D5 to the Arduino digital pin 10  
+10. Connect the LCD pin 13 D6 to the Arduino digital pin 9  
+11. Connect the LCD pin 14 D7 to the Arduino digital pin 8  
+12. Connect the LCD pin 15 Anode to the Arduino 5V via current limiting resistor (220 ohms).  
+13. Connect the LCD pin 16 Cathode to the Arduino GND  
+14. Connect the keypad Row1 (left-most) to the Arduino Uno digital pin D7.  
+15. Connect the keypad Row2 to the Arduino Uno digital pin D6.  
+16. Connect the keypad Row3 to the Arduino Uno digital pin D5.  
+17. Connect the keypad Row4 to the Arduino Uno digital pin D4.  
+18. Connect the keypad Column1 to the Arduino Uno digital pin D3.  
+19. Connect the keypad Column2 to the Arduino Uno digital pin D2.  
+20. Connect the keypad Column3 to the Arduino Uno digital pin D1.  
+21. Connect the keypad Column4 (right-most) to the Arduino Uno digital pin D0.  
+22. Upload the provided sketch making sure that the correct board and serial comm port is selected under the Tools menu of Arduino IDE.  
+23. If it works, modify and experiment with it, and enjoy learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="STqJw7HToHo" >}}
 
 ## **Call To Action**
+
 If you find this article as helpful, please consider supporting my Youtube Channel TechToTinker by SUBSCRIBING. [Click THIS for TechToTinker Subscribe](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
 Thank you and have a good day.

@@ -14,17 +14,21 @@ url: /2020/08/12/tutorial-esp32-web-server-esp32-wifi-in-access-point-mode/
 ---
 
 ## **Introduction**
- Last time, I posted tutorial on how to use the ESP32 configured as WiFi Station. In order for us to control something in our web server, we need to connect to ESP32 and our device in the same Access Point or router. Now we will directly connect to our ESP32 Web Server by configuring it as WiFi Access Point.
+
+Last time, I posted tutorial on how to use the ESP32 configured as WiFi Station. In order for us to control something in our web server, we need to connect to ESP32 and our device in the same Access Point or router. Now we will directly connect to our ESP32 Web Server by configuring it as WiFi Access Point.
 
 You might interested to view the previous tutorial: <https://techtotinker.blogspot.com/2020/08/tutorial-esp32-web-server-control.html>
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-bFE39-cXhaQ/XzNNxXjGfXI/AAAAAAAAB_o/VVN9aAtAehgh5mqYFupCcagtE19GhqjOACLcBGAsYHQ/s0/ESP32_WebServer_AP.png)](https://1.bp.blogspot.com/-bFE39-cXhaQ/XzNNxXjGfXI/AAAAAAAAB_o/VVN9aAtAehgh5mqYFupCcagtE19GhqjOACLcBGAsYHQ/s640/ESP32_WebServer_AP.png)
+
+![](/images/ESP32_WebServer_AP.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="dZ6LNwYwZI4" >}}
 
 ## **Call To Action**
+
 If you find this tutorial as helpful, please give me THUMBS UP and SHARE this to your friends.
 
 Please do not forget to SUBSCRIBE.
@@ -32,6 +36,7 @@ Please do not forget to SUBSCRIBE.
 Thank you.
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
   /*
   * Simple ESP32 Web Server  

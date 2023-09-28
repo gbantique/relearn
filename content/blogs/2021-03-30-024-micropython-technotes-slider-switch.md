@@ -13,22 +13,25 @@ url: /2021/03/30/024-micropython-technotes-slider-switch/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/024-technotes-Slider-switch-micropython.png)
+![](/images/024-technotes-Slider-switch-micropython.png)
 
 In this article, we will learn how to use Slider Switch with ESP32 using MicroPython programming language. A slider switch is basically a variable resistor that changes resistance according to slider wiper position. With that knowledge, we can used MicroPython’s ADC function to interpret slider switch position.
 
 ## **Pinout**
+
 1. **G** – for the ground pin.
 2. **V** – for the supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** to serve as the brain for the experiment.
 2. **ESP32 shield** from Gorillacell ESP32 development kit to extend ESP32 pin to pin headers for easy circuit connection.
 3. **3-pin female-female dupont wires** to connect slider switch to ESP32 shield pin headers.
 4. **Slider Switch module** from Gorillacell ESP32 development kit.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 on top of the ESP32 shield by making sure that the pins are properly aligned and both USB ports are on the same side.
 2. Next, attach the dupont wires to the Slider module by following the color coding which is black for the ground, red for the VCC, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers such as black to black, red to red, and yellow to yellow. For this experiment, I choose GPIO 32 to serve as the input signal pin from the Slider module.
@@ -36,6 +39,7 @@ In this article, we will learn how to use Slider Switch with ESP32 using MicroPy
 5. Lastly, connect the ESP32 to the computer through the USB cable with micro-USB type cable. Demo circuit is now ready.
 
 ## **Software Instruction**
+
 For this experiment, I prepared to example source code for you to try.
 
 Copy and paste it to Thonny IDE.
@@ -45,9 +49,11 @@ Please feel free to modify it and adapt according to your needs.
 Happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="P3jzXRALogo" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -162,6 +168,6 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
+1. Purchase your Gorillacell ESP32 development kit at:
 [http://gorillacell.kr](http://gorillacell.kr/)
 

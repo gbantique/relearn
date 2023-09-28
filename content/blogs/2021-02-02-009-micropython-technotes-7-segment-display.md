@@ -15,17 +15,19 @@ url: /2021/02/02/009-micropython-technotes-7-segment-display/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/009-technotes-7-segment-micropython.png)
+![](/images/009-technotes-7-segment-micropython.png)
 
 In this article, we will look at 4-digit 7-segment display. We will learn on how to use it step by step using the MicroPython Language.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorilla Cell ESP32 shield.
 3. 4-pin female-female dupont jumper wires.
 4. 4-digit 7-segment display.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of ESP32 shield making sure that both the USB port is on the same side.
 2. Next, attach the dupont to the 7-segment display according to the color coding which is black for the ground, red for the VCC, yellow for the DIO, and white for the CLK pin.
 3. Next, attach the other side of the dupont wire to the ESP32 shield by matching the colors of the wire to the colors of the pin headers which is black to black, red to red, yellow and the following colors to the yellow pin headers. For this experiment, I choose the I2C pins on GPIO 21 for the DIO and GPIO 22 for the CLK pin.
@@ -33,6 +35,7 @@ In this article, we will look at 4-digit 7-segment display. We will learn on how
 5. Next, connect the ESP32 to the computer by attaching a micro USB cable. Our demo circuit is now ready.
 
 ## **Software Instruction**
+
 1. For this experiment, we will be using Thonny Python IDE as a MicroPython environment.
 2. Now, let the Thonny to detect the ESP32 by clicking the Stop button. When you see triple greater than sign, it means that Thonny detected the ESP32 as Micropython device.
 3. Now, in order to use the 7-segment display we need an external driver library. Luckily, mcauser provides us a fantastic library named micropython-tm1637 which is available on his Github: <https://github.com/mcauser/micropython-tm1637>
@@ -40,9 +43,11 @@ In this article, we will look at 4-digit 7-segment display. We will learn on how
 5. Please feel free to modify it to learn more. Happy tinkering!
 
 ## **Video Demonstration**
+
 {{< youtube id="uD-SPhs-xNw" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -385,7 +390,10 @@ class TM1637Decimal(TM1637):
 ```
 
 ## **References And Credits**
-1. mcauser micropython-tm1637 library: <https://github.com/mcauser/micropython-tm1637/>
 
-2. Purchase Gorilla Cell ESP32 kit from: [gorillacell.kr](http://gorillacell.kr/)
+1. mcauser micropython-tm1637 library:
+<https://github.com/mcauser/micropython-tm1637/>
+
+2. Purchase Gorilla Cell ESP32 kit from:
+[gorillacell.kr](http://gorillacell.kr/)
 

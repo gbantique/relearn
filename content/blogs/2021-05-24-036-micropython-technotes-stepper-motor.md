@@ -17,11 +17,12 @@ url: /2021/05/24/036-micropython-technotes-stepper-motor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/05/036-2B-2BStep-2BMotor.png)
+![](/images/036-2B-2BStep-2BMotor.png)
 
 In this article, I will talk about the STEPPER MOTOR with ESP32 using MicroPython.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. Stepper motor set which is consist of (1) Stepper Motor Driver module, (2) generic stepper motor, (3) 9V external power supply, and the (4) wire connectors between the driver module and the stepper motor.
@@ -30,6 +31,7 @@ In this article, I will talk about the STEPPER MOTOR with ESP32 using MicroPytho
 6. and of course dupont wires for attaching the said modules.
 
 ## **Pinout**
+
 *Pinout of stepper module.*
 
 1. **GND** – for the ground pin.
@@ -41,6 +43,7 @@ In this article, I will talk about the STEPPER MOTOR with ESP32 using MicroPytho
 7. **Half-step:** it takes **400 steps** to complete 1 revolution.
 
 ## **Hardware Instruction**
+
 1. Attach the ESP32 board on top of the ESP32 shield and make sure that the USB port are on the same side.
 2. Attach the dupont wires to the modules by following the color coding which is black for the ground, red for the VCC, and yellow and the following colors for the signal pins.
 3. Attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers that is black to black, red to red, yellow and the following colors to the yellow pin headers.
@@ -48,14 +51,17 @@ In this article, I will talk about the STEPPER MOTOR with ESP32 using MicroPytho
 5. Connect the ESP32 to the computer by attaching a micro-USB cable.
 
 ## **Software Instruction**
+
 1. Copy the source code provided below.
 2. Please feel free to modify it according to your liking.
 3. Enjoy and please let me know of your progress.
 
 ## **Video Demonstration**
+
 {{< youtube id="rPOxbWIx8fk" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -391,6 +397,6 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
+1. Purchase your Gorillacell ESP32 development kit at:
 [https://gorillacell.kr](https://gorillacell.kr/)
 

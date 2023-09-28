@@ -12,21 +12,26 @@ url: /2020/08/24/sos-flasher-using-millis-function-with-enable-switch/
 ---
 
 ## **Introduction**
+
 In this tutorial, you will learn to use the millis() function in creating an S.O.S Morse Code flasher. The advantage in using millis() function over the delay() function is the non-blocking code which means you can manage other inputs and outputs at the same time.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-sSypWHCxEBk/X0MA93PnKeI/AAAAAAAACA0/0HPPP1a3zVQR_BR9hePlbzlVrzijTyIdgCLcBGAsYHQ/w350-h512/sos_millis.png)](https://1.bp.blogspot.com/-sSypWHCxEBk/X0MA93PnKeI/AAAAAAAACA0/0HPPP1a3zVQR_BR9hePlbzlVrzijTyIdgCLcBGAsYHQ/s1161/sos_millis.png)
+
+![](/images/sos_millis.png)
 
 ## **Hardware Instruction**
-1\. Connect the LED to Arduino Uno A1 with a limiting resistor of about 560 Ohms.  
-2\. Connect the tactile switch to Arduino Uno A0. The other pin of the switch to the ground. The switch is configured as active LOW and internal pull-up resistor is use.  
-3\. Copy and paste the provided source code. Please feel free to modify it according to your liking. Enjoy.
+
+1. Connect the LED to Arduino Uno A1 with a limiting resistor of about 560 Ohms.  
+2. Connect the tactile switch to Arduino Uno A0. The other pin of the switch to the ground. The switch is configured as active LOW and internal pull-up resistor is use.  
+3. Copy and paste the provided source code. Please feel free to modify it according to your liking. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="WujRf5Dha7w" >}}
 
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please drop me a message in the comment box.
 
 Please do LIKE and SHARE this to your friends and please do SUBSCRIBE. [Click this to Subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

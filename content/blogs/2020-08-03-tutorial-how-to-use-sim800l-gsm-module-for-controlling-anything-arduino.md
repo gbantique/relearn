@@ -11,6 +11,7 @@ url: /2020/08/03/tutorial-how-to-use-sim800l-gsm-module-for-controlling-anything
 ---
 
 ## **Introduction**
+
 In this tutorial, you will be able to use the SIM800L GSM module for controlling anything through SMS. To do that, we just need to parse the incoming SMS from SIM800L through serial communication. In this Arduino sketch, we will be parsing the following:  
 1\. Find the string “CMT:”, then save the sender’s mobile number for the purpose of replying.  
 2\. Find the string “CMD:”, then save the specified commands  
@@ -19,17 +20,21 @@ In this tutorial, you will be able to use the SIM800L GSM module for controlling
 After successful parsing, we can process the command and act accordingly.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-mmkjoWqlP9c/XzNWv-ocJUI/AAAAAAAAB_8/l20HkyDwDYQnc644d5xfQqKUYRLIbKKDQCLcBGAsYHQ/w498-h512/SIM800L.png)](https://1.bp.blogspot.com/-mmkjoWqlP9c/XzNWv-ocJUI/AAAAAAAAB_8/l20HkyDwDYQnc644d5xfQqKUYRLIbKKDQCLcBGAsYHQ/s1403/SIM800L.png)
+
+![](/images/SIM800L.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="HBjiFmKs5cE" >}}
 
 ## **Call To Action**
+
 If you have any question regarding this tutorial, please do not hesitate to write it in the comment box.
 
 If you find this tutorial helpful, please consider supporting me by SUBSCRIBING to my Youtube channel: [Click this to Subscribe to TechToTinker](https://www.youtube.com/c/TechToTinker?sub_confirmation=1).
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 /*  Date: July 29, 2020

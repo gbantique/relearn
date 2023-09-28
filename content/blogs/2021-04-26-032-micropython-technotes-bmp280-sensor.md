@@ -15,23 +15,27 @@ url: /2021/04/26/032-micropython-technotes-bmp280-sensor/
 ---
 
 ## **Introduction**
-![](https://techtotinker.com/wp-content/uploads/2021/04/032-2Bbmp280-2Bblogs.png)
+
+![](/images/032-2Bbmp280-2Bblogs.png)
 
 In this article, we will learn to use the BMP280 sensor with ESP32 using MicroPython.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **SDA** – for the i2c serial data pin.
 4. **SCL** – for the i2c serial clock pin.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. ESP32 shield from Gorillacell ESP32 development kit.
 3. 4-pin female-female dupont wires.
 4. BMP280 temperature, pressure, and altitude sensor module.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the ESP32 shield making sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the BMP280 sensor by following a color coding which is black for the ground, red for the VCC, yellow for the SDA pin, and white for the SCL pin.
 3. Next, attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers which is black to black, red to red, yellow and the following colors to the yellow pin headers. For this, I choose GPIO 21 for the SDA pin and GPIO 22 for the SCL pin.
@@ -39,14 +43,17 @@ In this article, we will learn to use the BMP280 sensor with ESP32 using MicroPy
 5. Lastly, connect the ESP32 to the computer through the micro USB cable.
 
 ## **Software Instruction**
+
 1. Copy and paste the bmp280.py to Thonny IDE and save it to ESP32 MicroPython device root directory by clicking the File menu and select Save As. Click MicroPython Device and save it as bmp280.py.
 2. Copy and paste the examples to Thonny IDE. You may modify it according to your needs.
 3. Happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="882phAhJVdA" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -239,9 +246,9 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
-**[https://gorillacell.kr](https://gorillacell.kr/)**
+1. Purchase your Gorillacell ESP32 development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. Zhaoziyang BMP280 driver library:**
-**<https://github.com/micropython-Chinese-Community/mpy-lib/tree/master/sensor/bmp280>**
+2. Zhaoziyang BMP280 driver library:
+<https://github.com/micropython-Chinese-Community/mpy-lib/tree/master/sensor/bmp280>
 

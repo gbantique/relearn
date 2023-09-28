@@ -15,12 +15,15 @@ url: /2020/08/26/tutorial-how-to-use-2-4-tft-display-spfd5408-ili9341/
 ---
 
 ## **Introduction**
+
 Display modules is commonly use to show text, shapes, images, or animation to convey necessary information to the user. In this tutorial, we will learn to use the 2.4 inch TFT display.
 
 ## **Video Demonstration**
+
 {{< youtube id="D3lv0eySz8A" >}}
 
 ## **Call To Action**
+
 If you have any question, please do not hesitate to write it in the comment box and I am happy to answer it.
 
 If you find this tutorial as helpful, please consider supporting me by Subscribing TechToTinker Youtube channel. [Click this to subscribe.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

@@ -9,9 +9,10 @@ url: /2020/07/17/tutorial-how-to-use-sim800l-gsm-module-using-arduino-make-or-an
 ---
 
 ## **Introduction**
+
 Here we will further our exploration with the SIM800L GSM Module by testing the voice call capability.
 
-**<u>To make a voice call:</u>**  
+**To make a voice call:**  
  1. Send **ATD+ZZxxxxxxxxxx;&lt;CR&gt;&lt;LF&gt;**  
  – this is tell the GSM module to dial the following mobile number  
  **ZZ** – the country code of the mobile number you want to call  
@@ -20,19 +21,20 @@ Here we will further our exploration with the SIM800L GSM Module by testing the 
  **CR** – Cariage Return, ASCII character 13 or r  
  **LF** – Line Feed, ASCII character 10 or n  
    
-**<u>To answer the incoming voice call:</u>**  
+**To answer the incoming voice call:**  
  1. Send **ATA&lt;CR&gt;&lt;LF&gt;**  
  – this tells the GSM module to answer the incoming voice call  
  **CR** – Cariage Return, ASCII character 13 or r  
  **LF** – Line Feed, ASCII character 10 or n
 
-**<u>To reject the incoming call or terminate ongoing call:</u>**  
+**To reject the incoming call or terminate ongoing call:**  
  1. Send **ATH&lt;CR&gt;&lt;LF&gt;**  
  – this tells the GSM module to hang up the call.  
  **CR** – Cariage Return, ASCII character 13 or r  
  **LF** – Line Feed, ASCII character 10 or n
 
 ## **Video Demonstration**
+
 {{< youtube id="xMsBFC10s1k" >}}
 
 ## **Source Code**

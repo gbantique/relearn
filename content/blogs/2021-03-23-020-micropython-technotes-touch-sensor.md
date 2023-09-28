@@ -14,22 +14,25 @@ url: /2021/03/23/020-micropython-technotes-touch-sensor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/020-technotes-touch-sensor.png)
+![](/images/020-technotes-touch-sensor.png)
 
 In this article, we will learn how to use a touch sensor module with ESP32 using MicroPython programming language.
 
 ## **Pinout**
+
 1. **G** – for the ground.
 2. **V** – for the supply voltage.
 3. **S** – for the signal pin.
 
 ## **Bill Of Materials**
+
 1. **ESP32 development board** which will serve as the brain for this experiment.
 2. **ESP32 shield from Gorillacell ESP32 development kit** which will extend the pins of ESP32 to ESP32 shield pin headers for easy circuit connection.
 3. **3-pin female-female dupont wires** to attach the touch sensor module to ESP32 shield.
 4. **Touch sensor module**.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 development board on top of the ESP32 shield and make sure that both USB port are on the same side.
 2. Next, attach the dupont wires to the touch sensor module by following a color coding which is black for the ground, red for the supply voltage, and yellow for the signal pin.
 3. Next, attach the other end of the dupont wires by matching the colors of the dupont wires to the colors of the pin headers. For this experiment, I choose GPIO 32 as the input pin from the touch sensor module.
@@ -37,6 +40,7 @@ In this article, we will learn how to use a touch sensor module with ESP32 using
 5. Next, connect the ESP32 to the computer through a micro USB cable. Our demo circuit is now ready.
 
 ## **Software Instruction**
+
 For the software part, I prepared 4 example source code for the demonstration.
 
 Copy and paste it to Thonny IDE and play with it. Modify and adapt it according to your needs.
@@ -44,9 +48,11 @@ Copy and paste it to Thonny IDE and play with it. Modify and adapt it according 
 Enjoy and happy tinkering.
 
 ## **Video Demonstration**
+
 {{< youtube id="5hqweVbNaho" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -174,6 +180,6 @@ while True:
 
 ## **Credits And References**
 
-Purchase your Gorillacell ESP32 development kit:
+1. Purchase your Gorillacell ESP32 development kit:
 [gorillacell.kr](http://gorillacell.kr/)
 

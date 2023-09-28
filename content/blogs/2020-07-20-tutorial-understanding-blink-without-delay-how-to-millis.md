@@ -9,12 +9,14 @@ url: /2020/07/20/tutorial-understanding-blink-without-delay-how-to-millis/
 ---
 
 ## **Introduction**
+
 In this tutorial, we will learn how BlinkWithoutDelay example can be use to do multiple task at the same time.
 
 ## **Circuit Diagram**
-[![](https://1.bp.blogspot.com/-oVyzz9zy_m4/XxRM0WxeNWI/AAAAAAAAB-0/PreFwvVJs3cz63kRSw8fqkfgKEME-pHXwCLcBGAsYHQ/w489-h613/BlinkWithoutDelay-diag.png)](https://1.bp.blogspot.com/-oVyzz9zy_m4/XxRM0WxeNWI/AAAAAAAAB-0/PreFwvVJs3cz63kRSw8fqkfgKEME-pHXwCLcBGAsYHQ/s1600/BlinkWithoutDelay-diag.png)
+![](/images/BlinkWithoutDelay-diag.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="AEy3UDKNCLw" >}}
 
 ## **Source Code**

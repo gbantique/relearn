@@ -18,17 +18,20 @@ url: /2020/06/02/project-automatic-alcohol-dispenser/
 ---
 
 ## **Introduction**
+
 This is my own version of automatic (No touch / touchless) alcohol / sanitizer dispenser. This is especially useful during this COVID19 pandemic. In here, we will be using an ultrasonic sensor to detect the presence of hand near the dispenser. When the ultrasonic sensor detects an object less than the set distance, it will rotate the attached servo motors to push the plunger of the dispenser.
 
 ## **Bill Of Materials**
+
 1. Arduino Uno
 2. HC-SR04 ultrasonic sensor
 3. MG996R servo motor
 4. Some wires, dispenser, some piece of wood.
 
-[![](https://1.bp.blogspot.com/-xe1-pc6XOlU/XtWuRJ40KSI/AAAAAAAAAJE/w__JfulAhNIAhZZW0zVLTgdUz_YlaLpPwCLcBGAsYHQ/s400/AlcoholDispenser.png)](https://1.bp.blogspot.com/-xe1-pc6XOlU/XtWuRJ40KSI/AAAAAAAAAJE/w__JfulAhNIAhZZW0zVLTgdUz_YlaLpPwCLcBGAsYHQ/s1600/AlcoholDispenser.png)
+![](/images/AlcoholDispenser.png)
 
 ## **Video Demonstration**
+
 {{< youtube id="YDNmXjx8tbA" >}}
 
 ## **Source Code**

@@ -16,23 +16,26 @@ url: /2021/05/08/034-micropython-technotes-dc-motors-gear-motor-and-fan-motor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/05/034-2BMicroPython-2BTechNotes-2BDC-2BMotors.png)
+![](/images/034-2BMicroPython-2BTechNotes-2BDC-2BMotors.png)
 
 In this article, we will talk about the DC motors with ESP32 using MicroPython.
 
 ## **Pinout**
+
 1. **GND** – for the ground pin.
 2. **VCC** – for the supply voltage.
 3. **INA** – for the motor terminal pin A.
 4. **INB** – for the motor terminal pin B.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. ESP32 shield.
 3. 3-pin female-female dupont wires.
 4. DC Motors: Gear Motor and Fan Motor modules.
 
 ## **Hardware Instruction**
+
 1. Attach the ESP32 board on top of the ESP32 shield and make sure that the USB port are on the same side.
 2. Attach the dupont wires to the modules by following the color coding which is black for the ground, red for the VCC, and yellow and the following colors for the signal pins.
 3. Attach the other end of the dupont wires to the ESP32 shield by matching the colors of the wires to the colors of the pin headers that is black to black, red to red, yellow and the following colors to the yellow pin headers.
@@ -40,14 +43,17 @@ In this article, we will talk about the DC motors with ESP32 using MicroPython.
 5. Connect the ESP32 to the computer by attaching a micro-USB cable.
 
 ## **Software Instruction**
+
 1. Copy the sample source code below and paste it to your Thonny IDE.
 2. Run it then modify according to your needs.
 3. Enjoy and happy learning.
 
 ## **Video Demonstration**
+
 {{< youtube id="a84WPeX88OY" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -189,14 +195,14 @@ while True:
 
 ## **References And Credits**
 
-**1. Purchase your copy of Gorillacell ESP32 Development kit at:**
-**[https://gorillacell.kr](https://gorillacell.kr/)**
+1. Purchase your copy of Gorillacell ESP32 Development kit at:
+[https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. Pulse Width Modulation (PWM) reference:**
-**<https://docs.micropython.org/en/latest/esp32/quickref.html>**
-**<https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html>**
+2. Pulse Width Modulation (PWM) reference:
+<https://docs.micropython.org/en/latest/esp32/quickref.html>
+<https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html>
 
-**3. Analog to Digital Converter (ADC) reference:**
-**<https://docs.micropython.org/en/latest/esp32/quickref.html>**
-**<https://docs.micropython.org/en/latest/esp8266/quickref.html#adc-analog-to-digital-conversion>**
+3. Analog to Digital Converter (ADC) reference:
+<https://docs.micropython.org/en/latest/esp32/quickref.html>
+<https://docs.micropython.org/en/latest/esp8266/quickref.html#adc-analog-to-digital-conversion>
 

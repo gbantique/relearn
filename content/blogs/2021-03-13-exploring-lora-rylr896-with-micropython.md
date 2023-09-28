@@ -17,9 +17,11 @@ url: /2021/03/13/exploring-lora-rylr896-with-micropython/
 ---
 
 ## **Introduction**
+
 In this article, we will explore the Reyax LoRa module RYLR896 using MicroPython. For this we will used both a Raspberry Pi Pico and an ESP32.
 
 ## **Pinout**
+
 From left to right facing front.
 1. **VDD** – for the supply voltage. This should be provided with minimum of 2V to 3.6V maximum.
 2. **NRST** – for the active-low RESET pin. This could be tied to microcontroller’s ground so that when microcontroller is reset, so the LoRa is also be resetted.
@@ -32,7 +34,7 @@ From left to right facing front.
 
 ### Raspberry Pi Pico with RYLR896:
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/RYRL896_RPico.png)
+![](/images/RYRL896_RPico.png)
 
 1. Connect RYLR896 VDD to Pico 3.3V pin.
 2. Connect RYLR896 RXD to Pico pin 6.
@@ -41,7 +43,7 @@ From left to right facing front.
 
 ### ESP32 with RYLR896:
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/RYRL896_ESP32.png)
+![](/images/RYRL896_ESP32.png)
 
 1. Connect RYLR896 VDD to ESP32 3.3V pin.
 2. Connect RYLR896 RXD to ESP32 GPIO 26.
@@ -49,9 +51,11 @@ From left to right facing front.
 4. Connect RYLR896 GND to ESP32 GND pin.
 
 ## **Video Demonstration**
+
 {{< youtube id="RAvn0MW_P-s" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)

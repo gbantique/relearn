@@ -17,16 +17,17 @@ url: /2020/06/21/mit-app-inventor-for-arduino/
 ---
 
 ## **Introduction**
+
 Building an Android application is one option to control your robot project or anything that comes to your mind. And with the use of the MIT App Inventor 2, you can easily create an Android application.
 
 In this tutorial, we will learn to create a simple Android application which can control the state of the LED connected to Arduino Uno board. Bluetooth communication protocol will be use via HC-06 bluetooth module.
 
 In the Arduino Uno, we will create a circuit according to the following diagram:
 
-[![](https://1.bp.blogspot.com/-DRB-78FT_-4/Xu8ZEw_7E1I/AAAAAAAAAKE/SZaRmBTN1T4c7LE3aLg8idb6s6Gl2XaYACLcBGAsYHQ/s400/For_MIT_App_Inventor_test.png)](https://1.bp.blogspot.com/-DRB-78FT_-4/Xu8ZEw_7E1I/AAAAAAAAAKE/SZaRmBTN1T4c7LE3aLg8idb6s6Gl2XaYACLcBGAsYHQ/s1600/For_MIT_App_Inventor_test.png)
-
+![](/images/For_MIT_App_Inventor_test.png)
 
 ## **Source Code**
+
 ```cpp { lineNos="true" wrap="true" }
 
 #include "SoftwareSerial.h"

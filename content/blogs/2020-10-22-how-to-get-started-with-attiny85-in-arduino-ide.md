@@ -15,6 +15,7 @@ url: /2020/10/22/how-to-get-started-with-attiny85-in-arduino-ide/
 ---
 
 ## **Introduction**
+
 I have this little tiny microcontroller lying around for some time in my bins. I purchased this out of curiosity but not able find time to try. Yesterday, I saw it again and I decided to give it a try. So here it is.
 
 For the datasheet you may refer to:  
@@ -27,6 +28,7 @@ And for more details, you may refer to the Digistump wiki:
 <https://digistump.com/wiki/digispark?redirect=1>
 
 ## **Instruction**
+
 **1. USB Driver Installation for Digispark ATTiny85 Development Board:**  
 a. Install the USB driver from:  
 <https://github.com/digistump/DigistumpArduino/releases>  
@@ -42,7 +44,7 @@ c. Then select Preferences
 d. And in the “Additional Boards Manager URL:” add the following:  
 [http://digistump.com/package\_digistump\_index.json](http://digistump.com/package_digistump_index.json)  
 e. Click OK.  
-3\. Install the Digistump Board Manager  
+3. Install the Digistump Board Manager  
 a. Click the “Tools” menu  
 b. Select “Board”  
 c. Then click the “Boards Manager”  
@@ -52,9 +54,11 @@ e. Install the Digistump AVR Boards
 Now the Arduino IDE should be ready for the ATTiny85 coding.
 
 ## **Video Demonstration**
+
 {{< youtube id="TarVJQiSxs8" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this article, be sure to leave your message in the comment box below. You may also write me in the Contact Form in the left-hand-side of this article.
 
 Thank you and have a good days ahead.

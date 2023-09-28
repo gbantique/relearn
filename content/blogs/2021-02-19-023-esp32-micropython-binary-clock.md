@@ -17,16 +17,18 @@ url: /2021/02/19/023-esp32-micropython-binary-clock/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/023-esp32-micropython-binary-clock.png)
+![](/images/023-esp32-micropython-binary-clock.png)
 
 In this article, I would like to share to you on how to create this simple yet cool project using a single 8×8 dot matrix module to display a binary clock – a clock that is represented using binary numeric system.
 
 ## **Bill Of Materials**
+
 1. An ESP32 development board (or any other development board with MicroPython firmware).
 2. An 8×8 Dot Matrix module with SPI interface (if you have I2C interface, you just need to use a different driver library and modify the source code a little bit).
 3. And some jumper wires.
 
 ## **Hardware Instruction**
+
 For the hardware part, it is very easy just follow the circuit diagram below which connects the dot matrix to ESP32 as follows:
 
 1. Dot matrix VCC to 3.3V.
@@ -35,9 +37,10 @@ For the hardware part, it is very easy just follow the circuit diagram below whi
 4. Dot matrix CLK pin to ESP32 GPIO 19.
 5. Dot matrix CS pin to ESP32 GPIO 18.
 
-![](https://techtotinker.com/wp-content/uploads/2023/03/023-esp32-micropython-binary-clock-diagram.png)
+![](/images/023-esp32-micropython-binary-clock-diagram.png)
 
 ## **Software Instruction**
+
 1. Copy the max7219 from Jeff Brown github: https://github.com/jgbrown32/ESP8266\_MAX7219 or you may copy it in the SOURCE CODE section below.
 2. And save it to ESP32 MicroPython device root directory by clicking the File menu and select Save As.
 3. Select MicroPython device and name it as max7219.py and click OK.
@@ -45,9 +48,11 @@ For the hardware part, it is very easy just follow the circuit diagram below whi
 5. Enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="ahHNt-RYg2w" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -324,6 +329,8 @@ class Max7219(framebuf.FrameBuffer):
 ```
 
 ## **References And Credits**
-**1. Jeff Brown max7219 library:** https://github.com/jgbrown32/ESP8266_MAX7219
+
+1. Jeff Brown max7219 library:
+[https://github.com/jgbrown32/ESP8266_MAX7219](https://github.com/jgbrown32/ESP8266_MAX7219)
 
 

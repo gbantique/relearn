@@ -22,7 +22,8 @@ url: /2020/02/12/part-1-df-player-mini-a-mini-cheap-mp3-player/
 ## **Introduction**
 I am fascinated how easy it is to build an mp3 player using a DF Player Mini. DF Player mini is a cheap mp3 player.
 
-![DF Player Mini image](https://techtotinker.com/wp-content/uploads/2020/02/DF-Player-Mini-Pinout.png)
+<!-- ![DF Player Mini image](https://techtotinker.com/wp-content/uploads/2020/02/DF-Player-Mini-Pinout.png) -->
+![DF Player Mini image](/images/DF-Player-Mini-Pinout.png)
 
 ## **Bill Of Materials**
 1\. DF Player mini  
@@ -48,7 +49,7 @@ So basically, IO\_1 and IO\_2 is used as follows:
 4\. long press IO\_2: volume up
 
 ## **Schematic Diagram**
-![](https://techtotinker.com/wp-content/uploads/2023/06/DF-Player-Mini-Schematic.png)
+![](/images/DF-Player-Mini-Schematic.png)
 
 ## **Video Demonstration**
 {{< youtube id="e8XMp5vUS2E" >}}

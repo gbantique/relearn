@@ -18,39 +18,45 @@ url: /2021/05/28/037-micropython-technotes-servo-motor/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/05/037-2BServo-2BMotor.png)
+![](/images/037-2BServo-2BMotor.png)
 
 In this article, I will talk about SERVO MOTOR with ESP32 using MicroPython.
 
 ## **Bill Of Materials**
+
 1. ESP32 development board.
 2. Gorillacell ESP32 shield.
 3. Servo Motor
 
 ## **Pinout**
+
 1. **brown wire** – for the ***ground*** pin.
 2. **red wire** – for the servo motor ***supply voltage***.
 3. **orange wire** – for the servo motor ***control signal***.
 
 ## **Hardware Instruction**
+
 1. First, attach the ESP32 board on top of the GorillaCell ESP32 shield and make sure that both USB ports are on the same side.
 2. Next, attach the servo motor wires to ESP32 shield by the following color coding:  
-    \\* servo motor brown wire – shield black pin headers.  
-    \\* servo motor red wire – shield red pin headers.  
-    \\* servo motor orange wire – shield yellow pin headers.  
+    * servo motor brown wire – shield black pin headers.  
+    * servo motor red wire – shield red pin headers.  
+    * servo motor orange wire – shield yellow pin headers.  
     For this lesson, I choose **GPIO 25** to serve as the control signal pin to the servo motor.
 3. Next, power the GorillaCell ESP32 shield with an external 5V power supply with a type-USB connector.
 4. Last, connect the ESP32 to the computer through a micro-USB cable.
 
 ## **Software Instruction**
+
 For the software part, copy the sample program from the SOURCE CODE section.
 
 You may modify and adapt it according to your needs, and most of all enjoy.
 
 ## **Video Demonstration**
+
 {{< youtube id="l9ss-X5JEKY" >}}
 
 ## **Call To Action**
+
 For any concern, write your message in the comment section.
 
 You might also like to support my journey on Youtube by Subscribing. [Click this to Subscribe to TechToTinker.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -113,9 +119,9 @@ servo = GORILLACELL_SERVO(signal_pin=25)
 
 ## **References And Credits**
 
-**1. Purchase your Gorillacell ESP32 development kit at:**
+1. Purchase your Gorillacell ESP32 development kit at:
 [https://gorillacell.kr](https://gorillacell.kr/)
 
-**2. MG90S Timing diagram from:**
+2. MG90S Timing diagram from:
 <https://components101.com/motors/mg90s-metal-gear-servo-motor>
 

@@ -5,10 +5,7 @@ categories:
   - GorillaCell
   - MicroPython
 date: '2021-10-19T18:27:00+08:00'
-excerpt: 'In this article, I will discuss on how to use an MP3 Player module interfaced to ESP32 with MicroPython programming language.
-
-
-  What I have is an MP3 Player module from Gorillacell ESP32 development kit.'
+excerpt: 'In this article, I will discuss on how to use an MP3 Player module interfaced to ESP32 with MicroPython programming language. What I have is an MP3 Player module from Gorillacell ESP32 development kit.'
 tags:
   - audio player micropython
   - esp32 micropython
@@ -22,13 +19,14 @@ url: /2021/10/19/049-micropython-technotes-mp3-player/
 
 ## **Introduction**
 
-![](https://techtotinker.com/wp-content/uploads/2021/10/Gorillacell-MP3-Player.png)
+![](/images/Gorillacell-MP3-Player.png)
 
 In this article, I will discuss on how to use an MP3 Player module interfaced to ESP32 with MicroPython programming language.
 
 What I have is an MP3 Player module from Gorillacell ESP32 development kit. It uses the YX5300 MP3 audio chip which is capable of playing common audio files such as mp3 and wav files. The MP3 Player module kit includes: 1 piece of 8 Ohms speaker and of course the mp3 player board itself. The mp3 player board has microSD card slot and an audio output connector or it can also be output to 3.5mm audio jack.
 
 ## **Pinout**
+
 The mp3 player has 4 pins which are:
 1. **GND** – for the ground pins.
 2. **VCC** – for the supply voltage.
@@ -36,6 +34,7 @@ The mp3 player has 4 pins which are:
 4. **Rx** – for the UART serial receive pin.
 
 ## **Bill Of Materials**
+
 In order to follow this, you will need the following:
 1. An ESP32 development board.
 2. A Gorillacell ESP32 shield (optional, you may use breadboard or directly connect it to ESP32 pins).
@@ -57,9 +56,11 @@ In order to follow this, you will need the following:
 1. Copy the provided example source code in the SOURCE CODE section and for the example # 2, you will also need to upload the i2c_lcd.py library to your ESP32 MicroPython root directory by clicking the File menu, select Save As, select MicroPython Device, name it as i2c_lcd.py, and hit OK.
 
 ## **Video Demonstration**
+
 {{< youtube id="YqFRxxXMS_Q" >}}
 
 ## **Call To Action**
+
 If you have any concern regarding this lesson, be sure to write your message in the comment section.
 
 You might also like to support me on my journey on Youtube by Subscribing. [Click this link to SUBSCRIBE to TechToTinker Youtube channel.](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
@@ -700,8 +701,8 @@ class I2cLcd(LcdApi):
 ## **Credits And References**
 
 1. Purchase your Gorillacell ESP32 development kit at:
-    <https://gorillacell.kr/>
+[https://gorillacell.kr/](https://gorillacell.kr/)
 
 2. YX5300 datasheet:
-    [http://geekmatic.in.ua/pdf/Catalex\_MP3\_board.pdf](http://geekmatic.in.ua/pdf/Catalex_MP3_board.pdf)
+[http://geekmatic.in.ua/pdf/Catalex\_MP3\_board.pdf](http://geekmatic.in.ua/pdf/Catalex_MP3_board.pdf)
 
